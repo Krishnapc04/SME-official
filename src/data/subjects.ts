@@ -1,12 +1,14 @@
 export interface StudyMaterial {
   title: string;
   type: 'Notes' | 'Slides' | 'Reference' | 'Assignment';
+  driveLink: string;
 }
 
 export interface PYQ {
   title: string;
   year: string;
   type: 'Mid-Sem' | 'End-Sem' | 'Quiz';
+  driveLink: string;
 }
 
 export interface Subject {
@@ -28,14 +30,41 @@ export const subjects: Subject[] = [
     year: "1st Year",
     semester: "Autumn",
     studyMaterials: [
-      { title: "Calculus and Differential Equations Notes", type: "Notes" },
-      { title: "Linear Algebra Reference Guide", type: "Reference" },
-      { title: "Practice Problem Sets", type: "Assignment" }
+      { 
+        title: "Calculus and Differential Equations Notes", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MA11001_Notes_2023"
+      },
+      { 
+        title: "Linear Algebra Reference Guide", 
+        type: "Reference",
+        driveLink: "https://drive.google.com/drive/folders/1MA11001_Ref_2023"
+      },
+      { 
+        title: "Practice Problem Sets", 
+        type: "Assignment",
+        driveLink: "https://drive.google.com/drive/folders/1MA11001_Assign_2023"
+      }
     ],
     pyqs: [
-      { title: "Engineering Mathematics I Mid-Sem 2023", year: "2023", type: "Mid-Sem" },
-      { title: "Engineering Mathematics I End-Sem 2023", year: "2023", type: "End-Sem" },
-      { title: "Engineering Mathematics I Mid-Sem 2022", year: "2022", type: "Mid-Sem" }
+      { 
+        title: "Engineering Mathematics I Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MA11001_MidSem_2023"
+      },
+      { 
+        title: "Engineering Mathematics I End-Sem 2023", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MA11001_EndSem_2023"
+      },
+      { 
+        title: "Engineering Mathematics I Mid-Sem 2022", 
+        year: "2022", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MA11001_MidSem_2022"
+      }
     ]
   },
   {
@@ -45,14 +74,41 @@ export const subjects: Subject[] = [
     year: "1st Year",
     semester: "Autumn",
     studyMaterials: [
-      { title: "Mechanics and Thermodynamics Notes", type: "Notes" },
-      { title: "Physics Laboratory Manual", type: "Reference" },
-      { title: "Wave Optics Slides", type: "Slides" }
+      { 
+        title: "Mechanics and Thermodynamics Notes", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1PH11001_Notes_2023"
+      },
+      { 
+        title: "Physics Laboratory Manual", 
+        type: "Reference",
+        driveLink: "https://drive.google.com/drive/folders/1PH11001_Lab_2023"
+      },
+      { 
+        title: "Wave Optics Slides", 
+        type: "Slides",
+        driveLink: "https://drive.google.com/drive/folders/1PH11001_Slides_2023"
+      }
     ],
     pyqs: [
-      { title: "Physics Mid-Sem 2023", year: "2023", type: "Mid-Sem" },
-      { title: "Physics End-Sem 2023", year: "2023", type: "End-Sem" },
-      { title: "Physics Quiz 2023", year: "2023", type: "Quiz" }
+      { 
+        title: "Physics Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1PH11001_MidSem_2023"
+      },
+      { 
+        title: "Physics End-Sem 2023", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1PH11001_EndSem_2023"
+      },
+      { 
+        title: "Physics Quiz 2023", 
+        year: "2023", 
+        type: "Quiz",
+        driveLink: "https://drive.google.com/drive/folders/1PH11001_Quiz_2023"
+      }
     ]
   },
   // 1st Year Spring
@@ -63,13 +119,35 @@ export const subjects: Subject[] = [
     year: "1st Year",
     semester: "Spring",
     studyMaterials: [
-      { title: "Vector Calculus and Complex Analysis", type: "Notes" },
-      { title: "Fourier Series and Transforms", type: "Reference" },
-      { title: "Mathematical Methods Slides", type: "Slides" }
+      { 
+        title: "Vector Calculus and Complex Analysis", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MA11002_Notes_2023"
+      },
+      { 
+        title: "Fourier Series and Transforms", 
+        type: "Reference",
+        driveLink: "https://drive.google.com/drive/folders/1MA11002_Ref_2023"
+      },
+      { 
+        title: "Mathematical Methods Slides", 
+        type: "Slides",
+        driveLink: "https://drive.google.com/drive/folders/1MA11002_Slides_2023"
+      }
     ],
     pyqs: [
-      { title: "Engineering Mathematics II Mid-Sem 2023", year: "2023", type: "Mid-Sem" },
-      { title: "Engineering Mathematics II End-Sem 2023", year: "2023", type: "End-Sem" }
+      { 
+        title: "Engineering Mathematics II Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MA11002_MidSem_2023"
+      },
+      { 
+        title: "Engineering Mathematics II End-Sem 2023", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MA11002_EndSem_2023"
+      }
     ]
   },
   {
@@ -79,13 +157,35 @@ export const subjects: Subject[] = [
     year: "1st Year",
     semester: "Spring",
     studyMaterials: [
-      { title: "Organic Chemistry Fundamentals", type: "Notes" },
-      { title: "Chemical Bonding and Structure", type: "Reference" },
-      { title: "Laboratory Experiments Guide", type: "Assignment" }
+      { 
+        title: "Organic Chemistry Fundamentals", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1CY11001_Notes_2023"
+      },
+      { 
+        title: "Chemical Bonding and Structure", 
+        type: "Reference",
+        driveLink: "https://drive.google.com/drive/folders/1CY11001_Ref_2023"
+      },
+      { 
+        title: "Laboratory Experiments Guide", 
+        type: "Assignment",
+        driveLink: "https://drive.google.com/drive/folders/1CY11001_Lab_2023"
+      }
     ],
     pyqs: [
-      { title: "Chemistry Mid-Sem 2023", year: "2023", type: "Mid-Sem" },
-      { title: "Chemistry End-Sem 2023", year: "2023", type: "End-Sem" }
+      { 
+        title: "Chemistry Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1CY11001_MidSem_2023"
+      },
+      { 
+        title: "Chemistry End-Sem 2023", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1CY11001_EndSem_2023"
+      }
     ]
   },
   // 2nd Year Autumn
@@ -96,16 +196,52 @@ export const subjects: Subject[] = [
     year: "2nd Year",
     semester: "Autumn",
     studyMaterials: [
-      { title: "Crystal Structure and Defects", type: "Notes" },
-      { title: "Phase Diagrams Comprehensive Guide", type: "Reference" },
-      { title: "Materials Characterization Slides", type: "Slides" },
-      { title: "Structure-Property Assignments", type: "Assignment" }
+      { 
+        title: "Crystal Structure and Defects", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MT21001_Notes_2023"
+      },
+      { 
+        title: "Phase Diagrams Comprehensive Guide", 
+        type: "Reference",
+        driveLink: "https://drive.google.com/drive/folders/1MT21001_Ref_2023"
+      },
+      { 
+        title: "Materials Characterization Slides", 
+        type: "Slides",
+        driveLink: "https://drive.google.com/drive/folders/1MT21001_Slides_2023"
+      },
+      { 
+        title: "Structure-Property Assignments", 
+        type: "Assignment",
+        driveLink: "https://drive.google.com/drive/folders/1MT21001_Assign_2023"
+      }
     ],
     pyqs: [
-      { title: "Materials Science Mid-Sem 2023", year: "2023", type: "Mid-Sem" },
-      { title: "Materials Science End-Sem 2023", year: "2023", type: "End-Sem" },
-      { title: "Materials Science Mid-Sem 2022", year: "2022", type: "Mid-Sem" },
-      { title: "Materials Science End-Sem 2022", year: "2022", type: "End-Sem" }
+      { 
+        title: "Materials Science Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT21001_MidSem_2023"
+      },
+      { 
+        title: "Materials Science End-Sem 2023", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT21001_EndSem_2023"
+      },
+      { 
+        title: "Materials Science Mid-Sem 2022", 
+        year: "2022", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT21001_MidSem_2022"
+      },
+      { 
+        title: "Materials Science End-Sem 2022", 
+        year: "2022", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT21001_EndSem_2022"
+      }
     ]
   },
   {
@@ -115,13 +251,35 @@ export const subjects: Subject[] = [
     year: "2nd Year",
     semester: "Autumn",
     studyMaterials: [
-      { title: "Classical Thermodynamics Notes", type: "Notes" },
-      { title: "Statistical Thermodynamics Reference", type: "Reference" },
-      { title: "Problem Solving Techniques", type: "Assignment" }
+      { 
+        title: "Classical Thermodynamics Notes", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MT21002_Notes_2023"
+      },
+      { 
+        title: "Statistical Thermodynamics Reference", 
+        type: "Reference",
+        driveLink: "https://drive.google.com/drive/folders/1MT21002_Ref_2023"
+      },
+      { 
+        title: "Problem Solving Techniques", 
+        type: "Assignment",
+        driveLink: "https://drive.google.com/drive/folders/1MT21002_Assign_2023"
+      }
     ],
     pyqs: [
-      { title: "Thermodynamics Mid-Sem 2023", year: "2023", type: "Mid-Sem" },
-      { title: "Thermodynamics End-Sem 2023", year: "2023", type: "End-Sem" }
+      { 
+        title: "Thermodynamics Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT21002_MidSem_2023"
+      },
+      { 
+        title: "Thermodynamics End-Sem 2023", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT21002_EndSem_2023"
+      }
     ]
   },
   // 2nd Year Spring
@@ -132,13 +290,35 @@ export const subjects: Subject[] = [
     year: "2nd Year",
     semester: "Spring",
     studyMaterials: [
-      { title: "Phase Transformations in Metals", type: "Notes" },
-      { title: "Mechanical Properties Guide", type: "Reference" },
-      { title: "Microstructure Analysis Slides", type: "Slides" }
+      { 
+        title: "Phase Transformations in Metals", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MT22001_Notes_2023"
+      },
+      { 
+        title: "Mechanical Properties Guide", 
+        type: "Reference",
+        driveLink: "https://drive.google.com/drive/folders/1MT22001_Ref_2023"
+      },
+      { 
+        title: "Microstructure Analysis Slides", 
+        type: "Slides",
+        driveLink: "https://drive.google.com/drive/folders/1MT22001_Slides_2023"
+      }
     ],
     pyqs: [
-      { title: "Physical Metallurgy Mid-Sem 2023", year: "2023", type: "Mid-Sem" },
-      { title: "Physical Metallurgy End-Sem 2023", year: "2023", type: "End-Sem" }
+      { 
+        title: "Physical Metallurgy Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT22001_MidSem_2023"
+      },
+      { 
+        title: "Physical Metallurgy End-Sem 2023", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT22001_EndSem_2023"
+      }
     ]
   },
   {
@@ -148,13 +328,35 @@ export const subjects: Subject[] = [
     year: "2nd Year",
     semester: "Spring",
     studyMaterials: [
-      { title: "Heat and Mass Transfer Notes", type: "Notes" },
-      { title: "Fluid Mechanics Applications", type: "Reference" },
-      { title: "Numerical Methods in Transport", type: "Assignment" }
+      { 
+        title: "Heat and Mass Transfer Notes", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MT22002_Notes_2023"
+      },
+      { 
+        title: "Fluid Mechanics Applications", 
+        type: "Reference",
+        driveLink: "https://drive.google.com/drive/folders/1MT22002_Ref_2023"
+      },
+      { 
+        title: "Numerical Methods in Transport", 
+        type: "Assignment",
+        driveLink: "https://drive.google.com/drive/folders/1MT22002_Assign_2023"
+      }
     ],
     pyqs: [
-      { title: "Transport Phenomena Mid-Sem 2023", year: "2023", type: "Mid-Sem" },
-      { title: "Transport Phenomena End-Sem 2023", year: "2023", type: "End-Sem" }
+      { 
+        title: "Transport Phenomena Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT22002_MidSem_2023"
+      },
+      { 
+        title: "Transport Phenomena End-Sem 2023", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT22002_EndSem_2023"
+      }
     ]
   },
   // 3rd Year Autumn
@@ -165,15 +367,46 @@ export const subjects: Subject[] = [
     year: "3rd Year",
     semester: "Autumn",
     studyMaterials: [
-      { title: "Hydrometallurgy Processes", type: "Notes" },
-      { title: "Pyrometallurgy Reference Manual", type: "Reference" },
-      { title: "Electrometallurgy Slides", type: "Slides" },
-      { title: "Process Design Assignments", type: "Assignment" }
+      { 
+        title: "Hydrometallurgy Processes", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MT31001_Notes_2023"
+      },
+      { 
+        title: "Pyrometallurgy Reference Manual", 
+        type: "Reference",
+        driveLink: "https://drive.google.com/drive/folders/1MT31001_Ref_2023"
+      },
+      { 
+        title: "Electrometallurgy Slides", 
+        type: "Slides",
+        driveLink: "https://drive.google.com/drive/folders/1MT31001_Slides_2023"
+      },
+      { 
+        title: "Process Design Assignments", 
+        type: "Assignment",
+        driveLink: "https://drive.google.com/drive/folders/1MT31001_Assign_2023"
+      }
     ],
     pyqs: [
-      { title: "Extractive Metallurgy Mid-Sem 2023", year: "2023", type: "Mid-Sem" },
-      { title: "Extractive Metallurgy End-Sem 2023", year: "2023", type: "End-Sem" },
-      { title: "Extractive Metallurgy Quiz 2023", year: "2023", type: "Quiz" }
+      { 
+        title: "Extractive Metallurgy Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT31001_MidSem_2023"
+      },
+      { 
+        title: "Extractive Metallurgy End-Sem 2023", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT31001_EndSem_2023"
+      },
+      { 
+        title: "Extractive Metallurgy Quiz 2023", 
+        year: "2023", 
+        type: "Quiz",
+        driveLink: "https://drive.google.com/drive/folders/1MT31001_Quiz_2023"
+      }
     ]
   },
   {
@@ -183,13 +416,35 @@ export const subjects: Subject[] = [
     year: "3rd Year",
     semester: "Autumn",
     studyMaterials: [
-      { title: "X-Ray Diffraction Techniques", type: "Notes" },
-      { title: "Electron Microscopy Guide", type: "Reference" },
-      { title: "Spectroscopy Methods Slides", type: "Slides" }
+      { 
+        title: "X-Ray Diffraction Techniques", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MT31002_Notes_2023"
+      },
+      { 
+        title: "Electron Microscopy Guide", 
+        type: "Reference",
+        driveLink: "https://drive.google.com/drive/folders/1MT31002_Ref_2023"
+      },
+      { 
+        title: "Spectroscopy Methods Slides", 
+        type: "Slides",
+        driveLink: "https://drive.google.com/drive/folders/1MT31002_Slides_2023"
+      }
     ],
     pyqs: [
-      { title: "Materials Characterization Mid-Sem 2023", year: "2023", type: "Mid-Sem" },
-      { title: "Materials Characterization End-Sem 2023", year: "2023", type: "End-Sem" }
+      { 
+        title: "Materials Characterization Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT31002_MidSem_2023"
+      },
+      { 
+        title: "Materials Characterization End-Sem 2023", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT31002_EndSem_2023"
+      }
     ]
   },
   // 3rd Year Spring
@@ -200,13 +455,35 @@ export const subjects: Subject[] = [
     year: "3rd Year",
     semester: "Spring",
     studyMaterials: [
-      { title: "Blast Furnace Technology", type: "Notes" },
-      { title: "Steel Making Processes", type: "Reference" },
-      { title: "Secondary Refining Slides", type: "Slides" }
+      { 
+        title: "Blast Furnace Technology", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MT32001_Notes_2023"
+      },
+      { 
+        title: "Steel Making Processes", 
+        type: "Reference",
+        driveLink: "https://drive.google.com/drive/folders/1MT32001_Ref_2023"
+      },
+      { 
+        title: "Secondary Refining Slides", 
+        type: "Slides",
+        driveLink: "https://drive.google.com/drive/folders/1MT32001_Slides_2023"
+      }
     ],
     pyqs: [
-      { title: "Iron and Steel Making Mid-Sem 2023", year: "2023", type: "Mid-Sem" },
-      { title: "Iron and Steel Making End-Sem 2023", year: "2023", type: "End-Sem" }
+      { 
+        title: "Iron and Steel Making Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT32001_MidSem_2023"
+      },
+      { 
+        title: "Iron and Steel Making End-Sem 2023", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT32001_EndSem_2023"
+      }
     ]
   },
   {
@@ -216,13 +493,35 @@ export const subjects: Subject[] = [
     year: "3rd Year",
     semester: "Spring",
     studyMaterials: [
-      { title: "Plastic Deformation Mechanisms", type: "Notes" },
-      { title: "Fracture Mechanics Reference", type: "Reference" },
-      { title: "Fatigue and Creep Analysis", type: "Assignment" }
+      { 
+        title: "Plastic Deformation Mechanisms", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
+      },
+      { 
+        title: "Fracture Mechanics Reference", 
+        type: "Reference",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_Ref_2023"
+      },
+      { 
+        title: "Fatigue and Creep Analysis", 
+        type: "Assignment",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_Assign_2023"
+      }
     ],
     pyqs: [
-      { title: "Mechanical Metallurgy Mid-Sem 2023", year: "2023", type: "Mid-Sem" },
-      { title: "Mechanical Metallurgy End-Sem 2023", year: "2023", type: "End-Sem" }
+      { 
+        title: "Mechanical Metallurgy Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
+      },
+      { 
+        title: "Mechanical Metallurgy End-Sem 2023", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_EndSem_2023"
+      }
     ]
   },
   // 4th Year Autumn
@@ -233,14 +532,40 @@ export const subjects: Subject[] = [
     year: "4th Year",
     semester: "Autumn",
     studyMaterials: [
-      { title: "Nanomaterials and Applications", type: "Notes" },
-      { title: "Smart Materials Reference", type: "Reference" },
-      { title: "Composite Materials Slides", type: "Slides" },
-      { title: "Research Project Guidelines", type: "Assignment" }
+      { 
+        title: "Nanomaterials and Applications", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MT41001_Notes_2023"
+      },
+      { 
+        title: "Smart Materials Reference", 
+        type: "Reference",
+        driveLink: "https://drive.google.com/drive/folders/1MT41001_Ref_2023"
+      },
+      { 
+        title: "Composite Materials Slides", 
+        type: "Slides",
+        driveLink: "https://drive.google.com/drive/folders/1MT41001_Slides_2023"
+      },
+      { 
+        title: "Research Project Guidelines", 
+        type: "Assignment",
+        driveLink: "https://drive.google.com/drive/folders/1MT41001_Assign_2023"
+      }
     ],
     pyqs: [
-      { title: "Advanced Materials Mid-Sem 2023", year: "2023", type: "Mid-Sem" },
-      { title: "Advanced Materials End-Sem 2023", year: "2023", type: "End-Sem" }
+      { 
+        title: "Advanced Materials Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT41001_MidSem_2023"
+      },
+      { 
+        title: "Advanced Materials End-Sem 2023", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT41001_EndSem_2023"
+      }
     ]
   },
   {
@@ -250,13 +575,35 @@ export const subjects: Subject[] = [
     year: "4th Year",
     semester: "Autumn",
     studyMaterials: [
-      { title: "Electrochemical Corrosion Theory", type: "Notes" },
-      { title: "Corrosion Protection Methods", type: "Reference" },
-      { title: "Case Studies in Corrosion", type: "Assignment" }
+      { 
+        title: "Electrochemical Corrosion Theory", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MT41002_Notes_2023"
+      },
+      { 
+        title: "Corrosion Protection Methods", 
+        type: "Reference",
+        driveLink: "https://drive.google.com/drive/folders/1MT41002_Ref_2023"
+      },
+      { 
+        title: "Case Studies in Corrosion", 
+        type: "Assignment",
+        driveLink: "https://drive.google.com/drive/folders/1MT41002_Assign_2023"
+      }
     ],
     pyqs: [
-      { title: "Corrosion Engineering Mid-Sem 2023", year: "2023", type: "Mid-Sem" },
-      { title: "Corrosion Engineering End-Sem 2023", year: "2023", type: "End-Sem" }
+      { 
+        title: "Corrosion Engineering Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT41002_MidSem_2023"
+      },
+      { 
+        title: "Corrosion Engineering End-Sem 2023", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT41002_EndSem_2023"
+      }
     ]
   },
   // 4th Year Spring
@@ -267,13 +614,35 @@ export const subjects: Subject[] = [
     year: "4th Year",
     semester: "Spring",
     studyMaterials: [
-      { title: "Project Planning and Control", type: "Notes" },
-      { title: "Risk Management in Projects", type: "Reference" },
-      { title: "Case Study Presentations", type: "Slides" }
+      { 
+        title: "Project Planning and Control", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MT42001_Notes_2023"
+      },
+      { 
+        title: "Risk Management in Projects", 
+        type: "Reference",
+        driveLink: "https://drive.google.com/drive/folders/1MT42001_Ref_2023"
+      },
+      { 
+        title: "Case Study Presentations", 
+        type: "Slides",
+        driveLink: "https://drive.google.com/drive/folders/1MT42001_Slides_2023"
+      }
     ],
     pyqs: [
-      { title: "Project Management Mid-Sem 2023", year: "2023", type: "Mid-Sem" },
-      { title: "Project Management End-Sem 2023", year: "2023", type: "End-Sem" }
+      { 
+        title: "Project Management Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT42001_MidSem_2023"
+      },
+      { 
+        title: "Project Management End-Sem 2023", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT42001_EndSem_2023"
+      }
     ]
   }
 ];

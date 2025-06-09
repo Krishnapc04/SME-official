@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ChevronDown, Download, FileText, Search, Book, Filter } from 'lucide-react';
+import { ChevronDown, Download, FileText, Search, Book, Filter, ExternalLink } from 'lucide-react';
 import { subjects } from '../data/subjects';
 
 export default function MetaMaterial() {
@@ -42,6 +42,11 @@ export default function MetaMaterial() {
   };
 
   const resources = getResources();
+
+  const handleDownload = (driveLink: string) => {
+    // Open the Google Drive link in a new tab
+    window.open(driveLink, '_blank');
+  };
 
   return (
     <div className="min-h-screen">
@@ -255,9 +260,12 @@ export default function MetaMaterial() {
                           {resource.type}
                         </div>
                         
-                        <button className="flex items-center text-blue-600 hover:text-blue-700 font-medium group">
-                          <Download className="w-4 h-4 mr-1 group-hover:animate-bounce" />
-                          Download
+                        <button 
+                          onClick={() => handleDownload(resource.driveLink)}
+                          className="flex items-center text-blue-600 hover:text-blue-700 font-medium group"
+                        >
+                          <ExternalLink className="w-4 h-4 mr-1 group-hover:animate-bounce" />
+                          View Resource
                         </button>
                       </div>
                     </div>

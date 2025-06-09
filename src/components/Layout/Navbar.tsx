@@ -5,14 +5,26 @@ import { Menu, X, Settings, Search } from 'lucide-react';
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [scrollProgress, setScrollProgress] = useState(0);
   const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
+      // Update scrolled state
       setScrolled(window.scrollY > 50);
+      
+      // Calculate scroll progress
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight;
+      const winHeight = window.innerHeight;
+      const scrollPercent = (scrollTop / (docHeight - winHeight)) * 100;
+      setScrollProgress(Math.min(100, Math.max(0, scrollPercent)));
     };
     
     window.addEventListener('scroll', handleScroll);
+    // Initial calculation
+    handleScroll();
+    
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -96,10 +108,8 @@ export default function Navbar() {
       {/* Scroll Progress Bar */}
       <div className="h-1 bg-gray-200">
         <div 
-          className="h-full bg-gradient-to-r from-blue-600 to-blue-800 transition-all duration-300"
-          style={{ 
-            width: `${Math.min(100, (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100)}%` 
-          }}
+          className="h-full bg-gradient-to-r from-blue-600 to-blue-800 transition-all "
+          style={{ width: `${scrollProgress}%` }}
         />
       </div>
     </nav>
