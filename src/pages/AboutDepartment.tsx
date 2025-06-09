@@ -9,9 +9,10 @@ export default function AboutDepartment() {
   
   // Filter professors based on search query
   const filteredProfessors = professors.filter(professor => 
-    professor.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    professor.designation.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    professor.specialization.toLowerCase().includes(searchQuery.toLowerCase())
+    professor.name.toLowerCase().includes(searchQuery.toLowerCase())
+    // ||
+    // professor.designation.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    // professor.specialization.toLowerCase().includes(searchQuery.toLowerCase())
   );
   
   const totalPages = Math.ceil(filteredProfessors.length / professorsPerPage);
@@ -47,7 +48,7 @@ export default function AboutDepartment() {
       <section className="relative py-20 bg-gradient-to-br from-blue-900 to-gray-900 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img 
-            src="https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src="http://www.metal.iitkgp.ac.in/uploads/Untitled_presentation_03.png"
             alt="Laboratory"
             className="w-full h-full object-cover"
           />
@@ -119,7 +120,7 @@ export default function AboutDepartment() {
                   </div>
                   <div className="flex items-center justify-between">
                     <span>Students</span>
-                    <span className="font-semibold">200+</span>
+                    <span className="font-semibold">300+</span>
                   </div>
                 </div>
               </div>
@@ -225,26 +226,26 @@ export default function AboutDepartment() {
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">{professor.name}</h3>
-                  <p className="text-blue-600 font-medium mb-3">{professor.designation}</p>
-                  <p className="text-gray-600 text-sm mb-4 leading-relaxed">{professor.specialization}</p>
+                  {/* <p className="text-blue-600 font-medium mb-3">{professor.designation}</p>
+                  <p className="text-gray-600 text-sm mb-4 leading-relaxed">{professor.specialization}</p> */}
                   
                   <div className="flex flex-wrap gap-3">
                     <a
-                      href={`mailto:${professor.email}`}
+                      href={`mailto:${professor.mail}`}
                       className="flex items-center justify-center w-10 h-10 bg-blue-100 hover:bg-blue-200 rounded-lg transition-colors"
                       title="Email"
                     >
                       <Mail className="w-4 h-4 text-blue-600" />
                     </a>
                     <a
-                      href={`tel:${professor.phone}`}
+                      href={`tel:${professor.contact}`}
                       className="flex items-center justify-center w-10 h-10 bg-purple-100 hover:bg-purple-200 rounded-lg transition-colors"
                       title="Phone"
                     >
                       <Phone className="w-4 h-4 text-purple-600" />
                     </a>
                     <a
-                      href={professor.googleScholar}
+                      href={professor.link}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center w-10 h-10 bg-green-100 hover:bg-green-200 rounded-lg transition-colors"

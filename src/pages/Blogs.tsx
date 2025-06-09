@@ -1,10 +1,12 @@
 import { useState } from 'react';
 import { Search, Calendar, User, ArrowRight, Filter } from 'lucide-react';
 import { blogs } from '../data/blogs';
+import { useNavigate } from 'react-router-dom';
 
 export default function Blogs() {
   const [activeCategory, setActiveCategory] = useState('All');
   const [searchTerm, setSearchTerm] = useState('');
+  const navigate = useNavigate();
 
   const categories = ['All', 'CDC Blogs', 'Current Affairs', 'Informative Blogs', 'Achievements & Highlights'];
 
@@ -130,7 +132,10 @@ export default function Blogs() {
                       {blog.summary}
                     </p>
                     
-                    <button className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium group">
+                    <button
+                      className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium group"
+                      onClick={() => navigate(`/blog/${blog.id}`)}
+                    >
                       Read More
                       <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                     </button>
