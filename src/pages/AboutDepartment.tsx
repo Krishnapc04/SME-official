@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, ExternalLink, Mail, MapPin, Microscope, Atom, Zap, Phone, Search } from 'lucide-react';
 import { professors } from '../data/professors';
-
+import assets from "../assets/assets.js"
 export default function AboutDepartment() {
   const [currentPage, setCurrentPage] = useState(1);
   const [searchQuery, setSearchQuery] = useState('');
@@ -48,7 +48,7 @@ export default function AboutDepartment() {
       <section className="relative py-20 bg-gradient-to-br from-blue-900 to-gray-900 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img 
-            src="http://www.metal.iitkgp.ac.in/uploads/Untitled_presentation_03.png"
+            src={assets.dpt}
             alt="Laboratory"
             className="w-full h-full object-cover"
           />
