@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Settings, Search } from 'lucide-react';
+import assets from '../../assets/assets.js';
+
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,7 +47,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-gradient-to-br from-blue-800 to-blue-600 rounded-lg flex items-center justify-center">
-              <Settings className="w-6 h-6 text-white" />
+              <img src={assets.SME} alt="SME" className="w-10 h-10 p-0.4" />
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-bold text-gray-900">SME</span>

@@ -6,6 +6,7 @@ import AboutFest from './pages/AboutFest';
 import Blogs from './pages/Blogs';
 import MetaMaterial from './pages/MetaMaterial';
 import NotFound from './pages/NotFound';
+import BlogDetail from './pages/BlogDetail';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/about-department" element={<AboutDepartment />} />
           <Route path="/about-fest" element={<AboutFest />} />
           <Route path="/blogs" element={<Blogs />} />
+          <Route path="/blog/:id" element={<BlogDetail />} />
           <Route path="/meta-material" element={<MetaMaterial />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

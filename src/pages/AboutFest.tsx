@@ -1,11 +1,12 @@
 import { ExternalLink, Calendar, Users, Trophy, MapPin, Star, ArrowRight } from 'lucide-react';
+import assets from '../assets/assets.js'; 
 
 export default function AboutFest() {
   const statistics = [
-    { number: '5000+', label: 'Total Footfall', icon: Users },
+    { number: '15000+', label: 'Total Footfall', icon: Users },
     { number: '150+', label: 'Participating Colleges', icon: MapPin },
-    { number: '15', label: 'Years Running', icon: Calendar },
-    { number: '50+', label: 'Events & Competitions', icon: Trophy }
+    { number: '30', label: 'Years Running', icon: Calendar },
+    { number: '8+', label: 'Events & Competitions', icon: Trophy }
   ];
 
   const highlights = [
@@ -33,7 +34,7 @@ export default function AboutFest() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-br from-purple-900/90 to-blue-900/90 z-10" />
           <img 
-            src="https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src={assets.composit_grp_pic}
             alt="COMPOSIT Festival"
             className="w-full h-full object-cover"
           />
@@ -156,35 +157,51 @@ export default function AboutFest() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: 'Technical Symposium',
-                description: 'Industry experts share insights on latest trends and technologies',
+                title: 'Technova',
+                description: 'Present groundbreaking research and innovative ideas in materials science and engineering to redefine the future.',
                 color: 'from-blue-500 to-blue-700'
               },
               {
-                title: 'Research Paper Presentations',
-                description: 'Platform for students to present their innovative research work',
+                title: 'Enigma',
+                description: 'Test your knowledge in an exciting online quiz featuring diverse questions from engineering to general awareness.',
                 color: 'from-green-500 to-green-700'
               },
               {
-                title: 'Metallurgy Quiz',
-                description: 'Test your knowledge in the ultimate materials science challenge',
+                title: 'Excavate',
+                description: 'Apply critical thinking and analytical skills to uncover data-driven insights and innovative solutions.',
                 color: 'from-purple-500 to-purple-700'
               },
               {
-                title: 'Cultural Night',
-                description: 'Spectacular performances showcasing diverse talents',
+                title: 'Metaclix',
+                description: 'Capture the beauty of science and technology through photography and compete in a dynamic contest.',
                 color: 'from-pink-500 to-pink-700'
               },
               {
-                title: 'Innovation Showcase',
-                description: 'Exhibition of groundbreaking projects and startup ideas',
+                title: 'Case Study',
+                description: 'Analyze real-world challenges, craft strategic solutions, and showcase your problem-solving expertise.',
                 color: 'from-yellow-500 to-orange-600'
               },
               {
-                title: 'Industry Interaction',
-                description: 'Direct interaction with industry leaders and career guidance',
+                title: 'Ideathon',
+                description: 'An event for aspiring entrepreneurs to pitch innovative ideas, receive expert feedback, and propel their vision into reality.',
                 color: 'from-indigo-500 to-indigo-700'
+              },
+              {
+                title: 'MetaCode',
+                description: 'Solve engaging coding challenges that blend innovation, problem-solving, and computation.',
+                color: 'from-green-500 to-green-700'
+              },
+              {
+                title: 'Cadvolution',
+                description: 'Design creative CAD models, justify your choices, and develop solutions for real-world challenges.',
+                color: 'from-pink-500 to-pink-700'
+              },
+              {
+                title: 'Market the materials',
+                description: 'Its an event where you can market your materials to the world',
+                color: 'from-yellow-500 to-orange-600'
               }
+
             ].map((activity, index) => (
               <div key={index} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                 <div className={`h-32 bg-gradient-to-br ${activity.color} flex items-center justify-center`}>
@@ -213,18 +230,68 @@ export default function AboutFest() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {gallery.map((image, index) => (
-              <div key={index} className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+            
+              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
                 <img 
-                  src={image} 
-                  alt={`COMPOSIT Gallery ${index + 1}`}
+                  src={assets.composit_grp_pic} 
+                  alt="Composit Gallery"
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <p className="text-white p-4 font-medium">COMPOSIT {2024 - Math.floor(index / 2)}</p>
+                  <p className="text-white p-4 font-medium">COMPOSIT 2025</p>
+                </div>
+            </div>
+            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+                <img 
+                  src={assets.img1} 
+                  alt="Composit Gallery"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                  <p className="text-white p-4 font-medium">COMPOSIT 2025</p>
+                </div>
+            </div>
+            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+                <img 
+                  src={assets.img2} 
+                  alt="Composit Gallery"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                  <p className="text-white p-4 font-medium">COMPOSIT 2025</p>
+                </div>
+            </div>
+            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+                <img 
+                  src={assets.img3} 
+                  alt="Composit Gallery"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                  <p className="text-white p-4 font-medium">COMPOSIT 2025</p>
+                </div>
+            </div>
+            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+                <img 
+                  src={assets.img4} 
+                  alt="Composit Gallery"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                  <p className="text-white p-4 font-medium">COMPOSIT 2025</p>
+                </div>
+            </div>
+            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+                <img 
+                  src={assets.img5} 
+                  alt="Composit Gallery"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                  <p className="text-white p-4 font-medium">COMPOSIT 2025</p>
                 </div>
               </div>
-            ))}
+            
           </div>
         </div>
       </section>
@@ -232,18 +299,18 @@ export default function AboutFest() {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-br from-purple-800 to-blue-900 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-6">Join COMPOSIT 2024</h2>
+          <h2 className="text-4xl font-bold mb-6">Join COMPOSIT 2025</h2>
           <p className="text-xl text-purple-100 mb-8 leading-relaxed">
             Be part of India's premier metallurgical engineering festival. Register now and 
             experience innovation, creativity, and excellence like never before.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-purple-900 hover:bg-purple-50 px-8 py-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 flex items-center justify-center group">
+            <button onClick={() => window.open('https://www.composit.in', '_blank')} className="bg-white text-purple-900 hover:bg-purple-50 px-8 py-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 flex items-center justify-center group">
               Visit Official Website
               <ExternalLink className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
-            <button className="bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 px-8 py-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105">
+            <button onClick={() => window.open('https://drive.google.com/file/d/1hkQJ9O7KfBO2JYLpgNZrY9Ki5FtwFPRt/view?usp=drive_link', '_blank')} className="bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 px-8 py-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105">
               Download Brochure
             </button>
           </div>

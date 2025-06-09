@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Settings, Mail, MapPin, Linkedin, Instagram, Twitter, ExternalLink } from 'lucide-react';
+import assets from '../../assets/assets.js';
+
 
 export default function Footer() {
   const quickLinks = [
@@ -11,8 +13,8 @@ export default function Footer() {
   ];
 
   const socialLinks = [
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Instagram, href: '#', label: 'Instagram' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/company/composit-iit-kharagpur/posts/?feedView=all', label: 'LinkedIn' },
+    { icon: Instagram, href: 'https://www.instagram.com/composit_iitkgp', label: 'Instagram' },
     { icon: Twitter, href: '#', label: 'Twitter' },
   ];
 
@@ -24,7 +26,7 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2 space-y-4">
             <div className="flex items-center space-x-3">
               <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-700 rounded-xl flex items-center justify-center">
-                <Settings className="w-7 h-7 text-white" />
+                <img src={assets.SME} alt="SME" className="w-10 h-10 p-0.4" />
               </div>
               <div>
                 <h3 className="text-2xl font-bold">SME IIT Kharagpur</h3>
