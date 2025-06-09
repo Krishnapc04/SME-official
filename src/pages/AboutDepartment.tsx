@@ -1,14 +1,27 @@
-import { useState } from 'react';
-import { ChevronLeft, ChevronRight, ExternalLink, Mail, MapPin, Microscope, Atom, Zap } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { ChevronLeft, ChevronRight, ExternalLink, Mail, MapPin, Microscope, Atom, Zap, Phone, Search } from 'lucide-react';
 import { professors } from '../data/professors';
 
 export default function AboutDepartment() {
   const [currentPage, setCurrentPage] = useState(1);
+  const [searchQuery, setSearchQuery] = useState('');
   const professorsPerPage = 6;
   
-  const totalPages = Math.ceil(professors.length / professorsPerPage);
+  // Filter professors based on search query
+  const filteredProfessors = professors.filter(professor => 
+    professor.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    professor.designation.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    professor.specialization.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+  
+  const totalPages = Math.ceil(filteredProfessors.length / professorsPerPage);
   const startIndex = (currentPage - 1) * professorsPerPage;
-  const currentProfessors = professors.slice(startIndex, startIndex + professorsPerPage);
+  const currentProfessors = filteredProfessors.slice(startIndex, startIndex + professorsPerPage);
+
+  // Reset to first page when search query changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchQuery]);
 
   const researchAreas = [
     {
@@ -19,7 +32,7 @@ export default function AboutDepartment() {
     {
       icon: Atom,
       title: 'Materials Science',
-      description: 'Nanomaterials, biomaterials, and advanced characterization techniques'
+      description: 'Nanomaterials, biomaterials, and advanced characterization techniques' 
     },
     {
       icon: Zap,
@@ -178,9 +191,28 @@ export default function AboutDepartment() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Faculty Members</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
+            <p className="text-gray-600 max-w-2xl mx-auto mb-8">
               Meet our distinguished faculty members who are leading experts in their respective fields
             </p>
+            
+            {/* Search Bar */}
+            <div className="max-w-md mx-auto relative">
+              <div className="relative">
+                <input
+                  type="text"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  placeholder="Search by name, designation, or specialization..."
+                  className="w-full pl-12 pr-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                />
+                <Search className="w-5 h-5 text-gray-400 absolute left-4 top-1/2 transform -translate-y-1/2" />
+              </div>
+              {searchQuery && (
+                <p className="text-sm text-gray-500 mt-2">
+                  Found {filteredProfessors.length} professor{filteredProfessors.length !== 1 ? 's' : ''}
+                </p>
+              )}
+            </div>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
@@ -196,13 +228,20 @@ export default function AboutDepartment() {
                   <p className="text-blue-600 font-medium mb-3">{professor.designation}</p>
                   <p className="text-gray-600 text-sm mb-4 leading-relaxed">{professor.specialization}</p>
                   
-                  <div className="flex space-x-3">
+                  <div className="flex flex-wrap gap-3">
                     <a
                       href={`mailto:${professor.email}`}
                       className="flex items-center justify-center w-10 h-10 bg-blue-100 hover:bg-blue-200 rounded-lg transition-colors"
                       title="Email"
                     >
                       <Mail className="w-4 h-4 text-blue-600" />
+                    </a>
+                    <a
+                      href={`tel:${professor.phone}`}
+                      className="flex items-center justify-center w-10 h-10 bg-purple-100 hover:bg-purple-200 rounded-lg transition-colors"
+                      title="Phone"
+                    >
+                      <Phone className="w-4 h-4 text-purple-600" />
                     </a>
                     <a
                       href={professor.googleScholar}
@@ -219,8 +258,15 @@ export default function AboutDepartment() {
             ))}
           </div>
           
-          {/* Pagination */}
-          {totalPages > 1 && (
+          {/* Show message when no results found */}
+          {filteredProfessors.length === 0 && (
+            <div className="text-center py-12">
+              <p className="text-gray-500 text-lg">No professors found matching your search criteria.</p>
+            </div>
+          )}
+          
+          {/* Pagination - only show if there are results */}
+          {filteredProfessors.length > 0 && totalPages > 1 && (
             <div className="flex justify-center items-center space-x-4">
               <button
                 onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}

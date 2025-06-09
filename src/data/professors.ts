@@ -5,6 +5,7 @@ export interface Professor {
   specialization: string;
   email: string;
   googleScholar: string;
+  phone: string;
 }
 
 export const professors: Professor[] = [
@@ -14,7 +15,8 @@ export const professors: Professor[] = [
     designation: "Professor & Head",
     specialization: "Physical Metallurgy, Phase Transformations, Advanced Steels",
     email: "rksingh@metal.iitkgp.ac.in",
-    googleScholar: "https://scholar.google.com/citations?user=example1"
+    googleScholar: "https://scholar.google.com/citations?user=example1",
+    phone: "+91-3222-283-001"
   },
   {
     id: 2,
@@ -22,7 +24,8 @@ export const professors: Professor[] = [
     designation: "Professor",
     specialization: "Biomaterials, Tissue Engineering, Surface Modifications",
     email: "asharma@metal.iitkgp.ac.in",
-    googleScholar: "https://scholar.google.com/citations?user=example2"
+    googleScholar: "https://scholar.google.com/citations?user=example2",
+    phone: "+91-3222-283-002"
   },
   {
     id: 3,
@@ -30,7 +33,8 @@ export const professors: Professor[] = [
     designation: "Associate Professor",
     specialization: "Nanomaterials, Electronic Materials, Thin Films",
     email: "vaditya@metal.iitkgp.ac.in",
-    googleScholar: "https://scholar.google.com/citations?user=example3"
+    googleScholar: "https://scholar.google.com/citations?user=example3",
+    phone: "+91-3222-283-003"
   },
   {
     id: 4,
@@ -38,7 +42,8 @@ export const professors: Professor[] = [
     designation: "Associate Professor",
     specialization: "Corrosion Science, Electrochemistry, Protective Coatings",
     email: "mgupta@metal.iitkgp.ac.in",
-    googleScholar: "https://scholar.google.com/citations?user=example4"
+    googleScholar: "https://scholar.google.com/citations?user=example4",
+    phone: "+91-3222-283-004"
   },
   {
     id: 5,
@@ -46,7 +51,8 @@ export const professors: Professor[] = [
     designation: "Professor",
     specialization: "Extractive Metallurgy, Recycling, Sustainable Processing",
     email: "schand@metal.iitkgp.ac.in",
-    googleScholar: "https://scholar.google.com/citations?user=example5"
+    googleScholar: "https://scholar.google.com/citations?user=example5",
+    phone: "+91-3222-283-005"
   },
   {
     id: 6,
@@ -54,7 +60,8 @@ export const professors: Professor[] = [
     designation: "Assistant Professor",
     specialization: "Computational Materials Science, Machine Learning in Materials",
     email: "pnair@metal.iitkgp.ac.in",
-    googleScholar: "https://scholar.google.com/citations?user=example6"
+    googleScholar: "https://scholar.google.com/citations?user=example6",
+    phone: "+91-3222-283-006"
   },
   {
     id: 7,
@@ -62,7 +69,8 @@ export const professors: Professor[] = [
     designation: "Professor",
     specialization: "High Temperature Materials, Superalloys, Casting Technology",
     email: "apatel@metal.iitkgp.ac.in",
-    googleScholar: "https://scholar.google.com/citations?user=example7"
+    googleScholar: "https://scholar.google.com/citations?user=example7",
+    phone: "+91-3222-283-007"
   },
   {
     id: 8,
@@ -70,7 +78,8 @@ export const professors: Professor[] = [
     designation: "Assistant Professor",
     specialization: "Smart Materials, Shape Memory Alloys, Functional Materials",
     email: "kjoshi@metal.iitkgp.ac.in",
-    googleScholar: "https://scholar.google.com/citations?user=example8"
+    googleScholar: "https://scholar.google.com/citations?user=example8",
+    phone: "+91-3222-283-008"
   },
   {
     id: 9,
@@ -78,7 +87,8 @@ export const professors: Professor[] = [
     designation: "Associate Professor",
     specialization: "Powder Metallurgy, Metal Matrix Composites, Processing",
     email: "mkumar@metal.iitkgp.ac.in",
-    googleScholar: "https://scholar.google.com/citations?user=example9"
+    googleScholar: "https://scholar.google.com/citations?user=example9",
+    phone: "+91-3222-283-009"
   },
   {
     id: 10,
@@ -86,7 +96,8 @@ export const professors: Professor[] = [
     designation: "Assistant Professor",
     specialization: "Materials Characterization, Electron Microscopy, Microstructure",
     email: "nverma@metal.iitkgp.ac.in",
-    googleScholar: "https://scholar.google.com/citations?user=example10"
+    googleScholar: "https://scholar.google.com/citations?user=example10",
+    phone: "+91-3222-283-010"
   },
   {
     id: 11,
@@ -94,7 +105,8 @@ export const professors: Professor[] = [
     designation: "Professor",
     specialization: "Welding Metallurgy, Joining Technologies, Fracture Mechanics",
     email: "dmishra@metal.iitkgp.ac.in",
-    googleScholar: "https://scholar.google.com/citations?user=example11"
+    googleScholar: "https://scholar.google.com/citations?user=example11",
+    phone: "+91-3222-283-011"
   },
   {
     id: 12,
@@ -102,6 +114,7 @@ export const professors: Professor[] = [
     designation: "Assistant Professor",
     specialization: "Additive Manufacturing, 3D Printing, Process Optimization",
     email: "rshankar@metal.iitkgp.ac.in",
-    googleScholar: "https://scholar.google.com/citations?user=example12"
+    googleScholar: "https://scholar.google.com/citations?user=example12",
+    phone: "+91-3222-283-012"
   }
 ];
