@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronRight, Calendar, Users, BookOpen, Award, ArrowRight, Sparkles } from 'lucide-react';
+import assets from '../assets/assets.js';
 
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -8,16 +9,16 @@ export default function Home() {
   const events = [
     {
       id: 1,
-      title: 'COMPOSIT 2024',
-      date: 'March 15-17, 2024',
-      image: 'https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?auto=compress&cs=tinysrgb&w=400',
+      title: 'COMPOSIT 2025',
+      date: 'March 21-23, 2025',
+      image: 'https://th.bing.com/th/id/OIP.C0Hjjb0QMM_NiON45LCyfwHaEH?rs=1&pid=ImgDetMain',
       type: 'Annual Fest'
     },
     {
       id: 2,
       title: 'Materials Research Symposium',
       date: 'April 5, 2024',
-      image: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://allaboutweldingjobs.com/wp-content/uploads/2023/06/fusion-welding-4.jpg',
       type: 'Academic'
     },
     {
@@ -43,7 +44,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-br from-blue-900/90 to-gray-900/90 z-10" />
           <img 
-            src="https://images.pexels.com/photos/2280549/pexels-photo-2280549.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src={assets.COMPOSIT}
             alt="Metallurgy background"
             className="w-full h-full object-cover"
           />
@@ -124,9 +125,9 @@ export default function Home() {
               </Link>
             </div>
             
-            <div className="relative">
+            <div className="relative bg-cover bg-center bg-no-repeat">
               <img 
-                src="https://images.pexels.com/photos/2280568/pexels-photo-2280568.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="https://www.ayansenarchitects.com/uploads/543IIT-WWork-shop-2.jpg"
                 alt="Metallurgy research"
                 className="rounded-2xl shadow-2xl"
               />
