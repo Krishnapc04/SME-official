@@ -47,7 +47,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-gradient-to-br from-blue-800 to-blue-600 rounded-lg flex items-center justify-center">
-              <img src={assets.SME} alt="SME" className="w-10 h-10 p-1" />
+              <img src={assets.SME} alt="SME" className="w-10 h-10 p-0.4" />
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-bold text-gray-900">SME</span>
