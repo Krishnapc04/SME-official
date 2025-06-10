@@ -12,19 +12,10 @@ export default function AboutFest() {
   const highlights = [
     'Technical Symposium with Industry Experts',
     'Inter-college Competitions & Contests',
-    'Cultural Performances & Entertainment',
+    'Guest lectures & Webinars',
     'Workshops on Latest Technologies',
     'Industry Interaction Sessions',
     'Innovation & Startup Showcase'
-  ];
-
-  const gallery = [
-    'https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?auto=compress&cs=tinysrgb&w=400',
-    'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400',
-    'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400',
-    'https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&w=400',
-    'https://images.pexels.com/photos/2280549/pexels-photo-2280549.jpeg?auto=compress&cs=tinysrgb&w=400',
-    'https://images.pexels.com/photos/2280568/pexels-photo-2280568.jpeg?auto=compress&cs=tinysrgb&w=400'
   ];
 
   return (
@@ -42,14 +33,15 @@ export default function AboutFest() {
         
         <div className="relative z-20 text-center text-white max-w-5xl mx-auto px-4">
           <div className="mb-8">
-            <div className="inline-flex items-center justify-center w-32 h-32 bg-gradient-to-br from-purple-500 to-blue-600 rounded-full mb-6 animate-pulse">
-              <Star className="w-16 h-16" />
+            <div className="inline-flex items-center justify-center w-32 h-32 bg-gradient-to-br from-purple-500 to-blue-600 rounded-full mb-6 animate-pulse p-3">
+              <img src={assets.CMP_Logo} alt="COMPOSIT LOGO" />
             </div>
-            <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-white via-purple-200 to-blue-200 bg-clip-text text-transparent">
+            <h1 className="text-6xl md:text-8xl font-bold mb-2 bg-gradient-to-r from-white via-purple-200 to-blue-200 bg-clip-text text-transparent">
               COMPOSIT
             </h1>
+            <h4 className='md:text-xl font-light text-purple-200 mb-6'>Congress of Metallurgical Professionals involving Students, Industry, and Teachers</h4>
             <p className="text-2xl md:text-3xl font-semibold text-purple-200 mb-4">
-              Annual Technical & Cultural Festival
+              Annual Technical & Departmental Festival
             </p>
             <p className="text-lg text-blue-100 max-w-3xl mx-auto leading-relaxed">
               Where Innovation Meets Creativity - The Premier Metallurgical Engineering Festival of India
@@ -83,22 +75,20 @@ export default function AboutFest() {
               
               <div className="space-y-6 text-gray-600 leading-relaxed">
                 <p className="text-lg">
-                  COMPOSIT is the flagship annual festival of the Department of Metallurgical and 
-                  Materials Engineering at IIT Kharagpur. For over 15 years, it has been the premier 
-                  platform for students to showcase their technical prowess and creative talents.
+                <span className='font-semibold'>COMPOSIT </span>is India’s premier student-run technical fest dedicated to materials science and engineering, organized for over 30 years. It aims to spark curiosity and promote innovation in materials and metallurgy by bringing together students, researchers, educators, and industry leaders. With a strong focus on future applications—from aerospace to biomedicine—COMPOSIT celebrates the vital role of materials in shaping technology and society.
                 </p>
                 
                 <div className="bg-gradient-to-r from-purple-50 to-blue-50 p-6 rounded-xl border-l-4 border-purple-600">
-                  <h3 className="font-semibold text-gray-900 mb-3">Festival Dates 2024</h3>
+                  <h3 className="font-semibold text-gray-900 mb-3">Festival Dates 2025</h3>
                   <p className="flex items-center text-gray-700">
                     <Calendar className="w-5 h-5 mr-2 text-purple-600" />
-                    March 15-17, 2024
+                    March 21-23, 2025
                   </p>
                 </div>
                 
                 <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-xl border-l-4 border-blue-600">
-                  <h3 className="font-semibold text-gray-900 mb-3">Theme 2024</h3>
-                  <p className="text-gray-700">"Materials of Tomorrow: Shaping the Future"</p>
+                  <h3 className="font-semibold text-gray-900 mb-3">Theme 2025</h3>
+                  <p className="text-gray-700">"ESCAPE MATERIALS"</p>
                 </div>
               </div>
             </div>
@@ -150,7 +140,7 @@ export default function AboutFest() {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Festival Activities</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              From technical competitions to cultural performances, COMPOSIT offers something for everyone
+              From technical competitions to Research compititions, COMPOSIT offers something for everyone
             </p>
           </div>
           

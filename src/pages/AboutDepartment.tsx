@@ -9,10 +9,7 @@ export default function AboutDepartment() {
   
   // Filter professors based on search query
   const filteredProfessors = professors.filter(professor => 
-    professor.name.toLowerCase().includes(searchQuery.toLowerCase())
-    // ||
-    // professor.designation.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    // professor.specialization.toLowerCase().includes(searchQuery.toLowerCase())
+    professor.name.toLowerCase().includes(searchQuery.toLowerCase()) || professor.designation.toLowerCase().includes(searchQuery.toLowerCase()) || professor.specialization.toLowerCase().includes(searchQuery.toLowerCase())
   );
   
   const totalPages = Math.ceil(filteredProfessors.length / professorsPerPage);
@@ -226,8 +223,8 @@ export default function AboutDepartment() {
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">{professor.name}</h3>
-                  {/* <p className="text-blue-600 font-medium mb-3">{professor.designation}</p>
-                  <p className="text-gray-600 text-sm mb-4 leading-relaxed">{professor.specialization}</p> */}
+                  <p className="text-blue-600 font-medium mb-3">{professor.designation}</p>
+                  <p className="text-gray-600 text-sm mb-4 leading-relaxed">{professor.specialization}</p>
                   
                   <div className="flex flex-wrap gap-3">
                     <a
