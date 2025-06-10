@@ -46,8 +46,8 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-800 to-blue-600 rounded-lg flex items-center justify-center">
-              <img src={assets.SME} alt="SME" className="w-10 h-10 p-0.4" />
+            <div className="w-12 h-12 bg-gradient-to-br from-blue-800 to-blue-600 rounded-lg flex items-center justify-center">
+              <img src={assets.SME_White} alt="SME" className="w-10 h-10 scale-125" />
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-bold text-gray-900">SME</span>
