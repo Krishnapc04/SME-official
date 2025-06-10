@@ -8,7 +8,7 @@ export default function Blogs() {
   const [searchTerm, setSearchTerm] = useState('');
   const navigate = useNavigate();
 
-  const categories = ['All', 'CDC Blogs', 'Current Affairs', 'Informative Blogs', 'Achievements & Highlights'];
+  const categories = ['All', 'CDC Blogs', 'COMPOSIT Blogs', 'Achievements & Highlights'];
 
   const filteredBlogs = blogs.filter(blog => {
     const matchesCategory = activeCategory === 'All' || blog.category === activeCategory;
@@ -20,8 +20,8 @@ export default function Blogs() {
   const getCategoryColor = (category: string) => {
     const colors = {
       'CDC Blogs': 'from-blue-500 to-blue-700',
-      'Current Affairs': 'from-green-500 to-green-700',
-      'Informative Blogs': 'from-purple-500 to-purple-700',
+      'COMPOSIT Blogs': 'from-green-500 to-green-700',
+      // 'Informative Blogs': 'from-purple-500 to-purple-700',
       'Achievements & Highlights': 'from-yellow-500 to-orange-600'
     };
     return colors[category as keyof typeof colors] || 'from-gray-500 to-gray-700';
