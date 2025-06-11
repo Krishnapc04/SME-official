@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ChevronRight, Calendar, Users, BookOpen, Award, ArrowRight, Sparkles } from 'lucide-react';
-import assets from '../assets/assets.js';
+import { ChevronRight, Calendar, Users, User, BookOpen, Award, ArrowRight, Sparkles, Microscope, Atom, Zap, Trophy, MapPin } from 'lucide-react';
+import assets from '../assets/assets.ts';
+import { blogs } from '../data/blogs';
 
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -29,6 +30,46 @@ export default function Home() {
       type: 'Workshop'
     }
   ];
+
+  // Department research areas (from AboutDepartment)
+  const researchAreas = [
+    {
+      icon: Microscope,
+      title: 'Physical Metallurgy',
+      description: 'Phase transformations, microstructure characterization, and mechanical behavior of materials'
+    },
+    {
+      icon: Atom,
+      title: 'Materials Science',
+      description: 'Nanomaterials, biomaterials, and advanced characterization techniques' 
+    },
+    {
+      icon: Zap,
+      title: 'Process Metallurgy',
+      description: 'Extractive metallurgy, recycling, and sustainable material processing'
+    }
+  ];
+
+  // COMPOSIT festival statistics (from AboutFest)
+  const festStats = [
+    { number: '15000+', label: 'Total Footfall', icon: Users },
+    { number: '150+', label: 'Participating Colleges', icon: MapPin },
+    { number: '30', label: 'Years Running', icon: Calendar },
+    { number: '8+', label: 'Events & Competitions', icon: Trophy }
+  ];
+
+  // COMPOSIT highlights (from AboutFest)
+  const festHighlights = [
+    'Technical Symposium with Industry Experts',
+    'Inter-college Competitions & Contests',
+    'Guest lectures & Webinars',
+    'Workshops on Latest Technologies',
+    'Industry Interaction Sessions',
+    'Innovation & Startup Showcase'
+  ];
+
+  // Latest blogs (show 3)
+  const latestBlogs = blogs.slice(0, 3);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -142,7 +183,212 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Events Section */}
+      {/* Department Overview Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+            <div className="lg:col-span-2 space-y-8">
+              <div>
+                <h2 className="text-4xl font-bold text-gray-900 mb-6">Department Overview</h2>
+                <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-blue-800 rounded-full mb-8" />
+              </div>
+              <div className="prose prose-lg text-gray-600 leading-relaxed space-y-6">
+                <p>
+                  The Department of Metallurgical and Materials Engineering at IIT Kharagpur stands as 
+                  one of India's premier institutions for metallurgical education and research. Established 
+                  in 1951, our department has been at the forefront of materials science innovation.
+                </p>
+                <p>
+                  Our comprehensive curriculum covers traditional metallurgy as well as cutting-edge 
+                  materials science, preparing students for diverse career paths in academia, industry, 
+                  and research institutions worldwide.
+                </p>
+                <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-xl border-l-4 border-blue-600">
+                  <h3 className="font-semibold text-gray-900 mb-3">Key Highlights</h3>
+                  <ul className="space-y-2 text-gray-700">
+                    <li>• Top-ranked metallurgy department in India</li>
+                    <li>• State-of-the-art research facilities and laboratories</li>
+                    <li>• Strong industry partnerships and collaborations</li>
+                    <li>• Outstanding placement record with leading companies</li>
+                    <li>• Active research in emerging materials technologies</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="space-y-6">
+              <div className="bg-gradient-to-br from-blue-600 to-blue-800 text-white p-8 rounded-2xl">
+                <h3 className="text-2xl font-bold mb-6">Quick Facts</h3>
+                <div className="space-y-4">
+                  <div className="flex items-center justify-between border-b border-blue-400 pb-2">
+                    <span>Established</span>
+                    <span className="font-semibold">1951</span>
+                  </div>
+                  <div className="flex items-center justify-between border-b border-blue-400 pb-2">
+                    <span>Faculty Members</span>
+                    <span className="font-semibold">25+</span>
+                  </div>
+                  <div className="flex items-center justify-between border-b border-blue-400 pb-2">
+                    <span>Research Labs</span>
+                    <span className="font-semibold">12</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span>Students</span>
+                    <span className="font-semibold">300+</span>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-xl">
+                <h4 className="font-semibold text-gray-900 mb-3 flex items-center">
+                  <MapPin className="w-5 h-5 mr-2 text-blue-600" />
+                  Location
+                </h4>
+                <p className="text-gray-600 text-sm">
+                  Department of Metallurgical and Materials Engineering<br />
+                  IIT Kharagpur, West Bengal 721302<br />
+                  India
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Research Areas Section */}
+      <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Research Areas & Labs</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Our department conducts cutting-edge research across various domains of materials science and engineering
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            {researchAreas.map((area, index) => (
+              <div key={index} className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-700 rounded-xl flex items-center justify-center mb-6">
+                  <area.icon className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">{area.title}</h3>
+                <p className="text-gray-600 leading-relaxed">{area.description}</p>
+              </div>
+            ))}
+          </div>
+          <div className="bg-white rounded-2xl shadow-xl p-8">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">Major Research Facilities</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {[
+                'Electron Microscopy Center',
+                'X-ray Diffraction Laboratory',
+                'Mechanical Testing Laboratory',
+                'Thermal Analysis Laboratory',
+                'Corrosion & Electrochemistry Lab',
+                'Materials Characterization Lab',
+                'High Temperature Processing Lab',
+                'Nanomaterials Research Lab',
+                'Computational Materials Lab'
+              ].map((lab, index) => (
+                <div key={index} className="flex items-center space-x-3 p-3 bg-blue-50 rounded-lg">
+                  <div className="w-2 h-2 bg-blue-600 rounded-full" />
+                  <span className="text-gray-700 font-medium">{lab}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* COMPOSIT Festival Highlights Section */}
+      <section className="py-20 bg-gradient-to-br from-purple-50 to-blue-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">COMPOSIT Festival Highlights</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Experience the scale and impact of India's premier metallurgical engineering festival
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+            {festStats.map((stat, index) => (
+              <div key={index} className="bg-white rounded-2xl shadow-lg p-8 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-blue-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <stat.icon className="w-8 h-8 text-white" />
+                </div>
+                <div className="text-3xl font-bold text-gray-900 mb-2">{stat.number}</div>
+                <div className="text-gray-600 font-medium">{stat.label}</div>
+              </div>
+            ))}
+          </div>
+          <div className="bg-white rounded-2xl shadow-xl p-8">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">Festival Highlights</h3>
+            <ul className="space-y-3">
+              {festHighlights.map((highlight, index) => (
+                <li key={index} className="flex items-center">
+                  <div className="w-2 h-2 bg-purple-300 rounded-full mr-3" />
+                  <span className="text-gray-700">{highlight}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Latest Blogs Preview Section */}
+      <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Latest Blogs</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Explore the latest insights, achievements, and knowledge sharing from the SME community
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {latestBlogs.map((blog) => (
+              <article key={blog.id} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div className="h-48 bg-gradient-to-br from-gray-200 to-gray-300 relative overflow-hidden">
+                  <img 
+                    src={blog.image}
+                    alt={blog.title}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute top-4 left-4 px-3 py-1 bg-gradient-to-r from-blue-500 to-blue-700 text-white text-xs font-semibold rounded-full">
+                    {blog.category}
+                  </div>
+                </div>
+                <div className="p-6">
+                  <div className="flex items-center text-sm text-gray-500 mb-3">
+                    <Calendar className="w-4 h-4 mr-1" />
+                    <span className="mr-4">{blog.date}</span>
+                    <User className="w-4 h-4 mr-1" />
+                    <span>{blog.author}</span>
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2 hover:text-blue-600 transition-colors">
+                    {blog.title}
+                  </h3>
+                  <p className="text-gray-600 leading-relaxed mb-4 line-clamp-3">
+                    {blog.summary}
+                  </p>
+                  <Link
+                    to={`/blog/${blog.id}`}
+                    className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium group"
+                  >
+                    Read More
+                    <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </Link>
+                </div>
+              </article>
+            ))}
+          </div>
+          <div className="text-center mt-12">
+            <Link
+              to="/blogs"
+              className="inline-block bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105"
+            >
+              View All Blogs
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Upcoming Events Section */}
       <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -186,7 +432,6 @@ export default function Home() {
                 ))}
               </div>
             </div>
-            
             {/* Slider Indicators */}
             <div className="flex justify-center mt-6 space-x-2">
               {events.map((_, index) => (
@@ -213,7 +458,6 @@ export default function Home() {
               Get access to comprehensive study materials, previous year questions, 
               and academic resources curated by our community
             </p>
-            
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
                 <Users className="w-8 h-8 text-blue-300 mb-3" />
@@ -231,7 +475,6 @@ export default function Home() {
                 <p className="text-sm text-blue-200">Peer-to-peer learning resources</p>
               </div>
             </div>
-            
             <Link
               to="/meta-material"
               className="inline-flex items-center bg-white text-blue-900 hover:bg-blue-50 px-8 py-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 group"

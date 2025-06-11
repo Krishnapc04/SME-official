@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import { Settings, Mail, MapPin, Linkedin, Instagram, Twitter, ExternalLink } from 'lucide-react';
-import assets from '../../assets/assets.js';
+import { Mail, MapPin, Linkedin, Instagram, Twitter, ExternalLink } from 'lucide-react';
+import assets from '../../assets/assets.ts';
 
 
 export default function Footer() {

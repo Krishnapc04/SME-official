@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ChevronDown, Download, FileText, Search, Book, Filter, ExternalLink } from 'lucide-react';
+import { ChevronDown, FileText, Search, Book, Filter, ExternalLink } from 'lucide-react';
 import { subjects } from '../data/subjects';
 
 export default function MetaMaterial() {
