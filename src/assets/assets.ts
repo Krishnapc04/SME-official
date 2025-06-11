@@ -9,6 +9,7 @@ import img5 from "./img5.jpg";
 import dpt from "./dpt.png";
 import SME_White from "./SME_White.png";
 import CMP_Logo from "./CMP_Logo.png";
+import Kamal from "./Kamal.png";
 export default {
   COMPOSIT,
   SME,
@@ -21,4 +22,5 @@ export default {
   dpt,
   SME_White,
   CMP_Logo,
+  Kamal,
 };

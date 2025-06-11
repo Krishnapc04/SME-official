@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, ExternalLink, Mail, MapPin, Microscope, Atom, Zap, Phone, Search } from 'lucide-react';
 import { professors } from '../data/professors';
-import assets from "../assets/assets.js"
+import assets from "../assets/assets.ts"
 export default function AboutDepartment() {
   const [currentPage, setCurrentPage] = useState(1);
   const [searchQuery, setSearchQuery] = useState('');

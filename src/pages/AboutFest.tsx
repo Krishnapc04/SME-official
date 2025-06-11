@@ -1,5 +1,5 @@
-import { ExternalLink, Calendar, Users, Trophy, MapPin, Star, ArrowRight } from 'lucide-react';
-import assets from '../assets/assets.js'; 
+import { ExternalLink, Calendar, Users, Trophy, MapPin, ArrowRight } from 'lucide-react';
+import assets from '../assets/assets.ts'; 
 
 export default function AboutFest() {
   const statistics = [
