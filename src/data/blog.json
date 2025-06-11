@@ -64,66 +64,66 @@
         "title": "Empowering Decision Intelligence: My AI Engineering Internship at Fidelity Investments",
         "category": "CDC Blogs",
         "date": "Jun 11, 2025",
-        "author": "CDC Team",
+        "author": "Kanika",
         "summary": "AI Engineering Intern at Fidelity, developing ML-driven decision tools, analyzing behavioral data, and integrating AI into user-facing platforms.",
-        "image": "https://res.cloudinary.com/djpy1yni7/image/upload/v1749632671/Kamal_imv4x8.png",
-        "content": "I am currently interning at Fidelity Investments as an AI Engineering Intern. My role involves designing and developing intelligent systems that support decision-making using machine learning and data-driven approaches. This includes building interactive applications, working with behavioral data, and creating tools to evaluate and enhance user performance. I also contribute to backend logic, data processing, and integrating AI models into user-facing platforms.",
+        "image": "https://res.cloudinary.com/djpy1yni7/image/upload/v1749663437/KANIKA_GULERIA_gzqvul.png",
+        "content": "",
         "questions": [
           {
-            "question": "How was your CDC experience?",
-            "answer": "It was quite exhausting but also a valuable experience. I found out I was shortlisted for the role around 9–10 PM the night before, and we had to report by 8:30 AM the next morning. Around 54 candidates were shortlisted initially. My first interview round took place around 12:30 PM, followed by lunch. Post that, we learned that 11 candidates were shortlisted for the second round, which began at 3:30 PM, mine happened around 6 PM. Everyone who made it to the second round also had to appear for the HR round, which happened around 7:30 PM for me. Final results were announced by 8–8:30 PM, with 4 candidates selected. The whole process stretched over 12 hours and tested both patience and stamina, but it was rewarding in the end."
+            "question": "Hello! My name is Omkar Prajapati Today we have with us an AI Engineering Intern at Fidelity Investments, who will share her journey through the CDC process, the internship experience, and tips for aspirants. Welcome! Can you briefly introduce your current role?",
+            "answer": "Hello! I’m currently interning at Fidelity Investments as an AI Engineering Intern. My work involves designing intelligent systems that support decision-making through machine learning and data-driven techniques. I work on building interactive applications, analyzing behavioral data, and developing tools to evaluate and improve user performance. Besides that, I also contribute to backend development, data processing pipelines, and integrate AI models into end-user platforms."
           },
           {
-            "question": "Do you remember any questions from your interviews?",
-            "answer": "Yes, they asked a mix of questions covering Python basics, details from my CV, and quite a few ML/DL-related concepts, nothing too difficult but definitely thorough. Since I had included some finance-related experience on my CV, they asked me to use my data science knowledge to build a basic financial model to predict stock movement given some historical data. Additionally, there was a SQL question that I had to solve on the blackboard, which tested my ability to write and explain queries under pressure."
+            "question": "Could you walk us through your CDC experience and how the interviews went?",
+            "answer": "The CDC process was quite intense and exhausting, but ultimately rewarding. I found out I was shortlisted the night before, around 9–10 PM, and had to report by 8:30 AM the next morning. About 54 candidates were initially shortlisted. My first round was around 12:30 PM, after which we had a lunch break. Around 3:30 PM, we were told that 11 candidates had cleared the first round. My second round was at 6 PM, and all second-round candidates also appeared for the HR round around 7:30 PM. Results were out by 8:30 PM, and 4 candidates were selected. The entire process spanned over 12 hours, testing both patience and stamina."
           },
           {
-            "question": "Did you face any problems as a MME student?",
-            "answer": "Generally, students from non-CS departments like Metallurgy do face challenges, especially with CV shortlisting due to CG cutoffs or department bias. Personally, I was fortunate to have a few focused spikes on my CV which aligned well with the roles I was targeting, so I didn’t face many issues with shortlisting. But I’m very aware that this isn't the case for many, and the department tag can often be a limiting factor despite one’s skills."
+            "question": "That sounds intense! Do you remember what kind of questions they asked?",
+            "answer": "Definitely. The questions covered Python basics, key concepts from my CV, and several ML/DL concepts. Since I had a finance-related project on my resume, they asked me to build a basic financial model to predict stock movements using historical data. There was also a SQL question that I had to solve on a blackboard — it tested not just correctness, but clarity of explanation under pressure."
           },
           {
-            "question": "How much do PORs and Internships matter?",
-            "answer": "Positions of Responsibility (PORs) matter primarily if you're targeting roles like consulting, where leadership and team experience are valued. For most other roles, especially in tech or core fields, what really matters is how well you’ve prepared for what you’ve listed on your CV. Recruiters focus more on the depth and relevance of your experiences whether that’s an internship, project, or POR rather than just the title itself."
+            "question": "Did you face any difficulty being from the Metallurgical and Materials Engineering department?",
+            "answer": "Department bias and CG-based shortlisting are real issues for non-CS branches like ours. I was fortunate to have strong, focused projects aligned with data roles, so shortlisting wasn’t a major issue for me. But I know it can be a roadblock for many, despite their skill levels."
           },
           {
-            "question": "When did you start preparing for CDC? What was your preparation process like?",
-            "answer": "I started preparing a few months before CDC, with a major focus on programming and problem-solving. I was part of the JPMorgan Chase Quantitative Finance Mentorship, where I got exposure to concepts like object-oriented programming, core math and probability, and finance-related topics. Alongside that, I dedicated most of my time to DSA and improving my coding skills. Once I got into the flow, I maintained consistent practice and made sure I was confident about everything I had put on my CV."
+            "question": "How much do positions of responsibility (PORs) and internships matter?",
+            "answer": "PORs matter more for roles like consulting, where leadership and communication skills are key. But for tech and core profiles, what truly matters is the depth and impact of your experience, whether through internships, projects, or even well-done PORs. It’s not about the title — it’s about what you’ve done."
           },
           {
-            "question": "How did you prepare for the interviews?",
-            "answer": " I started by making detailed notes on every single line of my CV, not just what I did, but why I did it, what impact it had, and what I learned. This helped me stay confident and consistent across different rounds. I also reached out to seniors and asked them to take mock interviews, which gave me a clearer understanding of what to expect and helped me improve my articulation. Additionally, I prepared a strong, well-structured introduction about myself, something that was descriptive yet concise so I could set the right tone at the start of each interview. This helped me feel more in control and made transitions into technical or project-related discussions much smoother."
+            "question": "When did you start preparing for CDC and how did you go about it?",
+            "answer": " I began a few months prior, focusing mainly on DSA and programming. I also participated in the JPMorgan Quantitative Finance Mentorship program, which gave me exposure to core math, finance, and probability. Alongside that, I made sure to polish every skill and concept reflected on my CV."
           },
           {
-            "question": "Domain knowledge requirements.",
-            "answer": "It really depends on the role you're applying for. For technical and data-driven roles, a strong understanding of the fundamentals like Python, SQL, Machine Learning, or Statistics is important. If your CV or the role touches specific domains like finance or core engineering, then having relevant domain knowledge definitely helps. In my case, since I had exposure through the JPMorgan Quantitative Finance Mentorship, I was expected to know basics of finance, probability, and modeling. That said, interviewers usually focus more on how well you understand and can apply what you’ve written on your CV, rather than expecting deep expertise in every domain."
+            "question": "And what about interview preparation?",
+            "answer": "I made notes for every single line on my CV — what I did, why I did it, and what impact it had. I also practiced mock interviews with seniors, which helped a lot with articulation and confidence. Having a well-structured self-introduction ready helped me set the right tone from the beginning and transition smoothly into technical discussions."
           }
           ,{
-            "question": "How much DSA is required?",
-            "answer": "DSA is very important, especially because it forms the basis of most online assessments that companies use to shortlist candidates for interviews. The difficulty level varies from company to company, some may ask basic to medium-level questions, while others might go for advanced problems. Regardless, having a good grasp of core topics like arrays, strings, trees, graphs, and dynamic programming can really make a difference in clearing the initial rounds."
+            "question": "How much domain knowledge is necessary?",
+            "answer": "It depends on the role. For data and technical roles, strong fundamentals in Python, SQL, ML, and Statistics are expected. If your resume includes domain-specific elements like finance, you should know the basics. But overall, what matters most is how well you understand and can explain your experiences."
           },
           {
-            "question": "How much of CS fundamentals are required?",
-            "answer": "For students from non-CS branches, CS fundamentals are usually not the main focus during interviews. However, certain topics like Object-Oriented Programming (OOPs) are commonly asked and should be prepared well. Having a basic understanding of DBMS, Operating Systems, or Networks can help, but it’s not typically expected unless the role specifically demands it. Overall, interviewers mainly test how well you understand and can apply what’s relevant to your CV and the role."
+            "question": "What about DSA and CS fundamentals?",
+            "answer": "DSA is critical — most shortlisting tests rely on it. You should be confident in core topics like arrays, trees, graphs, and DP. As for CS fundamentals, OOPs is commonly asked, while DBMS, OS, and Networks help but aren't always necessary unless explicitly relevant."
           },
           {
-            "question": "Could you share some resources for preparation? How should one start their preparation? How to utilize the summer break?",
-            "answer": "For DSA, I primarily used platforms like LeetCode, InterviewBit, and GFG. For SQL, StrataScratch and Hackerrank are great. I also followed free YouTube playlists (like those by Apna College or Love Babbar) for revision. For ML and domain-specific prep, I referred to Andrew Ng’s ML course, StatQuest for concepts, and worked on small projects using Kaggle datasets."
+            "question": "Could you share some preparation resources and how to use the summer effectively?",
+            "answer": " For DSA, I used LeetCode, InterviewBit, and GeeksforGeeks. For SQL, StrataScratch and HackerRank are great. For ML and stats, I relied on Andrew Ng’s course, StatQuest, and projects using Kaggle datasets. The summer break is the perfect time to explore. Build projects, review past work, and strengthen weak areas. Avoid trying to learn everything — double down on your strengths and make them interview-ready."
           },
           {
-            "question": "What is a good CV in your opinion?",
-            "answer": "A good CV tells a clear story. It doesn’t have to be filled with ten things — even a few well-explained, high-impact projects or experiences are enough."
+            "question": "What does a good CV look like in your opinion?",
+            "answer": " A good CV tells a coherent story. It doesn’t have to be long — even a few well-executed and deeply understood projects can make it strong. Clarity, impact, and authenticity matter far more than volume."
           },
           {
-            "question": "How should one approach people for internships?",
-            "answer": "Keep your message short, polite, and specific. Even if you don't get replies, keep trying."
+            "question": "Any suggestions on reaching out for off-campus internships?",
+            "answer": "Be brief, polite, and specific when messaging. Don’t be discouraged by a lack of replies — persistence matters more than immediate success."
           },
           {
-            "question": "What was your backup profile?",
-            "answer": "Since my primary interest was in AI and Data, my backup was applying to data analyst or product analyst roles, where coding wasn't heavily tested but problem-solving and domain understanding mattered. I had also worked on a few small-scale finance-related projects and was comfortable switching towards quant analyst roles if needed."
+            "question": "What was your backup plan?",
+            "answer": "My primary interest was AI and Data, so my backups were Data Analyst or Product Analyst roles, which require more problem-solving than heavy coding. I was also comfortable pivoting to Quant roles due to my finance-related work."
           },
           {
-            "question": "With only a month in hand, what should one focus on? Should one have any target companies? Any extra tips you would like to share?",
-            "answer": "Focusing on DSA and reviewing whatever you have done till now in depth should be ideal. I would recommend learning anything new right now, just keep getting better at what you already know."
+            "question": "With just a month left before placements, how should students approach their prep?",
+            "answer": " Focus on strengthening what you already know — don’t try to learn completely new topics now. Have a few target companies in mind, study their past patterns, and tailor your prep accordingly. Some are DSA-heavy, others emphasize SQL or ML. That focused preparation helps you stay motivated."
           }
 
         ],
