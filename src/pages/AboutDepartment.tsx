@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, ExternalLink, Mail, MapPin, Microscope, Atom, Zap, Phone, Search } from 'lucide-react';
 import { professors } from '../data/professors';
 import assets from "../assets/assets.ts"
+import ScrollFloat from '../components/ScrollFloat';
 export default function AboutDepartment() {
   const [currentPage, setCurrentPage] = useState(1);
   const [searchQuery, setSearchQuery] = useState('');
@@ -69,7 +70,17 @@ export default function AboutDepartment() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="text-4xl font-bold text-gray-900 mb-6">Department Overview</h2>
+              <ScrollFloat
+                  animationDuration={1000}
+                  ease='back.inOut(2)'
+                  scrollStart='center bottom+=50%'
+                  scrollEnd='bottom bottom-=40%'
+                  stagger={0.03}
+                  textClassName={`font-bold`}
+                >
+                  Department Overview
+                </ScrollFloat>
+                
                 <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-blue-800 rounded-full mb-8" />
               </div>
               
@@ -142,7 +153,16 @@ export default function AboutDepartment() {
       <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Research Areas & Labs</h2>
+            <ScrollFloat
+                  animationDuration={1000}
+                  ease='back.inOut(2)'
+                  scrollStart='center bottom+=50%'
+                  scrollEnd='bottom bottom-=40%'
+                  stagger={0.03}
+                  textClassName={`font-bold`}
+                >
+                  Research Areas & Labs
+                </ScrollFloat>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Our department conducts cutting-edge research across various domains of materials science and engineering
             </p>
@@ -188,7 +208,16 @@ export default function AboutDepartment() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Faculty Members</h2>
+          <ScrollFloat
+                  animationDuration={1000}
+                  ease='back.inOut(2)'
+                  scrollStart='center bottom+=50%'
+                  scrollEnd='bottom bottom-=40%'
+                  stagger={0.03}
+                  textClassName={`font-bold`}
+                >
+                  Faculty Members
+                </ScrollFloat>
             <p className="text-gray-600 max-w-2xl mx-auto mb-8">
               Meet our distinguished faculty members who are leading experts in their respective fields
             </p>

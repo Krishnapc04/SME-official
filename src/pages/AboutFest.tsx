@@ -1,6 +1,8 @@
 import { ExternalLink, Calendar, Users, Trophy, MapPin, ArrowRight } from 'lucide-react';
 import assets from '../assets/assets.ts'; 
-
+import TextPressure from '../components/TextPressure';
+import CountUp from '../components/CountUp';
+import ScrollFloat from '../components/ScrollFloat';
 export default function AboutFest() {
   const statistics = [
     { number: '15000+', label: 'Total Footfall', icon: Users },
@@ -36,11 +38,24 @@ export default function AboutFest() {
             <div className="inline-flex items-center justify-center w-32 h-32 bg-gradient-to-br from-purple-500 to-blue-600 rounded-full mb-6 animate-pulse p-3">
               <img src={assets.CMP_Logo} alt="COMPOSIT LOGO" />
             </div>
-            <h1 className="text-6xl md:text-8xl font-bold mb-2 bg-gradient-to-r from-white via-purple-200 to-blue-200 bg-clip-text text-transparent">
-              COMPOSIT
-            </h1>
-            <h4 className='md:text-xl font-light text-purple-200 mb-6'>Congress of Metallurgical Professionals involving Students, Industry, and Teachers</h4>
-            <p className="text-2xl md:text-3xl font-semibold text-purple-200 mb-4">
+             <div style={{position: 'relative', height: '300px'}}>
+                <TextPressure
+                  text="COMPOSIT"
+                  flex={true}
+                  alpha={false}
+                  stroke={false}
+                  width={true}
+                  weight={true}
+                  italic={true}
+                  textColor="#ffffff"
+                  strokeColor="#ff0000"
+                  minFontSize={36}
+                  
+                
+                />
+              </div>
+            <h4 className='md:text-xl font-light text-purple-200 mt-[-10] mb-2'>Congress of Metallurgical Professionals involving Students, Industry, and Teachers</h4>
+            <p className="text-2xl md:text-3xl font-semibold text-purple-200 mb-6">
               Annual Technical & Departmental Festival
             </p>
             <p className="text-lg text-blue-100 max-w-3xl mx-auto leading-relaxed">
@@ -69,7 +84,16 @@ export default function AboutFest() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div>
-                <h2 className="text-4xl font-bold text-gray-900 mb-4">About COMPOSIT</h2>
+              <ScrollFloat
+                  animationDuration={1000}
+                  ease='back.inOut(2)'
+                  scrollStart='center bottom+=50%'
+                  scrollEnd='bottom bottom-=40%'
+                  stagger={0.03}
+                  textClassName={`font-bold`}
+                >
+                  About COMPOSIT
+                </ScrollFloat>
                 <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full mb-6" />
               </div>
               
@@ -114,8 +138,18 @@ export default function AboutFest() {
       <section className="py-20 bg-gradient-to-br from-gray-50 to-purple-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">COMPOSIT by Numbers</h2>
+          <ScrollFloat
+                  animationDuration={1000}
+                  ease='back.inOut(2)'
+                  scrollStart='center bottom+=50%'
+                  scrollEnd='bottom bottom-=40%'
+                  stagger={0.03}
+                  textClassName={`font-bold`}
+                >
+                  COMPOSIT by Numbers
+            </ScrollFloat>
             <p className="text-gray-600 max-w-2xl mx-auto">
+
               Experience the scale and impact of India's premier metallurgical engineering festival
             </p>
           </div>
@@ -126,7 +160,14 @@ export default function AboutFest() {
                 <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-blue-600 rounded-xl flex items-center justify-center mx-auto mb-4">
                   <stat.icon className="w-8 h-8 text-white" />
                 </div>
-                <div className="text-3xl font-bold text-gray-900 mb-2">{stat.number}</div>
+                <CountUp
+                  from={0}
+                  to={stat.number}
+                  separator=","
+                  direction="up"
+                  duration={1}
+                  className="count-up-text text-3xl font-bold text-gray-900 mb-2"
+                />
                 <div className="text-gray-600 font-medium">{stat.label}</div>
               </div>
             ))}
@@ -138,7 +179,16 @@ export default function AboutFest() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Festival Activities</h2>
+          <ScrollFloat
+                  animationDuration={1000}
+                  ease='back.inOut(2)'
+                  scrollStart='center bottom+=50%'
+                  scrollEnd='bottom bottom-=40%'
+                  stagger={0.03}
+                  textClassName={`font-bold`}
+                >
+                  Festival Activities
+            </ScrollFloat>
             <p className="text-gray-600 max-w-2xl mx-auto">
               From technical competitions to Research compititions, COMPOSIT offers something for everyone
             </p>
@@ -213,7 +263,16 @@ export default function AboutFest() {
       <section id="gallery" className="py-20 bg-gradient-to-br from-purple-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Gallery</h2>
+          <ScrollFloat
+                  animationDuration={1000}
+                  ease='back.inOut(2)'
+                  scrollStart='center bottom+=50%'
+                  scrollEnd='bottom bottom-=40%'
+                  stagger={0.03}
+                  textClassName={`font-bold`}
+                >
+                  Gallery
+            </ScrollFloat>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Glimpses from previous editions of COMPOSIT
             </p>

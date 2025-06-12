@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import { ChevronRight, Calendar, Users, User, BookOpen, Award, ArrowRight, Sparkles, Microscope, Atom, Zap, Trophy, MapPin } from 'lucide-react';
 import assets from '../assets/assets.ts';
 import { blogs } from '../data/blogs';
-
+import BlurText from '../components/BlurText';
+import ScrollFloat from '../components/ScrollFloat';
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -28,25 +29,6 @@ export default function Home() {
       date: 'April 20, 2024',
       image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400',
       type: 'Workshop'
-    }
-  ];
-
-  // Department research areas (from AboutDepartment)
-  const researchAreas = [
-    {
-      icon: Microscope,
-      title: 'Physical Metallurgy',
-      description: 'Phase transformations, microstructure characterization, and mechanical behavior of materials'
-    },
-    {
-      icon: Atom,
-      title: 'Materials Science',
-      description: 'Nanomaterials, biomaterials, and advanced characterization techniques' 
-    },
-    {
-      icon: Zap,
-      title: 'Process Metallurgy',
-      description: 'Extractive metallurgy, recycling, and sustainable material processing'
     }
   ];
 
@@ -96,10 +78,14 @@ export default function Home() {
             <Sparkles className="w-12 h-12" />
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
-            SME IIT Kharagpur
-          </h1>
-          
+          <BlurText
+            text="SME IIT Kharagpur"
+            delay={200}
+            animateBy="words"
+            direction="top"
+            className="ml-6  text-blue-100 text-5xl md:text-7xl font-bold mb-6 "
+          />
+
           <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-2xl mx-auto leading-relaxed">
             Society of Metallurgical Engineers - Forging the Future of Materials Science
           </p>
@@ -135,7 +121,16 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div>
-                <h2 className="text-4xl font-bold text-gray-900 mb-4">About SME</h2>
+                <ScrollFloat
+                  animationDuration={10}
+                  ease='back.inOut(2)'
+                  scrollStart='center bottom+=50%'
+                  scrollEnd='bottom bottom-=40%'
+                  stagger={0.03}
+                  textClassName={`font-bold`}
+                >
+                  About SME
+                </ScrollFloat>
                 <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-blue-800 rounded-full" />
               </div>
               
@@ -189,7 +184,16 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="text-4xl font-bold text-gray-900 mb-6">Department Overview</h2>
+              <ScrollFloat
+                  animationDuration={1000}
+                  ease='back.inOut(2)'
+                  scrollStart='center bottom+=50%'
+                  scrollEnd='bottom bottom-=40%'
+                  stagger={0.03}
+                  textClassName={`font-bold`}
+                >
+                  Department Overview
+                </ScrollFloat>
                 <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-blue-800 rounded-full mb-8" />
               </div>
               <div className="prose prose-lg text-gray-600 leading-relaxed space-y-6">
@@ -252,56 +256,20 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Research Areas Section */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Research Areas & Labs</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Our department conducts cutting-edge research across various domains of materials science and engineering
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-            {researchAreas.map((area, index) => (
-              <div key={index} className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-700 rounded-xl flex items-center justify-center mb-6">
-                  <area.icon className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4">{area.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{area.description}</p>
-              </div>
-            ))}
-          </div>
-          <div className="bg-white rounded-2xl shadow-xl p-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Major Research Facilities</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {[
-                'Electron Microscopy Center',
-                'X-ray Diffraction Laboratory',
-                'Mechanical Testing Laboratory',
-                'Thermal Analysis Laboratory',
-                'Corrosion & Electrochemistry Lab',
-                'Materials Characterization Lab',
-                'High Temperature Processing Lab',
-                'Nanomaterials Research Lab',
-                'Computational Materials Lab'
-              ].map((lab, index) => (
-                <div key={index} className="flex items-center space-x-3 p-3 bg-blue-50 rounded-lg">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full" />
-                  <span className="text-gray-700 font-medium">{lab}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* COMPOSIT Festival Highlights Section */}
       <section className="py-20 bg-gradient-to-br from-purple-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">COMPOSIT Festival Highlights</h2>
+            <ScrollFloat
+                  animationDuration={1000}
+                  ease='back.inOut(2)'
+                  scrollStart='center bottom+=50%'
+                  scrollEnd='bottom bottom-=40%'
+                  stagger={0.03}
+                  textClassName={`font-bold`}
+                >
+                  COMPOSIT Festival Highlights
+                </ScrollFloat>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Experience the scale and impact of India's premier metallurgical engineering festival
             </p>
@@ -318,7 +286,16 @@ export default function Home() {
             ))}
           </div>
           <div className="bg-white rounded-2xl shadow-xl p-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Festival Highlights</h3>
+            <ScrollFloat
+                  animationDuration={1000}
+                  ease='back.inOut(2)'
+                  scrollStart='center bottom+=50%'
+                  scrollEnd='bottom bottom-=40%'
+                  stagger={0.03}
+                  textClassName={`font-bold`}
+                >
+                  Festival Highlights
+                </ScrollFloat>
             <ul className="space-y-3">
               {festHighlights.map((highlight, index) => (
                 <li key={index} className="flex items-center">
@@ -330,12 +307,20 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Latest Blogs Preview Section */}
       <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Latest Blogs</h2>
+            <ScrollFloat
+                  animationDuration={1000}
+                  ease='back.inOut(2)'
+                  scrollStart='center bottom+=50%'
+                  scrollEnd='bottom bottom-=40%'
+                  stagger={0.03}
+                  textClassName={`font-bold`}
+                >
+                  Latest Blogs
+                </ScrollFloat>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Explore the latest insights, achievements, and knowledge sharing from the SME community
             </p>
@@ -392,7 +377,16 @@ export default function Home() {
       <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Upcoming Events</h2>
+            <ScrollFloat
+                  animationDuration={1000}
+                  ease='back.inOut(2)'
+                  scrollStart='center bottom+=50%'
+                  scrollEnd='bottom bottom-=40%'
+                  stagger={0.03}
+                  textClassName={`font-bold`}
+                >
+                  Upcoming Events
+                </ScrollFloat>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Stay connected with our latest events, workshops, and academic activities
             </p>
@@ -453,7 +447,16 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-3xl mx-auto">
             <BookOpen className="w-16 h-16 mx-auto mb-6 text-blue-300" />
-            <h2 className="text-4xl font-bold mb-6">Access Meta Materials</h2>
+            <ScrollFloat
+                  animationDuration={1000}
+                  ease='back.inOut(2)'
+                  scrollStart='center bottom+=50%'
+                  scrollEnd='bottom bottom-=40%'
+                  stagger={0.03}
+                  textClassName={`font-bold`}
+                >
+                  Access Meta Materials
+                </ScrollFloat>
             <p className="text-xl text-blue-100 mb-8 leading-relaxed">
               Get access to comprehensive study materials, previous year questions, 
               and academic resources curated by our community

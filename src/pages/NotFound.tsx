@@ -10,6 +10,8 @@ export default function NotFound() {
           <div className="text-8xl font-bold text-transparent bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text mb-4 animate-pulse">
             404
           </div>
+        
+          
           <div className="flex justify-center mb-6">
             <div className="relative">
               <div className="w-32 h-32 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center animate-spin-slow">
