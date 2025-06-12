@@ -46,16 +46,22 @@ Welcome to the official repository of the **Society of Metallurgical Engineers (
 
 ---
 
+## 🌐 Live Demo
+
+[🔗 Visit Live Website](https://sme-official.vercel.app/)
+
+
+---
 
 
 ## 🚀 Getting Started
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/sme-website.git
+git clone https://github.com/Krishnapc04/SME-official.git
 
 # Navigate to the project folder
-cd sme-website
+cd SME-official
 
 # Install dependencies (if using a framework)
 npm install
