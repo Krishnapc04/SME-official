@@ -1,9 +1,95 @@
-import { ExternalLink, Calendar, Users, Trophy, MapPin, ArrowRight } from 'lucide-react';
+import { ExternalLink, Calendar, Users, Trophy, MapPin, ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import assets from '../assets/assets.ts'; 
 import TextPressure from '../components/TextPressure';
 import CountUp from '../components/CountUp';
 import ScrollFloat from '../components/ScrollFloat';
+import { useState } from 'react';
+
 export default function AboutFest() {
+  const [currentPage, setCurrentPage] = useState(1);
+  const imagesPerPage = 6;
+  
+  const galleryImages = [
+    { 
+      src: "https://res.cloudinary.com/djpy1yni7/image/upload/v1750058220/composit_grp_pic_gekt9z.jpg",
+      alt: "COMPOSIT 2025"
+    },
+    { 
+      src: "https://res.cloudinary.com/djpy1yni7/image/upload/v1750058220/img3_wvg0qd.jpg",
+      alt: "COMPOSIT 2025"
+    },
+    { 
+      src: "https://res.cloudinary.com/djpy1yni7/image/upload/v1750058220/img1_exipmj.jpg",
+      alt: "COMPOSIT 2025 "
+    },
+    { 
+      src: "https://res.cloudinary.com/djpy1yni7/image/upload/v1750058221/img5_yrsuq7.jpg",
+      alt: "COMPOSIT 2025"
+    },
+    { 
+      src: "https://res.cloudinary.com/djpy1yni7/image/upload/v1750058220/img4_u4jvoc.jpg",
+      alt: "COMPOSIT 2025 "
+    },
+    { 
+      src: "https://res.cloudinary.com/djpy1yni7/image/upload/v1750058220/img2_xomh5x.jpg",
+      alt: "COMPOSIT 2025 "
+    },
+    { 
+      src: "https://res.cloudinary.com/djpy1yni7/image/upload/v1750058169/IMG-20250505-WA0036_t21hqw.jpg",
+      alt: "COMPOSIT 2025 "
+    },
+    { 
+      src: "https://res.cloudinary.com/djpy1yni7/image/upload/v1750058168/IMG-20250323-WA0246_wuf4my.jpg",
+      alt: "COMPOSIT 2025"
+    },
+    { 
+      src: "https://res.cloudinary.com/djpy1yni7/image/upload/v1750058169/IMG-20250505-WA0053_v5imld.jpg",
+      alt: "COMPOSIT 2025"
+    },
+    { 
+      src: "https://res.cloudinary.com/djpy1yni7/image/upload/v1750058169/IMG-20250322-WA0090_ebtqdm.jpg",
+      alt: "COMPOSIT 2025"
+    },
+    { 
+      src: "https://res.cloudinary.com/djpy1yni7/image/upload/v1750058169/IMG-20250322-WA0001_qhnbna.jpg",
+      alt: "COMPOSIT 2025"
+    },
+    { 
+      src: "https://res.cloudinary.com/djpy1yni7/image/upload/v1750058168/IMG-20250505-WA0095_dwrijw.jpg",
+      alt: "COMPOSIT 2025"
+    },
+    { 
+      src: "https://res.cloudinary.com/djpy1yni7/image/upload/v1750058168/IMG-20250505-WA0049_vwwasz.jpg",
+      alt: "COMPOSIT 2025"
+    },
+    { 
+      src: "https://res.cloudinary.com/djpy1yni7/image/upload/v1750058167/IMG-20250505-WA0073_hc27vy.jpg",
+      alt: "COMPOSIT 2025"
+    },
+    { 
+      src: "https://res.cloudinary.com/djpy1yni7/image/upload/v1750058167/IMG-20250505-WA0078_lqws6g.jpg",
+      alt: "COMPOSIT 2025 "
+    },
+    { 
+      src: "https://res.cloudinary.com/djpy1yni7/image/upload/v1750058167/IMG-20250505-WA0097_jj50ys.jpg",
+      alt: "COMPOSIT 2025 "
+    },
+    { 
+      src: "https://res.cloudinary.com/djpy1yni7/image/upload/v1750058167/IMG-20250505-WA0055_dnzmp0.jpg",
+      alt: "COMPOSIT 2025 "
+    },
+    { 
+      src: "https://res.cloudinary.com/djpy1yni7/image/upload/v1750058167/IMG-20250505-WA0085_bopltz.jpg",
+      alt: "COMPOSIT 2025"
+    }
+
+  ];
+
+  const totalPages = Math.ceil(galleryImages.length / imagesPerPage);
+  const startIndex = (currentPage - 1) * imagesPerPage;
+  const endIndex = startIndex + imagesPerPage;
+  const currentImages = galleryImages.slice(startIndex, endIndex);
+
   const statistics = [
     { number: '15000+', label: 'Total Footfall', icon: Users },
     { number: '150+', label: 'Participating Colleges', icon: MapPin },
@@ -99,7 +185,7 @@ export default function AboutFest() {
               
               <div className="space-y-6 text-gray-600 leading-relaxed">
                 <p className="text-lg">
-                <span className='font-semibold'>COMPOSIT </span>is India’s premier student-run technical fest dedicated to materials science and engineering, organized for over 30 years. It aims to spark curiosity and promote innovation in materials and metallurgy by bringing together students, researchers, educators, and industry leaders. With a strong focus on future applications—from aerospace to biomedicine—COMPOSIT celebrates the vital role of materials in shaping technology and society.
+                <span className='font-semibold'>COMPOSIT </span>is India's premier student-run technical fest dedicated to materials science and engineering, organized for over 30 years. It aims to spark curiosity and promote innovation in materials and metallurgy by bringing together students, researchers, educators, and industry leaders. With a strong focus on future applications—from aerospace to biomedicine—COMPOSIT celebrates the vital role of materials in shaping technology and society.
                 </p>
                 
                 <div className="bg-gradient-to-r from-purple-50 to-blue-50 p-6 rounded-xl border-l-4 border-purple-600">
@@ -263,15 +349,15 @@ export default function AboutFest() {
       <section id="gallery" className="py-20 bg-gradient-to-br from-purple-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-          <ScrollFloat
-                  animationDuration={1000}
-                  ease='back.inOut(2)'
-                  scrollStart='center bottom+=50%'
-                  scrollEnd='bottom bottom-=40%'
-                  stagger={0.03}
-                  textClassName={`font-bold`}
-                >
-                  Gallery
+            <ScrollFloat
+              animationDuration={1000}
+              ease='back.inOut(2)'
+              scrollStart='center bottom+=50%'
+              scrollEnd='bottom bottom-=40%'
+              stagger={0.03}
+              textClassName={`font-bold`}
+            >
+              Gallery
             </ScrollFloat>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Glimpses from previous editions of COMPOSIT
@@ -279,68 +365,59 @@ export default function AboutFest() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            
-              <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+            {currentImages.map((image, index) => (
+              <div key={index} className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
                 <img 
-                  src={assets.composit_grp_pic} 
-                  alt="Composit Gallery"
-                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <p className="text-white p-4 font-medium">COMPOSIT 2025</p>
-                </div>
-            </div>
-            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
-                <img 
-                  src={assets.img1} 
-                  alt="Composit Gallery"
-                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <p className="text-white p-4 font-medium">COMPOSIT 2025</p>
-                </div>
-            </div>
-            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
-                <img 
-                  src={assets.img2} 
-                  alt="Composit Gallery"
-                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <p className="text-white p-4 font-medium">COMPOSIT 2025</p>
-                </div>
-            </div>
-            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
-                <img 
-                  src={assets.img3} 
-                  alt="Composit Gallery"
-                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <p className="text-white p-4 font-medium">COMPOSIT 2025</p>
-                </div>
-            </div>
-            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
-                <img 
-                  src={assets.img4} 
-                  alt="Composit Gallery"
-                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <p className="text-white p-4 font-medium">COMPOSIT 2025</p>
-                </div>
-            </div>
-            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
-                <img 
-                  src={assets.img5} 
-                  alt="Composit Gallery"
+                  src={image.src} 
+                  alt={image.alt}
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                   <p className="text-white p-4 font-medium">COMPOSIT 2025</p>
                 </div>
               </div>
+            ))}
+          </div>
+
+          {/* Pagination Controls */}
+          <div className="flex justify-center items-center mt-8 gap-2">
+            <button
+              onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+              disabled={currentPage === 1}
+              className={`p-2 rounded-lg ${
+                currentPage === 1 
+                  ? 'bg-gray-200 text-gray-400 cursor-not-allowed' 
+                  : 'bg-purple-600 text-white hover:bg-purple-700'
+              } transition-colors duration-200`}
+            >
+              <ChevronLeft className="w-6 h-6" />
+            </button>
             
+            {[...Array(totalPages)].map((_, index) => (
+              <button
+                key={index}
+                onClick={() => setCurrentPage(index + 1)}
+                className={`w-10 h-10 rounded-lg ${
+                  currentPage === index + 1
+                    ? 'bg-purple-600 text-white'
+                    : 'bg-white text-gray-700 hover:bg-purple-100'
+                } transition-colors duration-200 font-medium`}
+              >
+                {index + 1}
+              </button>
+            ))}
+            
+            <button
+              onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
+              disabled={currentPage === totalPages}
+              className={`p-2 rounded-lg ${
+                currentPage === totalPages 
+                  ? 'bg-gray-200 text-gray-400 cursor-not-allowed' 
+                  : 'bg-purple-600 text-white hover:bg-purple-700'
+              } transition-colors duration-200`}
+            >
+              <ChevronRight className="w-6 h-6" />
+            </button>
           </div>
         </div>
       </section>
