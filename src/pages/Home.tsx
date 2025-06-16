@@ -67,7 +67,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-br from-blue-900/90 to-gray-900/90 z-10" />
           <img 
-            src={assets.COMPOSIT}
+            src="https://res.cloudinary.com/djpy1yni7/image/upload/v1750059892/COMPOSIT_v7gpkl.jpg"
             alt="Metallurgy background"
             className="w-full h-full object-cover"
           />
