@@ -46,7 +46,7 @@ export default function AboutDepartment() {
       <section className="relative py-20 bg-gradient-to-br from-blue-900 to-gray-900 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img 
-            src={assets.dpt}
+            src="https://res.cloudinary.com/djpy1yni7/image/upload/v1750059555/dpt_gklchx.png"
             alt="Laboratory"
             className="w-full h-full object-cover"
           />
