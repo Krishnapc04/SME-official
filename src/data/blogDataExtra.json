@@ -177,5 +177,75 @@
         "Striver’s DSA Sheet and YouTube course are reliable starting points for interview preparation.",
         "Include projects in your CV that lead the interview — tailor them to match the roles you’re targeting."
         ]
+},
+{
+  "id": "14",
+  "title": "Navigating Late Success – Soham Jagtap’s IoT Internship Journey at XPert",
+  "category": "CDC Blogs",
+  "date": "Jun 14, 2025",
+  "author": "Soham Jagtap",
+  "summary": "An MME student shares their enriching internship experience at NPCI’s Market Innovation team in Mumbai, where they worked on machine learning models for detecting UPI frauds. The journey covers CDC prep, domain focus in AI/ML, practical advice on interviews, DSA, CV building, and staying confident through the selection process.",
+  "image": "https://res.cloudinary.com/djpy1yni7/image/upload/v1749920713/10_uaifsh.png",
+  "content": "",
+  "questions": [
+    {
+      "question": "Hello, Soham, this is Jitam Barman, Head at COMPOSIT. First of all, congratulations on securing an internship at Xpert! To begin with, could you please introduce yourself and give us a brief about your current role there?",
+      "answer": "Sure! Hello Jitam, I’m Soham Jagtap, a 3rd year undergraduate student from Metallurgical and Materials Engineering, and I’m from Pune, Maharashtra. I’m currently working as an IoT and Software Developer at Xpert on a project called Voice Pulse. It’s basically a device that passively records conversations between shop owners and customers in exclusive brand outlets (EBOs). Using this, we try to understand customer psychology, like whether a customer made a purchase, and if not, what was the reason behind it. Our role involves building a hardware product using in-built mics and other components connected centrally to the POS device, which then sends audio data for analytics."
+    },
+    {
+      "question": "Nice! How was your overall CDC experience, right from online assessments to the interviews?",
+      "answer": "Yes. So as every student, I was giving the online assessment for all the companies that were available at that time. Initially, it was like I was not so successful. The reason behind that was that initially, I had not worked much on my DSA skills, and that was the reason I was not able to clear the online assessments. I started getting shortlisted only towards the end - my interview with Xpert happened on April 18th, very close to our exams. What worked in my favour was a first-year DIY project where I built an Arduino-powered fitness band that tracked push-ups and physical activities. So I had given much time there.  That project helped me get a CV shortlist for this IoT Developer role. There was a direct CV shortlisted at Xpert. In the interview, they asked questions related to IoT, like which components I’d use and how I’d handle noise reduction. I revised the basics just before the interview, and thankfully, it worked out."
+    },
+    {
+      "question": "As you said, the last 1-2 months are crucial for CDC prep. What was your preparation strategy during that period?",
+      "answer": "So the advice I’d give is - start with DSA early. Most companies coming for SDE or data profiles require it. Together, SDE and ML roles probably made up around 70% of the internships. I made the mistake of delaying my DSA prep, and I’d really suggest finishing at least the basics before the CDC begins. And in DSA, there is no particular need to go for CP; perfection is not needed. But you should at least get the basic concepts clear about DSA so that your online assessments are cleared. Apart from DSA, focus on interview prep. Good communication skills matter a lot - you should be able to explain what you know clearly and confidently. So, even if you don't know the answer of the solution, you should accept that, and you should say that I would get back as soon as I like as soon as I would work on the solution. It’s better than fumbling. If a person is 10 on 10 in his technical skills, but, say, 4 on 10 in his communication skills, then the interviewer perceives you as a 4 on 10 in technical skills too. Because interview is the first impression of you. Many students have good technical skills, but still can’t crack interviews because of their bad communication skills. In my case, my communication skills played a big role in cracking my first interview itself."
+    },
+    {
+      "question": " How did you specifically prepare for your interviews?",
+      "answer": "First, go through the job description properly. In my case, they had mentioned the Voice Pulse project, so I made sure to read up about it and related tech. Also, it helps to research questions asked by the same company in other colleges - you’ll find many online. Then, revise the fundamentals - theory, project details, and common HR questions like “Why this company?” or “What’s your motivation?” It’s best to have answers prepared beforehand, rather than thinking on the spot."
+    },
+    {
+      "question": "Did you give any mock interviews?",
+      "answer": "I didn’t personally, but I would recommend them, especially for those who feel nervous. It familiarises you with the environment and boosts confidence, which is crucial during interviews."
+    },
+    {
+      "question": "There’s often confusion about how much CGPA, PORs, and projects matter. What’s your take?",
+      "answer": "For internships, if your CGPA is above 7.5 (sometimes even 7), you can apply to most companies. But shortlisting criteria vary. Some companies focus on CGPA, while others prioritise projects and practical experience. For my IoT role, my project mattered more than my CGPA.  But it is advised to keep a CGPA above 8, so that you have the best opportunity to get shortlisted, But it's never always just the CGPA.  I know my friends who have a CGPA of 6, but still they have cracked the interviews, and they are having internships over here. So it's not that CGPA is the only thing. So that is my take on this. And secondly, yes, the projects that you do matter a lot. Because generally in your interviews, they ask you about your projects, like what you did in your project? And how did you solve this particular problem in all? So, the questions related to your projects? Yes, they are always asked to judge how good your knowledge is about that particular topic or the field you are going to select. So projects have a very high value. Coming to PORs, it helps for consulting and product roles, where leadership and event experience are valued. But for core or software profiles, they matter less. So it depends on the role, and the job description is your biggest guide here."
+    },
+    {
+      "question": "Many people feel core roles have limited opportunities compared to software or analytics. What would you say?",
+      "answer": "That’s a big misconception. Yes, the number of core roles is fewer, but so is the competition. In software, hundreds of students compete for the same roles. In core, you’re competing with maybe just 80 from your batch. Also, stipends in core roles like at Vedanta, Reliance, and Tata are at par or sometimes even better than software roles. While metallurgy had about 5-10% core openings compared to total companies, if you perform well academically and show good projects, your chances are strong."
+    },
+    {
+      "question": "So, now coming to our CV, that makes the first impression. What makes a good CV for a CDC internship? Like any specific pointers or things people often overlook?",
+      "answer": "At IIT Kharagpur, there are specific CV guidelines you should follow, like - Avoid blank spaces - sentences should ideally span the full line, around 14–17 words.  It should completely fill your CV from left to right, Maintain consistency - if you write 3 points under one project/ achievement, keep 3 points for others too, Tailor content to the role. For software/data roles, 60% of your CV should be projects and internships. For consulting, the POR (Position of Responsibility) section can be bigger, Use model CVs for format reference. Keep it simple and readable, Quantify results (through numbers) wherever possible. For example: 'Achieved 98% accuracy using XGBoost.' Use concise, result-driven statements. IIT KGP allows you to build three CVs for different profiles. Take advantage of it."
+    },
+    {
+      "question": "Did you use multiple CVs? How should someone choose if they have a similar aspiration?",
+      "answer": "My primary CV was Software, Data/IoT focused. Ideally, this should have a work experience/internship, if possible. It’s particularly hard to have a project/internship on multiple profiles, but try to learn the skills required for that role. Like, if your secondary CV is for consulting or product strategy, try to work on relevant case studies and leadership experiences. The third CV can be core or finance-based, depending on your interest and skills. Most students go for software + data as their primary, consulting/product as secondary, and core as third. And if I'm not wrong, SWG also provides the rules the student should follow. So it is a must for students to go through those basic rules."
+    },{
+      "question": "And regarding these various profiles, should one have any target companies or target roles like “I want to go in this role/company only”, or should one stay flexible?",
+      "answer": "If someone is confident in a particular technical skill, they can aim for a few preferred companies, but it ultimately depends on the online assessments and interviews. The smart approach is to be flexible while having at least one strong technical skill, be it DSA, software development, data, full-stack, or core. Since interview outcomes are unpredictable and company preferences can change, students should stay open to multiple profiles and opportunities to grab as many opportunities as possible. Build a CV that works for various roles, while aligning with personal interests. For example, if someone isn’t interested in finance, they can skip that track. The key is to stay flexible, give as many interviews as possible, and strengthen one core technical area."
+    },
+    {
+      "question": "Okay, so say in a hypothetical situation, if you could go back to your preparation days, is there anything you would do differently or any mistake you would avoid?",
+      "answer": "Okay, so particularly in my case, during my second-year summer vacation, I was unaware of the CDC timeline, like when the interviews are starting? When should I start the preparation? How seriously should I start with my preparation? So these were the things which I was not aware of, and I didn't pay much attention to them. And because of that, I didn't utilise my summer vacation much. And I think that was one of the biggest mistakes that I made. So yes, if I could go back, I’d pay more attention to the timeline, as it limited my chances in the first CDC phase. I’d advise students to first understand the process and schedule, then start preparing seriously during the summer. Around 2-3 months of focused prep is enough for online tests and interviews. That’s what I wish I’d done."
+    },
+    {
+      "question": "So lastly, any extra tips, suggestions or lessons you'd like to share with juniors who will be sitting for the CDC this year?",
+      "answer": "Yes - my biggest advice is don’t give up. Many students get disheartened seeing their friends getting offers while facing rejections themselves.Stay connected with your friends, keep applying, and prepare for off-campus too. I had even started networking for off-campus internships before I cracked my first interview. CDC isn’t the end of the road - whether you get an on-campus or off-campus internship, you’ll still learn the same things."
+    },
+    {
+      "question": "That was genuinely helpful, Soham. Thank you so much for sharing your journey - I’m sure this will be really useful for our juniors. Appreciate you taking the time!",
+      "answer": "Thank you! I'm really glad to hear that. Happy to help, and I hope it proves useful for everyone preparing for CDC. Feel free to reach out if there's anything else I can contribute!"
+    }
+  ],
+  "tips": [
+    "Select CVs wisely: primary should reflect your strongest skills; secondary should be reasonably prepared.",
+    "Have at least one strong technical skill; be open to multiple profiles to maximize opportunities.",
+    "Start preparation early—ideally during summer vacation of the second year.",
+    "Stay hopeful and consistent. Even last-minute selections happen. Off-campus options are equally valuable.",
+    "Friends and peer support are important during the stressful CDC journey."
+  ]
 }
 ]
