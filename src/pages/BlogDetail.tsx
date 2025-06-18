@@ -44,7 +44,7 @@ export default function BlogDetail() {
               <ul className="list-disc pl-5 space-y-2">
                 {blog.questions.map((q, i) => (
                   <li key={i}>
-                    <span className="font-bold">Interviewer: {q.question}</span>
+                    <span className="font-bold">Question: {q.question}</span>
                     <br />
                     <span className="font-semibold">{blog.author}:</span> <span>{q.answer}</span>
                   </li>

@@ -412,5 +412,398 @@
     "Group study helps; don’t compare progress with others.",
     "Projects teach best — go beyond tutorials and blogs."
   ]
+},
+{
+  "id": "11",
+  "title": "Cracking Core Roles: A CDC Journey into Reliance Industries",
+  "category": "CDC Blogs",
+  "date": "Jun 14, 2025",
+  "author": "Anshuman Sahoo",
+  "summary": "Reliance core intern with focused prep on corrosion and welding. Selected via OA and interview based on CV and project work. Emphasized early prep, honest CVs, and using summer for internships or research.",
+  "image": "https://res.cloudinary.com/djpy1yni7/image/upload/v1749919337/7_nbpkbs.png",
+  "content": "",
+  "questions": [
+    {
+      "question": "Hello! Today we have with us a core intern at Reliance Industries Limited, who is currently pursuing a B.Tech in Metallurgical and Materials Engineering. Let’s hear about their CDC experience and preparation journey. Thank you for joining us!",
+      "answer": "Thank you! Glad to be here."
+    },
+    {
+      "question": "Can you briefly describe your CDC experience and how the selection process went for Reliance?",
+      "answer": "My CDC experience was great. For Reliance, the selection involved one Online Assessment (OA) round and one combined Technical and HR interview round. In the OA round, we were given 50 questions from core subjects and 50 aptitude questions, to be solved in a total of 2 hours. In the interview, questions were asked directly from my CV. I had mentioned a research internship and an ML project related to metallurgy, so the questions were mainly around those. Some examples included: What was the purpose of your project? What were its final results? Why did you choose this method for finding the grain size? There were also subject-specific questions from Corrosion like - Which grain is more resistant to corrosion: coarser or finer? When is a grain called coarser or finer (in terms of size)?"
+    },
+    {
+      "question": "Did you face any challenges being from the MME department? How do CGPA, PORs, and internships matter?",
+      "answer": "Yes, as an MME student, if you're targeting software companies, your CV needs to be especially strong. Different companies have different selection styles — some give weightage to the OA score, while others prefer a strong CV regardless of OA performance. In general: PORs don’t matter much for software or core roles. CGPA does play a role, especially for core companies and a few software ones. Internships are definitely beneficial — they give you practical exposure and differentiate you from others."
+    },
+    {
+      "question": "Did you face any challenges as a student from the Metallurgical and Materials Engineering department?",
+      "answer": "Yes, to some extent. There is some department bias — for example, TATA Steel didn’t open for us, even though it’s a core company. But honestly, if you’re skilled and patient, you’ll find opportunities. I wanted a core role but wasn’t sure I would get one, so I also prepared for other profiles. I even learned DSA, which I feel is important for everyone — it sharpens your problem-solving ability. Regarding CGPA, while many companies don’t have a hard cutoff, those with limited slots tend to shortlist higher CGs first. A CG above 8.3–8.5 is generally safe."
+    },
+    {
+      "question": "When did you start preparing and what was your approach?",
+      "answer": "I started preparing in May, just after my 2nd year ended. I was doing a research internship at that time and simultaneously worked on a few self-projects to enhance my CV."
+    },
+    {
+      "question": "How did you prepare for your interview at Reliance?",
+      "answer": "For Reliance, I focused deeply on two key subjects: Corrosion and Welding. I revised all the class notes and made sure I understood both topics conceptually and practically."
+    },
+    {
+      "question": "Are the department lectures enough to prepare for core company interviews?",
+      "answer": "Absolutely. For subjects like Corrosion and Welding, the classroom content is more than sufficient. Just paying attention in class and understanding what’s taught gives you a strong foundation."
+    },
+    {
+      "question": "How should students utilize their summer break?",
+      "answer": "Summer breaks are a great time to gain experience. You can: Apply for internships in core companies, Pursue a research internship under a professor, it adds significant value to your CV."
+    },
+    {
+      "question": "In your opinion, what makes a good CV?",
+      "answer": "A good CV shows relevant experience. If you're applying for a core role, your CV should clearly reflect some exposure in that domain — through internships, projects, or research."
+    },
+    {
+      "question": "Any suggestions on how to approach people for internships?",
+      "answer": "Cold mailing is very effective. Reach out to professors or companies with short, clear, and polite messages. Don’t get discouraged if you don’t get replies immediately — keep trying"
+    },
+    {
+      "question": "What was your backup profile?",
+      "answer": "My backup plan was applying for software roles. I had done some preparation in DSA and general programming in case I didn’t make it into a core company."
+    },
+    {
+      "question": "Any final suggestions for students targeting core roles?",
+      "answer": "Yes — focus primarily on Corrosion and Welding, as they are frequently asked in core interviews. For Metallurgy students, companies like Bajaj, Vedanta, JSW, and Reliance are ideal core targets."
+    }
+
+  ],
+  "tips": [
+    "Start preparing early – ideally by the summer after your second year.",
+    "Focus on key subjects like Corrosion and Welding if you are targeting core roles.",
+    "Keep your CV honest and experience-focused — don’t add projects or work you haven’t actually done.",
+    "Apply actively through cold emails for internships and research roles."
+  ]
+},
+{
+  "id": "12",
+  "title": "Navigating CDC with Confidence: Navpreet’s Vedanta Internship Experience in Core Metallurgy",
+  "category": "CDC Blogs",
+  "date": "Jun 14, 2025",
+  "author": "Navpreet Singh Ghai",
+  "summary": "In this interview, Navpreet shares his CDC internship journey, detailing his selection process and role at Vedanta's Hindustan Zinc Limited. Although the role was listed under “Strategy and Business,” his work focused on core metallurgy, especially in lead blast furnace operations. He discusses interview preparation, the importance of extractive metallurgy, test strategies, and balancing multiple interests like machine learning and core. Navpreet emphasizes the value of building a strong profile, staying confident, and being patient through the CDC process.",
+  "image": "https://res.cloudinary.com/djpy1yni7/image/upload/v1750244270/Blog_Cover_3_ep67ek.png",
+  "content": "",
+  "questions": [
+      {
+      "question": "Hello Navpreet! Let’s begin. Could you tell us about the offer you received through CDC? What’s your role and where are you posted?",
+      "answer": "Sure! I got an offer from Vedanta, listed on the CDC portal under “Strategy and Business.” But in reality, the role is entirely core metallurgy. I’ve been placed at Hindustan Zinc Limited under Vedanta. Specifically, I’m working in the lead blast furnace section, focusing on the secondary furnace used in the lead extraction process."
+      },
+      {
+      "question": "Interesting! And how long is the internship?",
+      "answer": "It’s a two-month internship."
+      },
+      {
+      "question": "Could you walk us through your CDC process and how you got selected?",
+      "answer": "Of course. It started with a test—very simple and not technical at all. It was mostly HR-style, situation-based questions like “how would you respond to a senior in a tough situation” or “this or that” type questions. No core or technical MCQs. It was a 1-hour test, but I finished it much quicker. Based on our test performance and CV, the Vedanta Jharsuguda team shortlisted students."
+      },
+      {
+      "question": "And how did your interview go?",
+      "answer": "I had a fair idea of the process from seniors in the previous batch, so I was well prepared. The questions were mostly from extractive metallurgy. They asked which metals I was confident in—aluminium, copper, lead, zinc—and I chose aluminium. Then they asked me to walk them through the reaction sequence for aluminium extraction, which I did. They also asked about my industrial exposure, and I mentioned growing up in the UltraTech Cement colony (Aditya Birla Group). I’ve seen plant operations and furnaces up close. This led to questions on types of furnaces and their parts, and later we discussed iron and copper extraction sequences."
+      },
+      {
+      "question": "Did they ask any HR questions?",
+      "answer": "Yes, quite a few. They asked about tight deadlines, odd working hours, and whether I’d be okay working outside 9-to-5. Since I’ve seen similar environments growing up, I was very honest and confident in my answers. They also asked tricky questions like “If you had to choose between us and Aditya Birla, what would you pick and why?” I responded diplomatically and kept it balanced."
+      },
+      {
+      "question": "When did all this take place?",
+      "answer": "Around the last week of October. The application opened mid-October, followed by the test and then the interviews. Everything was conducted online via Zoom."
+      },
+      {
+      "question": "Were all the interview questions purely technical?",
+      "answer": "Mostly. They focused on non-ferrous extractive metallurgy—nothing too deep, but you needed to be confident with the basics."
+      },
+      {
+      "question": "Do you have any advice for future metallurgy interns?",
+      "answer": "Yes—focus on extractive metallurgy. You don’t need to dive into niche topics like corrosion, transport phenomena, or steel-making unless the job role specifies it. Just have a strong grasp of surface-level concepts and explain them clearly. Impressing the interviewer matters more than covering every subject."
+      },
+      {
+      "question": "Did you have any prior internships?",
+      "answer": "Yes, and I mentioned them in the interview. I did a remote internship as a financial analyst with a biotech startup called AuroBio. I prepared investment summaries, and the company worked on microbial waste management through fermentation. This helped demonstrate that I’m genuinely interested in core and interdisciplinary work. I also did a research internship in second year at IIT Kharagpur, under the Centre of Excellence in Advanced Manufacturing Technologies, where I worked on Generative Adversarial Networks (GANs)."
+      },
+      {
+      "question": "What about PoRs (Positions of Responsibility)?",
+      "answer": "They didn’t ask much about it. But PoRs can definitely help if you don’t have strong internships or projects."
+      },
+      {
+      "question": "How did you prepare your CV?",
+      "answer": "I started about a week before the portal opened. I listed all my achievements, collected certificates, and wrote draft pointers under internships, projects, and co-curriculars. I took feedback from seniors after every draft. One useful tip: avoid overusing words like “spearheaded.” Also, be ready for formatting issues. The CDC portal glitched and changed my font size before the final submission—so always double-check."
+      },
+      {
+      "question": "Did having those extra internships and projects help?",
+      "answer": "Definitely. Having a mix of core and tech/ML projects gives you an edge. For instance, my batchmate Anushka was even asked about SVMs (Support Vector Machines) in her interview. Such things make you stand out."
+      },
+      {
+        "question": "What was your main profile target—data, core, or something else?",
+        "answer": "Initially, I was aiming for ML/Data roles, and most of my shortlists were in that domain."
+        },
+        {
+          "question": "Any general tips for building a good profile?",
+          "answer": "Yes—start early. Focus on building solid sections in your CV: education, internships, projects, achievements, PoRs. If you’re missing something, create it. Watch YouTube, learn something like web dev, and build a mini project to fill the gap. Make every section meaningful."
+          },
+          {
+            "question": "What if someone has just one project and no internship?",
+            "answer": "That’s fine—highlight the project well. Do some certifications. Ask your friends for learning-based internship certificates (if you actually learned from them). Just be sure you can defend everything on your CV."
+            },
+            {
+              "question": "Any suggestions about target companies?",
+              "answer": "For July tests, play to your strengths. If you’re targeting SDE or data, focus on DSA. For consulting or product, prep for case studies. HR questions don’t require much preparation—just be clear and confident."
+              },
+              {
+                "question": "Should students keep core as a backup?",
+                "answer": "Absolutely. If a core company visits, just apply. You’ve got nothing to lose. You don’t need to study all subjects in advance—just prep well once the company opens."
+                },
+                {
+                  "question": "Do test performances matter more than the CV?",
+                  "answer": "In most cases, yes. A great test score can get you shortlisted even with an average CV. Try to solve at least 2 full DSA problems and get around 80% accuracy."
+                  },
+                  {
+                    "question": "How do you manage remote proctored tests?",
+                    "answer": "You can use a second screen. Sometimes friends join via Google Meet or Discord to help with moral support. Just note that some companies like Accenture are very strict. If you’re caught, you won’t get shortlisted, but you won’t be blacklisted either."
+                    },
+                    {
+                      "question": "What if CDC shifts to offline testing?",
+                      "answer": "That might happen only if the semester is offline. In that case, tests would likely happen in Nalanda classrooms."
+                      },
+                      {
+                        "question": "Any final advice for first and second-year students?",
+                        "answer": "Be patient. It’s a difficult process. Sometimes deserving people don’t get selected, and less deserving ones do—it happens. Luck matters. But if you stay consistent and put in your efforts, something good will come. Also, don’t isolate yourself—participate in campus life, take up responsibilities. Handling many things at once builds real confidence, and that’s a game-changer when you enter the industry."
+                        },
+                        {
+                          "question": "That’s incredibly insightful, Navpreet. Thank you so much for sharing your experience!",
+                          "answer": "Thank you! I hope it helps someone."
+                          }
+      ],
+      "tips": [
+        "Master Extractive Metallurgy – Focus on aluminium, copper, zinc, and lead for core roles.",
+        "Ace the Test – Strong test scores often matter more than your CV.",
+        "Diversify Your Profile – Combine core and tech/ML projects to stand out.",
+        "Prepare CV Early – Start early and fill all sections meaningfully."
+      ]
+},
+{
+  "id": "13",
+  "title": "CDC Internship Journey and Preparation Tips from an MME Student at IIT Kharagpur - Apurva Ninave",
+  "category": "CDC Blogs",
+  "date": "Jun 14, 2025",
+  "author": "Apurva Ninave",
+  "summary": "An MME student from IIT Kharagpur shares their CDC internship experience, highlighting interview rounds, challenges faced, and preparation strategies. The discussion includes tips on building a strong CV, utilizing summer breaks, and staying focused during the final month.",
+  "image": "https://res.cloudinary.com/djpy1yni7/image/upload/v1749919342/8_lynea3.png",
+  "content": "",
+  "questions": [
+{
+  "question": "Could you introduce yourself and describe your CDC experience?",
+  "answer": "I’m a student from the Department of Metallurgical and Materials Engineering (MME), IIT Kharagpur. I recently participated in the CDC internship process and secured a core internship. The process began early in the morning with interviews starting around 10:00 AM. There were two rounds — a technical round followed by an HR round. The technical round lasted 25–30 minutes and covered core metallurgy topics like phase transformations, heat treatment, corrosion, recrystallization, and grain growth. The HR round lasted around 15 minutes and focused on questions about strengths, weaknesses, and interest in the company."
+},
+{
+  "question": "What challenges did you face as an MME student during the CDC process?",
+  "answer": "One major challenge is that many companies only open for circuital branches. Additionally, companies often set CGPA cutoffs (7.5 or 8.0), making it crucial to maintain a good academic record. While PoRs help in consulting roles, their relevance to the applied role is important. Internships in the related field can give a significant edge. In some interviews like Bajaj, CGPA and PoRs didn’t matter much — skills and technical depth did."
+},
+{
+  "question": "When did you start preparing for CDC, and what was your process like?",
+  "answer": "I started with projects in relevant domains, which helped strengthen my CV. Later, I pursued a summer internship that provided real-world experience. This combination of projects and internship helped build a strong profile for CDC."
+},
+{
+  "question": "How did you prepare for your interviews?",
+  "answer": "I got to know about my interview just a night before. I immediately contacted seniors who had interned at Bajaj, and they shared important topics to focus on. I revised those topics thoroughly and ensured my CV was well-prepared and polished."
+},
+{
+  "question": "What resources did you use for CDC preparation?",
+  "answer": "I used my class notes and PDFs shared by professors. I recommend utilizing the summer break by pursuing internships or doing relevant projects. Setting up a timeline can help stay on track."
+},
+{
+  "question": "What makes a good CV in your opinion?",
+  "answer": "A good CV includes real-time projects, relevant coursework and skills, and internships. CGPA alone doesn’t reflect someone’s ability — even with a lower CGPA, one can perform well in interviews if they have the right skills."
+},
+{
+  "question": "How can students approach companies or professors for internships?",
+  "answer": "Students can reach out to startup founders on LinkedIn and share their CVs. Other platforms like Wellfound and Glassdoor are also useful. Also, keep an eye on internship emails from the PR Chair. For research internships, cold mailing professors is a great approach."
+},
+{
+  "question": "Did you have a backup profile?",
+  "answer": "Yes, my backup profile was Software Development (SDE)."
+},
+{
+  "question": "What should students focus on if only a month is left before CDC?",
+  "answer": "Focus on revision rather than trying to add new projects. Identify a few target companies or profiles and tailor your preparation toward those. It’s all about focused study and consistent revision at that point."
+},
+{
+  "question": "How important are departmental courses for core placements?",
+  "answer": "They are extremely important. Core technical interviews are based heavily on departmental subjects. A solid grasp of these subjects is crucial."
+},
+{
+  "question": "Did you do any research internships or projects before CDC?",
+  "answer": "Yes, I did a research internship, although it wasn’t directly relevant to the core field. So it didn’t contribute much to my CDC selection."
+},
+{
+  "question": "Do dual degree students have an advantage over B.Tech students?",
+  "answer": "Yes, especially in core companies. Dual degree students are often preferred over B.Tech students."
+},
+{
+  "question": "Any final tips or advice you’d like to share?",
+  "answer": "Don’t rush your preparation and don’t lose hope if you don’t get a shortlist early on. Keep working hard — if your preparation is good, you’ll eventually get selected either through CDC or off-campus. Luck plays a part, but consistent effort matters more. Set target companies, build a strong profile, and seek help from seniors."
+}
+],
+"tips": [
+"Use the summer to build solid projects or gain internship experience.",
+"Talk to seniors who interned at your target companies — their guidance is invaluable.",
+"Revise departmental subjects well — they are the backbone of core interviews.",
+"Stay consistent and don’t panic if things don’t go your way initially."
+]
+},
+{
+  "id": "14",
+  "title": "Navigating Late Success – Soham Jagtap’s IoT Internship Journey at XPert",
+  "category": "CDC Blogs",
+  "date": "Jun 14, 2025",
+  "author": "Soham Jagtap",
+  "summary": "An MME student shares their enriching internship experience at NPCI’s Market Innovation team in Mumbai, where they worked on machine learning models for detecting UPI frauds. The journey covers CDC prep, domain focus in AI/ML, practical advice on interviews, DSA, CV building, and staying confident through the selection process.",
+  "image": "https://res.cloudinary.com/djpy1yni7/image/upload/v1749920713/10_uaifsh.png",
+  "content": "",
+  "questions": [
+    {
+      "question": "Could you please introduce yourself and give us a brief about your current role at XPert?",
+      "answer": "Hello Jitam, my name is Soham Jagtap. I’m a 4th year undergraduate student from Metallurgical and Materials Engineering. I'm from Pune, Maharashtra. My role at XPert is as an IoT developer. We are working on a project named Voice Pulse, which passively records the conversation between an owner and the customer in different kinds of shops and EBOs (exclusive brand outlets). Based on the recordings and transcription, we analyze the customer’s intent — whether to buy or not buy the product, and why. The goal is to understand the psychology of the customer. As an IoT developer, I work on building a hardware product with inbuilt mic and necessary components that is connected to the POS device and helps generate analytics from recordings."
+    },
+    {
+      "question": "How was your overall CDC experience?",
+      "answer": "Initially, I gave online assessments for many companies but struggled to clear them because my DSA skills were weak. That made it difficult to get shortlisted for interviews. My interview was finally held on April 18, near the end of the process and just before exams. I had done a first-year DIY project — an Arduino-powered fitness band — which helped in getting shortlisted for the IoT developer role at XPert through direct CV shortlist. In the interview, I was asked about components and noise reduction problems related to IoT development. I revised all basics before the interview and was able to clear it. Currently, the internship is ongoing."
+    },
+    {
+      "question": "What was your preparation strategy during the last 1-2 months of the CDC?",
+      "answer": "Initially, one should focus on DSA since most companies come for SDE and data roles, which require DSA for clearing online assessments. I made the mistake of not preparing DSA early, and I advise others not to repeat it. You don't need perfection or competitive programming, but strong basics are essential. After DSA, focus on interview prep. The key is good communication skills. Even if you’re technically strong, poor communication can hurt your chances. Be honest, confident, and express yourself clearly. Interviews are the first impression. I was lucky to get selected in my first interview, but communication played a major role."
+    },
+    {
+      "question": "How did you specifically prepare for your interviews?",
+      "answer": "Interview prep varies with the role. Always read the job description carefully on ERP or the company’s site — they often ask questions related to the listed project. In my case, it was Voice Pulse. I researched it well. You should also revise your basics thoroughly and research questions asked in previous interviews by the company, especially in other colleges. Sound confident, and research the company — it shows you're genuinely interested. Sometimes they ask if you've read their website. Knowing this gives you extra points. Also prepare for common HR questions like motivation, why this company, and have some questions ready to ask at the end of the interview. Don’t improvise; prepare these answers beforehand."
+    },
+    {
+      "question": "And have you taken or given any mock interviews for that purpose? Or should someone?",
+      "answer": "Yeah. So the thing is, yes, mock interviews help a lot of students. In my case, particularly, I had not given such mock interviews. But yes, it's suggested for other students to be in that environment, if at all, they feel nervous. One important thing is, students start feeling nervous during the interviews, and then they fumble in front of the recruiters. Then the answers are not up to the mark — they want to say something, but they say something completely different. These are all the problems. And if you feel that these are the problems you might also face — like if you are nervous, if you're not confident about yourself — then giving mock interviews boosts your morale a lot. So it is suggested for those students to give mock interviews earlier, and at least make yourself familiar with the environment. Because being confident during an interview — it's the most important thing that is required, as far as from my side."
+    },
+    {
+      "question": "There’s a confusion among students about how much CGPA, PORs, and previous projects or internships matter in getting shortlisted and selected. Do you feel any one of them mattered more than the other?",
+      "answer": "Yes. Speaking strictly for internships — I don’t know about the placement season — but in internships, if your CGPA is about 7.5, and sometimes even 7, you are allowed to apply to around 90% of the companies. So 7.5+ is good enough. Now, getting shortlisted varies company to company. Some companies prefer high CGPA students. Others focus more on projects — how good your projects are, how experienced you are in the field. In my case — hardware modelling and IoT — experience mattered more than CGPA. Generally, a CGPA above 8 is advisable for maximum opportunities. But CGPA is not everything — I know friends with CGPA of 6 who cracked interviews and got internships. Projects matter a lot. Interviewers often ask about your projects to judge your domain knowledge. As for PORs — for software or data roles, PORs give a slight edge only if other things are equal. But for consulting or product roles, PORs matter much more because they want people with event management or leadership experience. So yes, it depends on the field and the company. The job description is the most powerful tool — read it carefully to understand what the company wants and prepare accordingly."
+    },
+    {
+      "question": "Many people feel core roles have limited opportunities compared to software or analytics profiles. How do you respond to that?",
+      "answer": "Yeah, this is one of the greatest misconceptions students have. I think core roles have gained larger access in the last few years. I have many friends in metallurgy who got internships in core companies like Vedanta, Reliance, and Tata. The stipend in these core roles is often at par or even better than software roles. Yes, software has more opportunities, but also much more competition. Out of 1800 students in a batch, around 1200 go for software roles. Everyone is doing DSA. So even though there are more roles, competition is huge. If you’re not in the top 10-20%, it’s hard to stand out. On the other hand, core has a smaller pool — you're competing with just 80 students from your department. So less competition, and if you’re good academically and have a clear vision, chances are good. Yes, the number of core companies is lower — maybe around 5-10% of total — but the competition is proportionally lower too. Core can be a game changer if you are interested in the domain. So instead of blindly following the software path, core is a good and viable alternative."
+    },
+    {
+      "question": "In most cases, core is one of the most under-explored profiles. Could you highlight some good opportunities in core sectors?",
+      "answer": "So here it varies department to department. Speaking specifically for metallurgy — the initial job roles are mostly research-related. Honestly, I don’t have complete clarity on all core job roles. Anshuman Sahoo, one of my batchmates, got a core role in Reliance and can give a better answer. But I do know some companies that come: Amazon — they usually select one or two students from our department. Then Tata — although not this year — and Reliance and Vedanta. Vedanta took around 4-5 students, Reliance took 1-2. So these are the major recruiters I know about from the core sector for metallurgy."
+    },
+    {
+      "question": "Now coming to our CV — it makes the first impression. So what makes a good CV for a serious internship? Any specific pointers or things people often overlook?",
+      "answer": "There are many things to follow, especially for a CV in IIT Kharagpur. First, grammatical structure matters — each sentence should ideally span 14–17 words to fill the width of the page. No blank spaces. Maintain consistency — if you use three bullet points for one item, try to use three for others too. Understand what the role needs. If it's software or data-related, mention the relevant courses. For software roles, the POR section should be smaller; projects and internships should take about 60% of the space. In consulting, you can have a bigger POR section. Follow model CV formats provided — don’t try to make it fancy. It should be clean and easy to read. Include numbers wherever possible — like ‘achieved 98% accuracy using XGBoost’. Be concise and results-oriented. Lastly, in IIT Kharagpur, you can build three CVs — tailor each according to the role you are applying for."
+    },{
+      "question": "What was your priority order of roles/CVs?",
+      "answer": "First CV should be the primary one you are best at—like SDE, Data, Finance, or Consulting. Second CV should be your backup, where if possible, you should have at least one internship. It's difficult to have internships in both, but even basic prep in the secondary CV helps. Common primary CVs are SDE, Data, or SDE+Web; common secondary CVs are Consulting, Product, or Strategy. The third CV can be Finance or Core. Follow grammatical rules and guidelines—SWG provides these. Students must read and follow those before uploading the CV on ERP."
+    },
+    {
+      "question": "Regarding various profiles, should one have target companies/roles or be flexible?",
+      "answer": "Students should be flexible but should have one strong technical skill—like DSA, web, data, full-stack, etc. While targeting specific companies can be done if you're confident in your skills, you should always be flexible because the selection process isn't predictable. Make your CV open to as many companies as possible. Don't pick areas you’re not interested in—e.g., Soham didn’t choose finance. Ask yourself key questions, and then structure your CV accordingly."
+    },
+    {
+      "question": "If you could go back to your preparation days, is there anything you would do differently?",
+      "answer": "Soham regrets not utilizing the summer vacation after 2nd year due to being unaware of timelines and seriousness. That affected his CDC Phase 1 performance. His advice is to start preparation in the summer itself—understand the full timeline and begin early. A focused 2–3 month preparation is enough to perform well in OAs and interviews."
+    },
+    {
+      "question": "Any extra tips, suggestions, or lessons you'd like to share?",
+      "answer": "Never give up. Soham got his internship at the last moment after facing many rejections. He had started applying off-campus and connecting with seniors and alums. Despite not expecting it, he gave his best in the interview and got selected. Many people around you will get selected early, and you may face rejections, but don’t lose hope. Stay connected with friends—they will motivate you. Whether it’s through CDC or off-campus, you'll learn the same things. Don't overburden yourself; many opportunities will come. Give your best but stay calm."
+    }
+  ],
+  "tips": [
+    "Select CVs wisely: primary should reflect your strongest skills; secondary should be reasonably prepared.",
+    "Have at least one strong technical skill; be open to multiple profiles to maximize opportunities.",
+    "Start preparation early—ideally during summer vacation of the second year.",
+    "Stay hopeful and consistent. Even last-minute selections happen. Off-campus options are equally valuable.",
+    "Friends and peer support are important during the stressful CDC journey."
+  ]
+},
+{
+  "id": "15",
+  "title": "From Consulting Aspirant to Core Convert: A CDC Journey into Vedanta",
+  "category": "CDC Blogs",
+  "date": "Jun 14, 2025",
+  "author": "Rashmita Sahoo",
+  "summary": "In this interview, a Metallurgical and Materials Engineering student shares their CDC internship journey, culminating in a core internship offer from Vedanta. Initially targeting consulting roles, they later pivoted to core based on shifting shortlisting criteria. They discuss their preparation strategy, including leveraging core coursework, literature reviews, and mentorship from seniors. The student highlights challenges like limited openings for MME students, emphasizes the importance of CGPA and projects, and offers practical tips on interview prep, cold emailing, and making the most of summer breaks.",
+  "image": "https://res.cloudinary.com/djpy1yni7/image/upload/v1750245471/Blog_Cover_4_nhekd6.png",
+  "content": "",
+  "questions": [
+    {
+      "question": "Hello! Today we have with us a core intern at Vedanta, who is currently pursuing a B.Tech in Metallurgical and Materials Engineering. Let’s hear about their CDC experience and preparation journey. Thank you for joining us!",
+      "answer": "Thank you! Glad to be here."
+    },
+    {
+      "question": "How was your CDC experience? Any memorable questions?",
+      "answer": "Overall, it was a good experience. For Vedanta, the process began with a psychometric test followed by a technical interview. The interview questions were highly core-focused. They asked about powder metallurgy — concepts like compaction, sintering, density, green density, and also about tempering. Since Vedanta’s profile is completely core-oriented, they expected a solid understanding of such topics."
+    },
+    {
+      "question": "Did you face any challenges as an MME student in terms of CV shortlisting?",
+      "answer": "Yes, many companies don’t open for metallurgy students. They often allow only mechanical or electronics branches. But if you have the right skills, you can still apply to those open for us. Companies like Amazon, for example, did accept us. For consulting firms like BCG or McKinsey, CGPA becomes very important — usually above 8 or 8.5."
+    },
+    {
+      "question": "When did you begin preparing, and what was your strategy?",
+      "answer": "Preparation depends on the profile. For core roles, past coursework and projects help a lot. For consulting and data, I’d suggest beginning at least six months in advance. I initially aimed for consulting — got shortlisted by Kepler Cannon but missed the interview due to travel. Later, I shifted focus to core because of changing criteria and my background. Understanding company-specific work helps. For Vedanta, I studied aluminium production and metallurgy concepts like ductility vs strength — and how tempering can balance both."
+    },
+    {
+      "question": "How did you prepare for the interview?",
+      "answer": "I consulted seniors for common HR and technical questions. There’s a useful HR question bank of ~60 questions. For technical preparation, I revised extraction processes for iron, aluminium, zinc — especially topics relevant to Vedanta. Seniors helped me with mock interviews too."
+    },
+    {
+      "question": "What preparation do you suggest during summer breaks?",
+      "answer": "If not doing an internship, work under a department professor. Core-related projects, literature reviews, or even projects at IISc, DMRL, or DRDO are great. A decent CGPA (7.5+) is important. Reading research papers in your domain of interest and summarizing them for your CV also adds value."
+    },
+    {
+      "question": "What does a strong CV look like to you?",
+      "answer": "A good CGPA (7.5+), and strong core-related projects — especially under reputed professors or institutes. For consulting, a high CGPA, achievements in Inter-IITs, or winning case study competitions matter. Relevant projects are critical for data roles."
+    },
+    {
+      "question": "How should students approach off-campus internships?",
+      "answer": "Cold emailing is key. Reach out to professors with a solid cover letter and resume. Look for openings on portals of IITs, IISc, DRDO, IOCL, etc. Many offer summer internships — stay alert. Express genuine interest in their research area."
+    },
+    {
+      "question": "What was your backup plan?",
+      "answer": "Initially, consulting was the primary focus due to my multiple PoRs. But I eventually shifted to core after shortlisting trends changed and aligned more with my academic background."
+    },
+    {
+      "question": "With a month left before CDC, what should one focus on?",
+      "answer": "Revise past coursework and projects. Be interview-ready for every project mentioned in your CV. If targeting consulting — practice guesstimates and case studies. Talk to seniors for company-specific preparation."
+    },
+    {
+      "question": "How important are departmental courses for core roles?",
+      "answer": "They matter a lot in metallurgy-based roles. For materials science, our department has fewer courses, so that can be a limitation — but opportunities still exist."
+    },
+    {
+      "question": "Did you need extra preparation for core roles?",
+      "answer": "Not much. If your basics are clear and you’ve done 2–3 good core projects (even a DIY one counts), you’re set. Don’t overdo it — just focus on fundamentals and application."
+    },
+    {
+      "question": "Any projects or research before CDC?",
+      "answer": "I worked on a research project with Stanford — not core-specific, but still valuable. Also had coursework projects that I included in my CV."
+    },
+    {
+      "question": "Do dual-degree students have an advantage?",
+      "answer": "Yes, they usually do — more experience, more courses, and an extra year for research/internship exposure."
+    },
+    {
+      "question": "Any interdisciplinary advantages?",
+      "answer": "Absolutely. For data roles or finance (especially EPs), interdisciplinary knowledge helps a lot. It adds flexibility and opens up more options."
+    }
+  ],
+  "tips": [
+    "Go to classes and focus on fundamentals.",
+    "Take up projects early — under professors or at reputed institutions.",
+    "Maintain a good CGPA (8.5+ for consulting).",
+    "For data, practice ML and DL regularly.",
+    "Be versatile — show multitasking ability, especially for consult profiles.",
+    "Don’t ignore literature reviews — they add serious weight to your CV."
+  ]
 }
 ]
