@@ -247,5 +247,85 @@
     "Stay hopeful and consistent. Even last-minute selections happen. Off-campus options are equally valuable.",
     "Friends and peer support are important during the stressful CDC journey."
   ]
+},
+{
+  "id": "14",
+  "title": "Inside Bajaj R&D: Harshvardhan’s Core Internship Journey",
+  "category": "CDC Blogs",
+  "date": "Jun 14, 2025",
+  "author": "Harshvardhan",
+  "summary": "Harshvardhan, a GT Intern at Bajaj, shares his experience working in R&D on EV magnet research. He discusses the CDC process, importance of core subjects, CV building, and suggests exploring multiple profiles for better opportunities.",
+  "image": "https://res.cloudinary.com/djpy1yni7/image/upload/v1749920713/10_uaifsh.pnghttps://res.cloudinary.com/djpy1yni7/image/upload/v1750585268/Blog_Cover_7_oiuvew.png",
+  "questions": [
+    {
+      "question": "Can you briefly describe your current internship role at Bajaj?",
+      "answer": "Sure! My role is Graduate Trainee Intern (GT Intern). The internship is mainly divided into two domains — Operations and R&D. I’m assigned to the R&D division, specifically working in the Material Science department. Right now, my project focuses on studying permanent magnets used in motors, particularly in EV batteries. These magnets require rare earth elements, which are mostly imported from China — about 90% of the global supply comes from there. But due to tariff wars and restrictions, it's becoming difficult to source them. My job is to research alternative materials or sources for these rare earth magnets. I read scientific research papers daily, analyze them, and extract useful information for possible alternatives that are cost-effective and can be developed within India."
+    },
+    {
+      "question": "Is there any difference between this kind of industrial research and the research done under professors in college?",
+      "answer": "The core research approach is pretty similar — you study literature, conduct experiments, and analyze results. But the key difference is that company research is more application- and business-oriented. Apart from finding scientific solutions, we also focus on commercial feasibility and whether the solution can be developed indigenously. Companies have better infrastructure and advanced equipment compared to academic labs."
+    },
+    {
+      "question": "How was your CDC selection process?",
+      "answer": "The selection started with an online test, followed by a technical interview and then an HR round. The online test mainly tested mechanical engineering topics like force, torque, and basic mechanics — topics we studied in first-year common courses. There were also a few aptitude and mental ability questions."
+    },
+    {
+      "question": "Was it difficult for Metallurgy students since the test was mechanical-oriented?",
+      "answer": "Not really. If you have revised your first-year mechanical concepts and are confident in your metallurgy subjects, you can clear the test. The difficulty level wasn’t too high; it required basic preparation."
+    },
+    {
+      "question": "Did you face any challenges as a Metallurgy student during CV shortlisting?",
+      "answer": "For shortlisting, CGPA played a role, but not the only one. Once you crossed the cutoff (around 8+ CGPA is safe), the selection mostly depended on your performance in the test and interviews. There was no departmental bias. Mechanical and Metallurgy students had separate recruitment slots — so we weren’t directly competing with each other."
+    },
+    {
+      "question": "How helpful were your PoRs and internships during the interviews?",
+      "answer": "They were quite helpful. My PoR in COMPOSIT (Metallurgy Society) helped because it was relevant to my field. During interviews, they asked me what I had done apart from academics, and I could confidently mention my PoR, internships, and any projects related to metallurgy."
+    },
+    {
+      "question": "What kind of technical questions did they ask you in the interview?",
+      "answer": "The technical questions covered our core subjects — phase transformations, grain boundaries, corrosion, mechanical behavior of materials, etc. Sometimes they would go deep into one topic and ask multiple follow-ups. They expected us to know both theoretical and practical aspects from second-year onwards."
+    },
+    {
+      "question": "How much importance should juniors give to departmental courses?",
+      "answer": "Departmental courses are very important. If you’re studying them properly during the semester, you don’t need much extra preparation. Professors like Prof. Sumantra Mondal, Prof. Karabi Das, and Prof. S. Das teach courses that build a strong foundation for both internships and placements. Good preparation during the semester itself is usually enough."
+    },
+    {
+      "question": "Did you refer to any extra resources beyond your coursework?",
+      "answer": "No, I mostly stuck to our recommended textbooks and lecture notes. Our academic content itself is very comprehensive. If your basics are clear, you won’t need much additional material."
+    },{
+      "question": "In your opinion, what makes a strong CV for industry internships?",
+      "answer": "A good CV should include: Relevant core courses aligned with industry needs, At least one good internship in the related domain, Technical projects that apply theoretical knowledge to real-world problems, Any relevant PoRs that show leadership or domain engagement"
+    },
+    {
+      "question": "How important is the online test and how should students prepare for it?",
+      "answer": "The online test is very important for getting shortlisted. Solving GATE Previous Year Questions (PYQs), especially from Metallurgy and Mechanical, is one of the best ways to prepare. It builds strong concepts and improves speed."
+    },
+    {
+      "question": "Did you have any backup profiles other than core metallurgy?",
+      "answer": "Yes, I was preparing for Data and Finance profiles as well. My priority was actually Data first, Core second. Data needed more dedicated effort — coding, courses, and practice — while Core preparation was mostly covered in regular semester studies."
+    },
+    {
+      "question": "Would you advise juniors to stick to one profile or explore multiple ones?",
+      "answer": "I strongly suggest exploring at least two profiles. IIT Kharagpur gives us that flexibility. Having multiple CVs ready — like Core + Data or Core + Finance — increases your chances significantly."
+    },
+    {
+      "question": "Do Dual Degree students have any advantage?",
+      "answer": "Yes, Dual Degree students often have an edge in core domain profiles because of extra research exposure and advanced coursework. Companies value that additional experience."
+    },
+    {
+      "question": "If someone has only one month left before the internship season, what should they focus on?",
+      "answer": "Revise courses taught by Prof. Sumantra Mondal, Prof. Karabi Das, and Prof. S. Das Solve GATE PYQs, Use senior notes if you have limited time, Make sure your fundamentals are crystal clear"
+    },
+    {
+      "question": "Finally, what would be an ideal roadmap for a first-year student aiming for core internships?",
+      "answer": "Maintain CGPA above 8.5 from the start, Build strong fundamentals through active class participation and personal study, Do a research internship in 2nd year (even unpaid if necessary), Try for an industry internship by 3rd year, Use summer breaks for revision and research work, Build a CV with at least one good internship and 1–2 technical projects"
+    }
+  ],
+  "tips": [
+    "Know Your Core: Focus on key metallurgy subjects — they’re asked in depth.",
+    "Solve GATE PYQs: Great for test prep and concept clarity.",
+    "Build a Strong CV: Include 1 internship, 1–2 projects, and relevant PoRs.",
+    "Have a Backup Profile: Data/Finance helps widen your chances."
+  ]
 }
 ]
