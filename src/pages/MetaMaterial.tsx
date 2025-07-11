@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import { ChevronDown, FileText, Search, Book, Filter, ExternalLink } from 'lucide-react';
+import { FileText, Search, Book, Filter, ExternalLink, ChevronsUpDown, Check } from 'lucide-react';
 import { subjects } from '../data/subjects';
+import { Listbox } from '@headlessui/react';
 
 export default function MetaMaterial() {
   const [selectedYear, setSelectedYear] = useState('');
@@ -70,110 +71,198 @@ export default function MetaMaterial() {
       {/* Filter Section */}
       <section className="py-12 bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8">
-            <div className="flex items-center mb-6">
-              <Filter className="w-6 h-6 mr-2 text-blue-600" />
-              <h2 className="text-2xl font-bold text-gray-900">Filter Resources</h2>
+          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-3xl p-10 shadow-xl border border-blue-100">
+            <div className="flex items-center mb-8 gap-3">
+              <Filter className="w-7 h-7 mr-2 text-blue-600" />
+              <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight">Filter Resources</h2>
             </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
               {/* Year Selection */}
-              <div className="space-y-2">
-                <label className="block text-sm font-medium text-gray-700">Academic Year</label>
+              <div className="bg-white rounded-2xl shadow-md p-5 flex flex-col gap-2 border border-blue-100 hover:shadow-lg transition-shadow">
+                <label className="block text-base font-semibold text-blue-900 mb-1">Academic Year</label>
                 <div className="relative">
-                  <select
-                    value={selectedYear}
-                    onChange={(e) => {
-                      setSelectedYear(e.target.value);
-                      setSelectedSemester('');
-                      setSelectedSubject('');
-                      setResourceType('');
-                    }}
-                    className="w-full p-3 bg-white border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none"
-                  >
-                    <option value="">Select Year</option>
-                    {years.map(year => (
-                      <option key={year} value={year}>{year}</option>
-                    ))}
-                  </select>
-                  <ChevronDown className="absolute right-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400 pointer-events-none" />
+                  <Listbox value={selectedYear} onChange={(value) => { setSelectedYear(value); setSelectedSemester(''); setSelectedSubject(''); setResourceType(''); }}>
+                    {({ open }) => (
+                      <>
+                        <Listbox.Button className={`w-full p-3 bg-blue-50 border border-blue-200 rounded-xl focus:ring-2 focus:ring-blue-400 focus:border-blue-400 appearance-none transition-all hover:bg-blue-100 pr-10 flex items-center justify-between ${false ? 'opacity-60 cursor-not-allowed' : ''}`}> 
+                          <span className={`truncate text-left ${selectedYear ? 'text-blue-900' : 'text-gray-400'}`}>{selectedYear || 'Select Year'}</span>
+                          <ChevronsUpDown className="w-5 h-5 text-blue-400 ml-2" />
+                        </Listbox.Button>
+                        <Listbox.Options className="absolute z-20 mt-2 w-full max-h-60 overflow-auto rounded-2xl bg-gradient-to-br from-blue-50 via-white to-indigo-50 py-2 shadow-2xl ring-1 ring-black/10 focus:outline-none border border-blue-100 transition-transform duration-200 scale-95 origin-top">
+                          {years.length === 0 && (
+                            <div className="px-4 py-2 text-gray-400">No years available</div>
+                          )}
+                          {years.map(year => (
+                            <Listbox.Option
+                              key={year}
+                              value={year}
+                              className={({ active, selected }) => `
+                                cursor-pointer select-none relative px-6 py-3 text-base rounded-xl mx-2 my-1
+                                transition-all duration-150
+                                ${active ? 'bg-blue-100 text-blue-900 scale-[1.03]' : 'text-gray-900'}
+                                ${selected ? 'font-bold bg-blue-50' : ''}
+                              `}
+                            >
+                              {({ selected }) => (
+                                <>
+                                  <span className={`block truncate ${selected ? 'font-bold text-blue-700' : ''}`}>{year}</span>
+                                  {selected ? (
+                                    <span className="absolute inset-y-0 left-0 flex items-center text-blue-600">
+                                      <Check className="w-6 h-6 pr-3" />
+                                    </span>
+                                  ) : null}
+                                </>
+                              )}
+                            </Listbox.Option>
+                          ))}
+                        </Listbox.Options>
+                      </>
+                    )}
+                  </Listbox>
                 </div>
               </div>
-
               {/* Semester Selection */}
-              <div className="space-y-2">
-                <label className="block text-sm font-medium text-gray-700">Semester</label>
+              <div className="bg-white rounded-2xl shadow-md p-5 flex flex-col gap-2 border border-blue-100 hover:shadow-lg transition-shadow">
+                <label className="block text-base font-semibold text-blue-900 mb-1">Semester</label>
                 <div className="relative">
-                  <select
-                    value={selectedSemester}
-                    onChange={(e) => {
-                      setSelectedSemester(e.target.value);
-                      setSelectedSubject('');
-                      setResourceType('');
-                    }}
-                    disabled={!selectedYear}
-                    className="w-full p-3 bg-white border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none disabled:bg-gray-100 disabled:cursor-not-allowed"
-                  >
-                    <option value="">Select Semester</option>
-                    {semesters.map(semester => (
-                      <option key={semester} value={semester}>{semester}</option>
-                    ))}
-                  </select>
-                  <ChevronDown className="absolute right-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400 pointer-events-none" />
+                  <Listbox value={selectedSemester} onChange={(value) => { setSelectedSemester(value); setSelectedSubject(''); setResourceType(''); }} disabled={!selectedYear}>
+                    {({ open }) => (
+                      <>
+                        <Listbox.Button className={`w-full p-3 bg-blue-50 border border-blue-200 rounded-xl focus:ring-2 focus:ring-blue-400 focus:border-blue-400 appearance-none transition-all hover:bg-blue-100 disabled:bg-gray-100 disabled:cursor-not-allowed pr-10 flex items-center justify-between ${!selectedYear ? 'opacity-60 cursor-not-allowed' : ''}`}> 
+                          <span className={`truncate text-left ${selectedSemester ? 'text-blue-900' : 'text-gray-400'}`}>{selectedSemester || 'Select Semester'}</span>
+                          <ChevronsUpDown className="w-5 h-5 text-blue-400 ml-2" />
+                        </Listbox.Button>
+                        <Listbox.Options className="absolute z-20 mt-2 w-full max-h-60 overflow-auto rounded-2xl bg-gradient-to-br from-blue-50 via-white to-indigo-50 py-2 shadow-2xl ring-1 ring-black/10 focus:outline-none border border-blue-100 transition-transform duration-200 scale-95 origin-top">
+                          {semesters.length === 0 && (
+                            <div className="px-4 py-2 text-gray-400">No semesters available</div>
+                          )}
+                          {semesters.map(semester => (
+                            <Listbox.Option
+                              key={semester}
+                              value={semester}
+                              className={({ active, selected }) => `
+                                cursor-pointer select-none relative px-6 py-3 text-base rounded-xl mx-2 my-1
+                                transition-all duration-150
+                                ${active ? 'bg-blue-100 text-blue-900 scale-[1.03]' : 'text-gray-900'}
+                                ${selected ? 'font-bold bg-blue-50' : ''}
+                              `}
+                            >
+                              {({ selected }) => (
+                                <>
+                                  <span className={`block truncate ${selected ? 'font-bold text-blue-700' : ''}`}>{semester}</span>
+                                  {selected ? (
+                                    <span className="absolute inset-y-0 left-0 flex items-center text-blue-600">
+                                      <Check className="w-6 h-6 pr-3" />
+                                    </span>
+                                  ) : null}
+                                </>
+                              )}
+                            </Listbox.Option>
+                          ))}
+                        </Listbox.Options>
+                      </>
+                    )}
+                  </Listbox>
                 </div>
               </div>
-
               {/* Subject Selection */}
-              <div className="space-y-2">
-                <label className="block text-sm font-medium text-gray-700">Subject</label>
+              <div className="bg-white rounded-2xl shadow-md p-5 flex flex-col gap-2 border border-blue-100 hover:shadow-lg transition-shadow">
+                <label className="block text-base font-semibold text-blue-900 mb-1">Subject</label>
                 <div className="relative">
-                  <select
-                    value={selectedSubject}
-                    onChange={(e) => {
-                      setSelectedSubject(e.target.value);
-                      setResourceType('');
-                    }}
-                    disabled={!selectedSemester}
-                    className="w-full p-3 bg-white border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none disabled:bg-gray-100 disabled:cursor-not-allowed"
-                  >
-                    <option value="">Select Subject</option>
-                    {filteredSubjects.map(subject => (
-                      <option key={subject.id} value={subject.name}>{subject.name}</option>
-                    ))}
-                  </select>
-                  <ChevronDown className="absolute right-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400 pointer-events-none" />
+                  <Listbox value={selectedSubject} onChange={(value) => { setSelectedSubject(value); setResourceType(''); }} disabled={!selectedSemester}>
+                    {({ open }) => (
+                      <>
+                        <Listbox.Button className={`w-full p-3 bg-blue-50 border border-blue-200 rounded-xl focus:ring-2 focus:ring-blue-400 focus:border-blue-400 appearance-none transition-all hover:bg-blue-100 disabled:bg-gray-100 disabled:cursor-not-allowed pr-10 flex items-center justify-between ${!selectedSemester ? 'opacity-60 cursor-not-allowed' : ''}`}> 
+                          <span className={`truncate text-left ${selectedSubject ? 'text-blue-900' : 'text-gray-400'}`}>{selectedSubject || 'Select Subject'}</span>
+                          <ChevronsUpDown className="w-5 h-5 text-blue-400 ml-2" />
+                        </Listbox.Button>
+                        <Listbox.Options className="absolute z-20 mt-2 w-full max-h-60 overflow-auto rounded-2xl bg-gradient-to-br from-blue-50 via-white to-indigo-50 py-2 shadow-2xl ring-1 ring-black/10 focus:outline-none border border-blue-100 transition-transform duration-200 scale-95 origin-top">
+                          {filteredSubjects.length === 0 && (
+                            <div className="px-4 py-2 text-gray-400">No subjects available</div>
+                          )}
+                          {filteredSubjects.map(subject => (
+                            <Listbox.Option
+                              key={subject.id}
+                              value={subject.name}
+                              className={({ active, selected }) => `
+                                cursor-pointer select-none relative px-6 py-3 text-base rounded-xl mx-2 my-1
+                                transition-all duration-150
+                                ${active ? 'bg-blue-100 text-blue-900 scale-[1.03]' : 'text-gray-900'}
+                                ${selected ? 'font-bold bg-blue-50' : ''}
+                              `}
+                            >
+                              {({ selected }) => (
+                                <>
+                                  <span className={`block truncate ${selected ? 'font-bold text-blue-700' : ''}`}>{subject.name}</span>
+                                  {selected ? (
+                                    <span className="absolute inset-y-0 left-0 flex items-center text-blue-600">
+                                      <Check className="w-6 h-6 pr-3" />
+                                    </span>
+                                  ) : null}
+                                </>
+                              )}
+                            </Listbox.Option>
+                          ))}
+                        </Listbox.Options>
+                      </>
+                    )}
+                  </Listbox>
                 </div>
               </div>
-
               {/* Resource Type Selection */}
-              <div className="space-y-2">
-                <label className="block text-sm font-medium text-gray-700">Resource Type</label>
+              <div className="bg-white rounded-2xl shadow-md p-5 flex flex-col gap-2 border border-blue-100 hover:shadow-lg transition-shadow">
+                <label className="block text-base font-semibold text-blue-900 mb-1">Resource Type</label>
                 <div className="relative">
-                  <select
-                    value={resourceType}
-                    onChange={(e) => setResourceType(e.target.value)}
-                    disabled={!selectedSubject}
-                    className="w-full p-3 bg-white border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none disabled:bg-gray-100 disabled:cursor-not-allowed"
-                  >
-                    <option value="">Select Type</option>
-                    {resourceTypes.map(type => (
-                      <option key={type} value={type}>{type}</option>
-                    ))}
-                  </select>
-                  <ChevronDown className="absolute right-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400 pointer-events-none" />
+                  <Listbox value={resourceType} onChange={(value) => setResourceType(value)} disabled={!selectedSubject}>
+                    {({ open }) => (
+                      <>
+                        <Listbox.Button className={`w-full p-3 bg-blue-50 border border-blue-200 rounded-xl focus:ring-2 focus:ring-blue-400 focus:border-blue-400 appearance-none transition-all hover:bg-blue-100 disabled:bg-gray-100 disabled:cursor-not-allowed pr-10 flex items-center justify-between ${!selectedSubject ? 'opacity-60 cursor-not-allowed' : ''}`}> 
+                          <span className={`truncate text-left ${resourceType ? 'text-blue-900' : 'text-gray-400'}`}>{resourceType || 'Select Type'}</span>
+                          <ChevronsUpDown className="w-5 h-5 text-blue-400 ml-2" />
+                        </Listbox.Button>
+                        <Listbox.Options className="absolute z-20 mt-2 w-full max-h-60 overflow-auto rounded-2xl bg-gradient-to-br from-blue-50 via-white to-indigo-50 py-2 shadow-2xl ring-1 ring-black/10 focus:outline-none border border-blue-100 transition-transform duration-200 scale-95 origin-top">
+                          {resourceTypes.length === 0 && (
+                            <div className="px-4 py-2 text-gray-400">No types available</div>
+                          )}
+                          {resourceTypes.map(type => (
+                            <Listbox.Option
+                              key={type}
+                              value={type}
+                              className={({ active, selected }) => `
+                                cursor-pointer select-none relative px-6 py-3 text-base rounded-xl mx-2 my-1
+                                transition-all duration-150
+                                ${active ? 'bg-blue-100 text-blue-900 scale-[1.03]' : 'text-gray-900'}
+                                ${selected ? 'font-bold bg-blue-50' : ''}
+                              `}
+                            >
+                              {({ selected }) => (
+                                <>
+                                  <span className={`block truncate ${selected ? 'font-bold text-blue-700' : ''}`}>{type}</span>
+                                  {selected ? (
+                                    <span className="absolute inset-y-0 left-0 flex items-center text-blue-600">
+                                      <Check className="w-6 h-6 pr-3" />
+                                    </span>
+                                  ) : null}
+                                </>
+                              )}
+                            </Listbox.Option>
+                          ))}
+                        </Listbox.Options>
+                      </>
+                    )}
+                  </Listbox>
                 </div>
               </div>
             </div>
-
             {/* Search Bar */}
-            <div className="relative">
-              <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+            <div className="relative mt-2">
+              <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-blue-400 w-5 h-5" />
               <input
                 type="text"
                 placeholder="Search resources..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-12 pr-4 py-3 bg-white border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                className="w-full pl-12 pr-4 py-3 bg-white border border-blue-200 rounded-xl focus:ring-2 focus:ring-blue-400 focus:border-blue-400 transition-all shadow-sm hover:bg-blue-50"
               />
             </div>
           </div>
@@ -260,10 +349,9 @@ export default function MetaMaterial() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105">
-              Contact Support
-            </button>
-            <button className="bg-gray-100 hover:bg-gray-200 text-gray-700 px-8 py-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105">
+            <button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105"
+              onClick={() => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=sushabhan.composit@gmail.com&su=Contribute%20Resources', '_blank')}
+            >
               Contribute Resources
             </button>
           </div>

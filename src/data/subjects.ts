@@ -575,9 +575,75 @@ export const subjects: Subject[] = [
       }
     ]
   },
-  // 3rd Year Spring Sem
   {
     id: 23,
+    name: "CREEP, FATIGUE AND FRACTURE",
+    code: "MT31007",
+    year: "3rd Year",
+    semester: "Autumn Sem",
+    studyMaterials: [
+      { 
+        title: "Plastic Deformation Mechanisms", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
+      }
+    ],
+    pyqs: [
+      { 
+        title: "Mechanical Metallurgy Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
+      }
+    ]
+  },
+  {
+    id: 24,
+    name: "MECHANICAL WORKING OF MATERIALS",
+    code: "MT31009",
+    year: "3rd Year",
+    semester: "Autumn Sem",
+    studyMaterials: [
+      { 
+        title: "Plastic Deformation Mechanisms", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
+      }
+    ],
+    pyqs: [
+      { 
+        title: "Mechanical Metallurgy Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
+      }
+    ]
+  },
+  {
+    id: 25,
+    name: "PRINCIPLES OF EXTRACTIVE METALLURGY",
+    code: "MT31015",
+    year: "3rd Year",
+    semester: "Autumn Sem",
+    studyMaterials: [
+      { 
+        title: "Plastic Deformation Mechanisms", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
+      }
+    ],
+    pyqs: [
+      { 
+        title: "Mechanical Metallurgy Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
+      }
+    ]
+  },
+  // 3rd Year Spring Sem
+  {
+    id: 26,
     name: "X-RAY DIFFRACTION AND MICROSCOPY",
     code: "MT31202",
     year: "3rd Year",
@@ -599,7 +665,7 @@ export const subjects: Subject[] = [
     ]
   },
   {
-    id: 24,
+    id: 27,
     name: "IRON MAKING AND STEELMAKING",
     code: "MT32008",
     year: "3rd Year",
@@ -621,7 +687,7 @@ export const subjects: Subject[] = [
     ]
   },
   {
-    id: 25,
+    id: 28,
     name: "ADVANCED MATERIALS",
     code: "MT30204",
     year: "3rd Year",
@@ -643,9 +709,75 @@ export const subjects: Subject[] = [
     ]
   },
   {
-    id: 26,
+    id: 29,
     name: "PHYSICS OF MATERIALS",
     code: "MT30202",
+    year: "3rd Year",
+    semester: "Spring Sem",
+    studyMaterials: [
+      { 
+        title: "Plastic Deformation Mechanisms", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
+      }
+    ],
+    pyqs: [
+      { 
+        title: "Mechanical Metallurgy Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
+      }
+    ]
+  },
+  {
+    id: 30,
+    name: "MATERIAL CHARACTERIZATION",
+    code: "MT31012",
+    year: "3rd Year",
+    semester: "Spring Sem",
+    studyMaterials: [
+      { 
+        title: "Plastic Deformation Mechanisms", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
+      }
+    ],
+    pyqs: [
+      { 
+        title: "Mechanical Metallurgy Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
+      }
+    ]
+  },
+  {
+    id: 31,
+    name: "X-RAY DIFFRACTION AND TRANSMISSION ELECTRON MICROSCOPY",
+    code: "MT31022",
+    year: "3rd Year",
+    semester: "Spring Sem",
+    studyMaterials: [
+      { 
+        title: "Plastic Deformation Mechanisms", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
+      }
+    ],
+    pyqs: [
+      { 
+        title: "Mechanical Metallurgy Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
+      }
+    ]
+  },
+  {
+    id: 32,
+    name: "EXTRACTIVE METALLURGY OF NON-FERROUS METALS",
+    code: "MT41031",
     year: "3rd Year",
     semester: "Spring Sem",
     studyMaterials: [
