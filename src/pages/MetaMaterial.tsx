@@ -8,12 +8,10 @@ export default function MetaMaterial() {
   const [selectedSubject, setSelectedSubject] = useState('');
   const [resourceType, setResourceType] = useState('');
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedPYQYear, setSelectedPYQYear] = useState('');
 
-  const years = ['1st Year', '2nd Year', '3rd Year', '4th Year'];
-  const semesters = ['Autumn', 'Spring'];
+  const years = ['1st Year', '2nd Year', '3rd Year'];
+  const semesters = ['Autumn Sem', 'Spring Sem'];
   const resourceTypes = ['Study Materials', 'PYQs'];
-  const pyqYears = ['2023', '2022', '2021', '2020', '2019', 'All Years'];
 
   const filteredSubjects = subjects.filter(subject => {
     if (!selectedYear || !selectedSemester) return [];
@@ -31,11 +29,8 @@ export default function MetaMaterial() {
         material.title.toLowerCase().includes(searchTerm.toLowerCase())
       );
     } else {
-      let pyqs = subject.pyqs;
-      if (selectedPYQYear && selectedPYQYear !== 'All Years') {
-        pyqs = pyqs.filter(pyq => pyq.year === selectedPYQYear);
-      }
-      return pyqs.filter(pyq =>
+      // Always show all years for PYQs
+      return subject.pyqs.filter(pyq =>
         pyq.title.toLowerCase().includes(searchTerm.toLowerCase())
       );
     }
@@ -169,28 +164,6 @@ export default function MetaMaterial() {
                 </div>
               </div>
             </div>
-
-            {/* PYQ Year Filter */}
-            {resourceType === 'PYQs' && (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                <div className="space-y-2">
-                  <label className="block text-sm font-medium text-gray-700">PYQ Year</label>
-                  <div className="relative">
-                    <select
-                      value={selectedPYQYear}
-                      onChange={(e) => setSelectedPYQYear(e.target.value)}
-                      className="w-full p-3 bg-white border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none"
-                    >
-                      <option value="">Select Year</option>
-                      {pyqYears.map(year => (
-                        <option key={year} value={year}>{year}</option>
-                      ))}
-                    </select>
-                    <ChevronDown className="absolute right-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400 pointer-events-none" />
-                  </div>
-                </div>
-              </div>
-            )}
 
             {/* Search Bar */}
             <div className="relative">
