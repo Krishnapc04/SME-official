@@ -9,7 +9,7 @@ export default function MetaMaterial() {
   const [resourceType, setResourceType] = useState('');
   const [searchTerm, setSearchTerm] = useState('');
 
-  const years = ['1st Year', '2nd Year', '3rd Year', '4th Year'];
+  const years = ['1st Year', '2nd Year', '3rd Year'];
   const semesters = ['Autumn Sem', 'Spring Sem'];
   const resourceTypes = ['Study Materials', 'PYQs'];
 

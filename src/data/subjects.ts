@@ -488,26 +488,16 @@ export const subjects: Subject[] = [
   },
   // 3rd Year  Autumn Sem
   {
-    id: 20,
-    name: "Mechanical Metallurgy",
-    code: "MT32002",
+    id: 19,
+    name: "MECHANICAL TESTING AND WORKING OF MATERIALS",
+    code: "MT30201",
     year: "3rd Year",
-    semester: " Spring Sem",
+    semester: "Autumn Sem",
     studyMaterials: [
       { 
         title: "Plastic Deformation Mechanisms", 
         type: "Notes",
         driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
-      },
-      { 
-        title: "Fracture Mechanics Reference", 
-        type: "Reference",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_Ref_2023"
-      },
-      { 
-        title: "Fatigue and Creep Analysis", 
-        type: "Assignment",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_Assign_2023"
       }
     ],
     pyqs: [
@@ -516,134 +506,162 @@ export const subjects: Subject[] = [
         year: "2023", 
         type: "Mid-Sem",
         driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
-      },
-      { 
-        title: "Mechanical Metallurgy End-Sem 2023", 
-        year: "2023", 
-        type: "End-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_EndSem_2023"
       }
     ]
   },
-  // 4th Year Autumn Sem
   {
-    id: 21,
-    name: "Advanced Materials",
-    code: "MT41001",
-    year: "4th Year",
+    id: 20,
+    name: "EXTRACTIVE METALLURGY",
+    code: "MT30205",
+    year: "3rd Year",
     semester: "Autumn Sem",
     studyMaterials: [
       { 
-        title: "Nanomaterials and Applications", 
+        title: "Plastic Deformation Mechanisms", 
         type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT41001_Notes_2023"
-      },
-      { 
-        title: "Smart Materials Reference", 
-        type: "Reference",
-        driveLink: "https://drive.google.com/drive/folders/1MT41001_Ref_2023"
-      },
-      { 
-        title: "Composite Materials Slides", 
-        type: "Slides",
-        driveLink: "https://drive.google.com/drive/folders/1MT41001_Slides_2023"
-      },
-      { 
-        title: "Research Project Guidelines", 
-        type: "Assignment",
-        driveLink: "https://drive.google.com/drive/folders/1MT41001_Assign_2023"
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
       }
     ],
     pyqs: [
       { 
-        title: "Advanced Materials Mid-Sem 2023", 
+        title: "Mechanical Metallurgy Mid-Sem 2023", 
         year: "2023", 
         type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT41001_MidSem_2023"
-      },
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
+      }
+    ]
+  },
+  {
+    id: 21,
+    name: "PHASE TRANSFORMATION AND HEAT TREATMENT OF MATERIALS",
+    code: "MT31017",
+    year: "3rd Year",
+    semester: "Autumn Sem",
+    studyMaterials: [
       { 
-        title: "Advanced Materials End-Sem 2023", 
+        title: "Plastic Deformation Mechanisms", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
+      }
+    ],
+    pyqs: [
+      { 
+        title: "Mechanical Metallurgy Mid-Sem 2023", 
         year: "2023", 
-        type: "End-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT41001_EndSem_2023"
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
       }
     ]
   },
   {
     id: 22,
-    name: "Corrosion Engineering",
-    code: "MT41002",
-    year: "4th Year",
+    name: "CORROSION AND ENVIRONMENTAL DEGRADATION OF MATERIALS",
+    code: "MT41013",
+    year: "3rd Year",
     semester: "Autumn Sem",
     studyMaterials: [
       { 
-        title: "Electrochemical Corrosion Theory", 
+        title: "Plastic Deformation Mechanisms", 
         type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT41002_Notes_2023"
-      },
-      { 
-        title: "Corrosion Protection Methods", 
-        type: "Reference",
-        driveLink: "https://drive.google.com/drive/folders/1MT41002_Ref_2023"
-      },
-      { 
-        title: "Case Studies in Corrosion", 
-        type: "Assignment",
-        driveLink: "https://drive.google.com/drive/folders/1MT41002_Assign_2023"
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
       }
     ],
     pyqs: [
       { 
-        title: "Corrosion Engineering Mid-Sem 2023", 
+        title: "Mechanical Metallurgy Mid-Sem 2023", 
         year: "2023", 
         type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT41002_MidSem_2023"
-      },
-      { 
-        title: "Corrosion Engineering End-Sem 2023", 
-        year: "2023", 
-        type: "End-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT41002_EndSem_2023"
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
       }
     ]
   },
-  // 4th Year  Spring Sem
+  // 3rd Year Spring Sem
   {
     id: 23,
-    name: "Project Management",
-    code: "MT42001",
-    year: "4th Year",
-    semester: " Spring Sem",
+    name: "X-RAY DIFFRACTION AND MICROSCOPY",
+    code: "MT31202",
+    year: "3rd Year",
+    semester: "Spring Sem",
     studyMaterials: [
       { 
-        title: "Project Planning and Control", 
+        title: "Plastic Deformation Mechanisms", 
         type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT42001_Notes_2023"
-      },
-      { 
-        title: "Risk Management in Projects", 
-        type: "Reference",
-        driveLink: "https://drive.google.com/drive/folders/1MT42001_Ref_2023"
-      },
-      { 
-        title: "Case Study Presentations", 
-        type: "Slides",
-        driveLink: "https://drive.google.com/drive/folders/1MT42001_Slides_2023"
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
       }
     ],
     pyqs: [
       { 
-        title: "Project Management Mid-Sem 2023", 
+        title: "Mechanical Metallurgy Mid-Sem 2023", 
         year: "2023", 
         type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT42001_MidSem_2023"
-      },
-      { 
-        title: "Project Management End-Sem 2023", 
-        year: "2023", 
-        type: "End-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT42001_EndSem_2023"
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
       }
     ]
-  }
+  },
+  {
+    id: 24,
+    name: "IRON MAKING AND STEELMAKING",
+    code: "MT32008",
+    year: "3rd Year",
+    semester: "Spring Sem",
+    studyMaterials: [
+      { 
+        title: "Plastic Deformation Mechanisms", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
+      }
+    ],
+    pyqs: [
+      { 
+        title: "Mechanical Metallurgy Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
+      }
+    ]
+  },
+  {
+    id: 25,
+    name: "ADVANCED MATERIALS",
+    code: "MT30204",
+    year: "3rd Year",
+    semester: "Spring Sem",
+    studyMaterials: [
+      { 
+        title: "Plastic Deformation Mechanisms", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
+      }
+    ],
+    pyqs: [
+      { 
+        title: "Mechanical Metallurgy Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
+      }
+    ]
+  },
+  {
+    id: 26,
+    name: "PHYSICS OF MATERIALS",
+    code: "MT30202",
+    year: "3rd Year",
+    semester: "Spring Sem",
+    studyMaterials: [
+      { 
+        title: "Plastic Deformation Mechanisms", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
+      }
+    ],
+    pyqs: [
+      { 
+        title: "Mechanical Metallurgy Mid-Sem 2023", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
+      }
+    ]
+  },
 ];
