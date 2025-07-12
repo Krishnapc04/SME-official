@@ -400,8 +400,8 @@ export const subjects: Subject[] = [
   },
   {
     id: 15,
-    name: "TRANSFORM CALCULUS",
-    code: "MA20202",
+    name: "MACHINE LEARNING METHODS FOR MATERIALS ENGINEERING",
+    code: "MT20206",
     year: "2nd Year",
     semester: "Spring Sem",
     studyMaterials: [
@@ -444,8 +444,8 @@ export const subjects: Subject[] = [
   },
   {
     id: 17,
-    name: "COMPUTER APPLICATIONS IN METALLURGICAL PROCESSES",
-    code: "MT20204",
+    name: "INTEGRAL TRANSFORMS AND APPLICATIONS",
+    code: "MA30210",
     year: "2nd Year",
     semester: "Spring Sem",
     studyMaterials: [
