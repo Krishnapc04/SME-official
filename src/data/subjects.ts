@@ -295,39 +295,113 @@ export const subjects: Subject[] = [
     semester: "Autumn Sem",
     studyMaterials: [
       { 
-        title: "Crystal Structure and Defects", 
+        title: "Notes & Other Materials", 
         type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT21001_Notes_2023"
+        driveLink: "https://drive.google.com/drive/folders/1bK72DN3Ken15K2Z-H5b2-LcsfkUTxs6b?usp=drive_link"
       }
     ],
     pyqs: [
       { 
-        title: "Materials Science Mid-Sem 2023", 
-        year: "2023", 
+        title: "PYQ Mid-Sem", 
+        year: "2022", 
         type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT21001_MidSem_2023"
+        driveLink: "https://drive.google.com/file/d/15roxAS5C-oXmWAXkpJnMKe0BaXEAu4ck/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2024", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/15SebxXdjK9W6QFB7lUBqozrqqJ377bbE/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2021", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/12OCd56ciOALoOKr73TH1MwvzTegCZAZc/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2024", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1VEbUJZGTZI-LLeed2DxPQkW4tukGRJOf/view?usp=drive_link"
       }
     ]
   },
   {
     id: 11,
-    name: "NTRODUCTION TO ENGINEERING MATERIALS",
+    name: "INTRODUCTION TO ENGINEERING MATERIALS",
     code: "	MT21107",
     year: "2nd Year",
     semester: "Autumn Sem",
     studyMaterials: [
-      { 
-        title: "Classical Thermodynamics Notes", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT21002_Notes_2023"
-      }
+      
     ],
     pyqs: [
       { 
-        title: "Thermodynamics Mid-Sem 2023", 
-        year: "2023", 
+        title: "PYQ Mid-Sem", 
+        year: "2015", 
         type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT21002_MidSem_2023"
+        driveLink: "https://drive.google.com/file/d/1Qo20SCRaeLuwiOxjZKtL3a-2_lX6rjzl/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2016", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1goDDn-DAvALTy6AAmERiWHu4takOJgK1/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2017", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1IWKKwonXrGgOn1udONvDabV4Z5luamUX/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2018", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1-HcsbE_eEY7Gv-VUOxUu7eIsLvHXy7dc/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2022", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1pCtcxyj9ptssBIrlbCzFoNmyrC2P-V3b/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2024", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1UrtYJFUyLNyLMGTtcyLxgEVXZgA9HNXg/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2015", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1JJ49KKLYtFBCvcuf7pYIgTiDr4TwDoY_/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2016", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1-ZTAraNgyEs2WJ5B-WmRz9BxuBqquGmp/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2017", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1JGHPMVbMS8R8wUSCxMWgHkJC1jkYynvT/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2022", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1PfVszPcKJuF_2OZfzUTTbOqmnOhJKQhP/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2024", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1JrV86jxQKNjKYGgOaHSsIptM139MnQpc/view?usp=drive_link"
       }
     ]
   },
@@ -339,17 +413,77 @@ export const subjects: Subject[] = [
     semester: "Autumn Sem",
     studyMaterials: [
       { 
-        title: "Classical Thermodynamics Notes", 
+        title: "Class Test 2022", 
         type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT21002_Notes_2023"
+        driveLink: "https://drive.google.com/file/d/1OAHTK5UWHkhGdxBlLoRx3AN8l8fTmJVn/view?usp=drive_link"
       }
     ],
     pyqs: [
       { 
-        title: "Thermodynamics Mid-Sem 2023", 
-        year: "2023", 
+        title: "PYQ Mid-Sem", 
+        year: "2016", 
         type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT21002_MidSem_2023"
+        driveLink: "https://drive.google.com/file/d/1jzxcBKvGT-afOHrLb-L_XzzlC5LAI-Qo/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2017", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1aV08VJRY4VzylfHHlqqdATtJU8dtvnef/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2018", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1-RJYGjzdJYss2xsH_3BAHC4GdqgRxkoD/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2022", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1aoC-Ax1DM_2JNlNhXGsYSYl2y6D288eT/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2024", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1NtAlRoH06eVdiv4uqNaVjbuqeGhdi0tV/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2015", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1EC2ihEB4nppDegr3-YUZRvAiprRKdK1C/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2016", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1nQNDadiDBUoBrYTlkmbHykMcDEwDi2pU/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2017", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1t6Mv_5d1EXyqBp1XRgRc-aJ3CDI_lZNo/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2018", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1Vfd3n5mvo9xU59Hi1-MGh2JAr2_6zlXo/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2022", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/11omslty2uhHKhuteDup4cLRlmDoTiVBt/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2024", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/14NIfyvOgPRXtPgM2sdtRY-MO8b6pQkpw/view?usp=drive_link"
       }
     ]
   },
@@ -400,8 +534,8 @@ export const subjects: Subject[] = [
   },
   {
     id: 15,
-    name: "TRANSFORM CALCULUS",
-    code: "MA20202",
+    name: "MACHINE LEARNING METHODS FOR MATERIALS ENGINEERING",
+    code: "MT20206",
     year: "2nd Year",
     semester: "Spring Sem",
     studyMaterials: [
@@ -444,8 +578,8 @@ export const subjects: Subject[] = [
   },
   {
     id: 17,
-    name: "COMPUTER APPLICATIONS IN METALLURGICAL PROCESSES",
-    code: "MT20204",
+    name: "INTEGRAL TRANSFORMS AND APPLICATIONS",
+    code: "MA30210",
     year: "2nd Year",
     semester: "Spring Sem",
     studyMaterials: [
