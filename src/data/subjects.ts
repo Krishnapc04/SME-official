@@ -295,17 +295,35 @@ export const subjects: Subject[] = [
     semester: "Autumn Sem",
     studyMaterials: [
       { 
-        title: "Crystal Structure and Defects", 
+        title: "Notes & Other Materials", 
         type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT21001_Notes_2023"
+        driveLink: "https://drive.google.com/drive/folders/1bK72DN3Ken15K2Z-H5b2-LcsfkUTxs6b?usp=drive_link"
       }
     ],
     pyqs: [
       { 
-        title: "Materials Science Mid-Sem 2023", 
-        year: "2023", 
+        title: "PYQ Mid-Sem", 
+        year: "2022", 
         type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT21001_MidSem_2023"
+        driveLink: "https://drive.google.com/file/d/15roxAS5C-oXmWAXkpJnMKe0BaXEAu4ck/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2024", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/15SebxXdjK9W6QFB7lUBqozrqqJ377bbE/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2021", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/12OCd56ciOALoOKr73TH1MwvzTegCZAZc/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2024", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1VEbUJZGTZI-LLeed2DxPQkW4tukGRJOf/view?usp=drive_link"
       }
     ]
   },
