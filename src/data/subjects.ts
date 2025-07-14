@@ -689,19 +689,10 @@ export const subjects: Subject[] = [
     year: "2nd Year",
     semester: "Spring Sem",
     studyMaterials: [
-      { 
-        title: "", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT31002_Notes_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Materials Characterization Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT31002_MidSem_2023"
-      }
+      
     ]
   },
   {
