@@ -30,19 +30,10 @@ export const subjects: Subject[] = [
     year: "1st Year",
     semester: "Autumn Sem",
     studyMaterials: [
-      { 
-        title: "Calculus and Differential Equations Notes", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MA11001_Notes_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Engineering Mathematics I Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MA11001_MidSem_2023"
-      }
+      
     ]
   },
   {
@@ -52,19 +43,10 @@ export const subjects: Subject[] = [
     year: "1st Year",
     semester: "Autumn Sem",
     studyMaterials: [
-      { 
-        title: "Mechanics and Thermodynamics Notes", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1PH11001_Notes_2023"
-      }
+     
     ],
     pyqs: [
-      { 
-        title: "Physics Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1PH11001_MidSem_2023"
-      }
+      
     ]
   },
   {
@@ -74,19 +56,10 @@ export const subjects: Subject[] = [
     year: "1st Year",
     semester: "Autumn Sem",
     studyMaterials: [
-      { 
-        title: "Mechanics and Thermodynamics Notes", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1PH11001_Notes_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Physics Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1PH11001_MidSem_2023"
-      }
+      
     ]
   },
   {
@@ -96,19 +69,10 @@ export const subjects: Subject[] = [
     year: "1st Year",
     semester: "Autumn Sem",
     studyMaterials: [
-      { 
-        title: "Mechanics and Thermodynamics Notes", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1PH11001_Notes_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Physics Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1PH11001_MidSem_2023"
-      }
+      
     ]
   },
   {
@@ -118,19 +82,10 @@ export const subjects: Subject[] = [
     year: "1st Year",
     semester: "Autumn Sem",
     studyMaterials: [
-      { 
-        title: "Mechanics and Thermodynamics Notes", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1PH11001_Notes_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Physics Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1PH11001_MidSem_2023"
-      }
+      
     ]
   },
   // 1st Year  Spring Sem
@@ -141,35 +96,10 @@ export const subjects: Subject[] = [
     year: "1st Year",
     semester: "Spring Sem",
     studyMaterials: [
-      { 
-        title: "Vector Calculus and Complex Analysis", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MA11002_Notes_2023"
-      },
-      { 
-        title: "Fourier Series and Transforms", 
-        type: "Reference",
-        driveLink: "https://drive.google.com/drive/folders/1MA11002_Ref_2023"
-      },
-      { 
-        title: "Mathematical Methods Slides", 
-        type: "Slides",
-        driveLink: "https://drive.google.com/drive/folders/1MA11002_Slides_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Engineering Mathematics II Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MA11002_MidSem_2023"
-      },
-      { 
-        title: "Engineering Mathematics II End-Sem 2023", 
-        year: "2023", 
-        type: "End-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MA11002_EndSem_2023"
-      }
+      
     ]
   },
   {
@@ -179,35 +109,10 @@ export const subjects: Subject[] = [
     year: "1st Year",
     semester: "Spring Sem",
     studyMaterials: [
-      { 
-        title: "Organic Chemistry Fundamentals", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_Notes_2023"
-      },
-      { 
-        title: "Chemical Bonding and Structure", 
-        type: "Reference",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_Ref_2023"
-      },
-      { 
-        title: "Laboratory Experiments Guide", 
-        type: "Assignment",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_Lab_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Chemistry Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_MidSem_2023"
-      },
-      { 
-        title: "Chemistry End-Sem 2023", 
-        year: "2023", 
-        type: "End-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_EndSem_2023"
-      }
+      
     ]
   },
   {
@@ -217,35 +122,10 @@ export const subjects: Subject[] = [
     year: "1st Year",
     semester: "Spring Sem",
     studyMaterials: [
-      { 
-        title: "Organic Chemistry Fundamentals", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_Notes_2023"
-      },
-      { 
-        title: "Chemical Bonding and Structure", 
-        type: "Reference",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_Ref_2023"
-      },
-      { 
-        title: "Laboratory Experiments Guide", 
-        type: "Assignment",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_Lab_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Chemistry Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_MidSem_2023"
-      },
-      { 
-        title: "Chemistry End-Sem 2023", 
-        year: "2023", 
-        type: "End-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_EndSem_2023"
-      }
+     
     ]
   },
   {
@@ -255,35 +135,10 @@ export const subjects: Subject[] = [
     year: "1st Year",
     semester: "Spring Sem",
     studyMaterials: [
-      { 
-        title: "Organic Chemistry Fundamentals", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_Notes_2023"
-      },
-      { 
-        title: "Chemical Bonding and Structure", 
-        type: "Reference",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_Ref_2023"
-      },
-      { 
-        title: "Laboratory Experiments Guide", 
-        type: "Assignment",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_Lab_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Chemistry Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_MidSem_2023"
-      },
-      { 
-        title: "Chemistry End-Sem 2023", 
-        year: "2023", 
-        type: "End-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_EndSem_2023"
-      }
+      
     ]
   },
   // 2nd Year Autumn Sem
@@ -494,19 +349,10 @@ export const subjects: Subject[] = [
     year: "2nd Year",
     semester: "Autumn Sem",
     studyMaterials: [
-      { 
-        title: "Classical Thermodynamics Notes", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT21002_Notes_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Thermodynamics Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT21002_MidSem_2023"
-      }
+      
     ]
   },
   // 2nd Year  Spring Sem
@@ -799,19 +645,10 @@ export const subjects: Subject[] = [
     year: "3rd Year",
     semester: "Autumn Sem",
     studyMaterials: [
-      { 
-        title: "Plastic Deformation Mechanisms", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Mechanical Metallurgy Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
-      }
+      
     ]
   },
   {
@@ -822,18 +659,125 @@ export const subjects: Subject[] = [
     semester: "Autumn Sem",
     studyMaterials: [
       { 
-        title: "Plastic Deformation Mechanisms", 
+        title: "Class Test", 
         type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
+        driveLink: "https://drive.google.com/file/d/15YcQ4VxtS51pG2SvPUOIxqHTdVNBvgap/view?usp=drive_link"
+      },
+      { 
+        title: "Class Test", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1EXV_fZADfJOtJe8IIaIjN9m-CEepZ0BO/view?usp=drive_link"
       }
     ],
     pyqs: [
       { 
-        title: "Mechanical Metallurgy Mid-Sem 2023", 
+        title: "PYQ Mid-Sem", 
+        year: "2012", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1JSkj4V6tyAgUv7pZNHksFMSiv1gV08_1/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2013", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1AByHIL6_bq3h1szzR7lrwuRIF_cUp0DM/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2014", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1ou117g49tpt78jGKRpTWzlyla2vqSPe5/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2015", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1vMagtqF3a76Ago4M5SqHS0smGAxLveHg/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2016", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1MZqbuHk0TOESVAnrmE48f_-t2LbJuigq/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2017", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/12HFPnnReEMdr4mQ0qAhr6yi3zkhdwubI/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2022", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1YJI7l8f07tiIENvbRimy1CeYVw8wV9_7/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
         year: "2023", 
         type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
-      }
+        driveLink: "https://drive.google.com/file/d/13YA6_UZZe0F8hKQIe2lKeSSNjkMFbQ_r/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2024", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1N9VWEOg-qOid8wJzKfAxCIoYqn7294mU/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2013", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1r6oRdoZtSYugMOaDt6Mxzirl-2mryq1Z/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2014", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1LtJ0cBX_RpZu3Ildw612HnmSBFtu88Oi/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2015", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1Y2YSvnAWDA5u-eAk3XEUzkxeTdUnuHP7/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2016", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1Qs67xLSb_Zjrd72VZB4Jn9efLoLLu0mA/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2017", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1mvFu4JesLmNFixSIjXcx9_d1HBmXGf0e/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2018", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1CmvMECyN8pKZujSW7SRciNFBMHDAP3EX/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2022", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1Lc1VjnXEWlr2tHTzOlE21jiq8kMBPHz3/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1H41SpdBaSpgpkMRgr09y4QfzJU1Dobhg/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2024", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/11xn7EINnKrFVWNFsbSb9myKfozPsUP45/view?usp=drive_link"
+      },
     ]
   },
   {
@@ -844,18 +788,155 @@ export const subjects: Subject[] = [
     semester: "Autumn Sem",
     studyMaterials: [
       { 
-        title: "Plastic Deformation Mechanisms", 
+        title: "Class Test 1 (2020-2021)", 
         type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
+        driveLink: "https://docs.google.com/document/d/1iH_vxtg2sBCkkz09YlZeuWQDijb5XZGI/edit?usp=drive_link&ouid=100294713850971806789&rtpof=true&sd=true"
+      },
+      { 
+        title: "Class Test 2 (2020-2021)", 
+        type: "Notes",
+        driveLink: "https://docs.google.com/document/d/1ZlDKGKkUD3HJ0Kdi8dQey3xmGP96Z9wZ/edit?usp=drive_link&ouid=100294713850971806789&rtpof=true&sd=true"
+      },
+      { 
+        title: "Class Test 3 (2020-2021)", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1Yoll8ZioEGW0cUNxFtU7m6a9NCqbx1zb/view?usp=drive_link"
+      },
+      { 
+        title: "Class Test (2023-2024)", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1BiA_oEn5DdYK9rB_p2Z5O1XpcyuBAnwB/view?usp=drive_link"
+      },
+      { 
+        title: "Class Test (2024-2025)", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1mnIJeN_khpOikU8JIf5qKjAMoA373KSv/view?usp=drive_link"
+      },
+      { 
+        title: "Lab Test (2024-2025)", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1AO4pJVAjAPxCSaVWbToIqHk_OFRob94N/view?usp=drive_link"
+      },
+      { 
+        title: "Class Test", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1u9COWVXgj2xjJPFBr6MvF1qhJ0MCXMIb/view?usp=drive_link"
+      },
+      { 
+        title: "Problem set 1 UG 2024", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1nNgDT3S48Basjvifotbd9kqO4XMdo9dV/view?usp=drive_link"
       }
     ],
     pyqs: [
       { 
-        title: "Mechanical Metallurgy Mid-Sem 2023", 
+        title: "PYQ Mid-Sem", 
+        year: "2012", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1m9yRPSTxVTloRs-axM8xjD7rgYqbPwko/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2013", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1Tft-Rd_68PfN2SQ9U_7s5hXJbKWV6S0b/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2014", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1jVHkzNk-iQrEmHIgG-mmDXLhz8A5QCez/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2015", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1Vh70CfbAJcEupqiJim5PvORQ3BfW2-yE/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2016", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1aXoJa8kC-OAh_QFe3epRtsEeiavPbW0g/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2017", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/14u6geF0buKsJohpKnF3tmRjULxsWH8WE/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2022", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1i1JdKuJK2fERCgHEdhHuljksCYj9yHQr/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
         year: "2023", 
         type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
-      }
+        driveLink: "https://drive.google.com/file/d/18BRvyPJpwRL6x8VNjt84LS6lQFb348hg/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2024", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1ZfYGrmUJDYtTiXp85dEGps8wJVG4jIpi/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2013", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/18uJIV_Rf2joUMG15ZUyKD7L2ZumVZ9NO/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2014", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1lOXrf8YuWKF47IPX3YlkePdUPPcE0xuI/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2015", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1EAkSp8R9IsZsCvIIo1sasBHKK1CnTQFa/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2016", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1IzSqQJaHKY9-yA4qfQurcByz8KGuHPaD/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2017", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1BpkVh22xg1E0GgdbrGf6drwONME8xmPr/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2018", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1sJO-g3seD5J0xkPaLgEjZj_KC7o5XL1j/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2022", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1zmEFFTkhob2dfjPs1lxv7EIev-O678vo/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/12_ZC_s_qLcqk8428pSv8ue9muJMjgWtW/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2024", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1x5vO-o6O0LgVWr-pwRmb3L3pZB8y4Ce8/view?usp=drive_link"
+      },
     ]
   },
   {
@@ -1130,18 +1211,118 @@ export const subjects: Subject[] = [
     semester: "Autumn Sem",
     studyMaterials: [
       { 
-        title: "Plastic Deformation Mechanisms", 
+        title: "Sever plastic deformation", 
         type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
-      }
+        driveLink: "https://drive.google.com/file/d/1H256cp4Eihfa3zFbpR_Go77Pko_b4bxf/view?usp=drive_link"
+      },
+      { 
+        title: "Class Test (2020)", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1LFbLYFuncU2aH1o3WH20dkvILFnddo_k/view?usp=drive_link"
+      },
+      { 
+        title: "Class Test (2024)", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1u-qsP08QD7gF7-w1bRFEI6quMOs3pnz7/view?usp=drive_link"
+      },
     ],
     pyqs: [
       { 
-        title: "Mechanical Metallurgy Mid-Sem 2023", 
+        title: "PYQ Mid-Sem", 
+        year: "2014", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1d-aNWXHioiyoHjd2_OSStHDBmRsHrCXi/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2015", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/16Vk4bb2hqm8eeqtiUIDdD7hLOGUZR_Xv/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2016", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1kGjPk3aKiGKXX48OiU0pZc0xdlXKIP-d/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2017", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1cGOyJgewPrva-vcbB2EgRM-APbrewNt9/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2022", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/12ogUEAIAANn8K9KCbdO65g-EARixlqjd/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
         year: "2023", 
         type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
-      }
+        driveLink: "https://drive.google.com/file/d/1ofZhT8chizAq3t3XAK7fRkLna9lU0D1Z/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2024", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/12C5Vc45aUGSAaRLODQhciW_EpA8Kmzho/view?usp=drive_link"
+      },
+      { 
+        title: "Mid-Sem-MWoM", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/10GyQpzHYqaU-VmBiFZqHdL4ck-pPso5R/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2013", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/10y60EJWaML_LVJ2RbJNnHFWG-iclLRcD/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2014", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1EwrjdZXXt_A4nLff0KkWmlXU8p0mfN_Q/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2015", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1dyx1FL6pFiTlzAb-vXfKRFcXDPzuVujs/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2016", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/16eb5mJ98y89awy5KugDqk8A4KrGt1EgS/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2017", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1ZOyoFBOxdN6K7l7GB1eWCahz1CZwJSbM/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2018", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/123SmaBYiXiVT1q3dxG3m9TVCQnZZPi98/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2022", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1tJD2Njwb1uq-fEFHjgwTu569CZCtU892/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1Nuva9yZOS-m3gV0lN_vzWKzbGlEqo5rk/view?usp=drive_link"
+      },
     ]
   },
   {
@@ -1151,19 +1332,10 @@ export const subjects: Subject[] = [
     year: "3rd Year",
     semester: "Autumn Sem",
     studyMaterials: [
-      { 
-        title: "Plastic Deformation Mechanisms", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Mechanical Metallurgy Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
-      }
+      
     ]
   },
   // 3rd Year Spring Sem
