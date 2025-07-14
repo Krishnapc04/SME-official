@@ -703,18 +703,92 @@ export const subjects: Subject[] = [
     semester: "Spring Sem",
     studyMaterials: [
       { 
-        title: "", 
+        title: "Assignment 1", 
         type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT31002_Notes_2023"
-      }
+        driveLink: "https://drive.google.com/file/d/1ZOAJwylMKGKWwNnl_9yuy0vsfiukqlac/view?usp=drive_link"
+      },
+      { 
+        title: "Assignment 2", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1r8EL1or5Dgq4-G4wOXfp7OcozIq_rWHd/view?usp=drive_link"
+      },
+      { 
+        title: "Assignment 3 part-I", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1zDFdxIBYYzzg_A_dXoWtYhuCoUGv0DVi/view?usp=drive_link"
+      },
+      { 
+        title: "Assignment 3 part_II", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1xHef35aTvIAn3SnIwv-TaspCbRH0hHE5/view?usp=drive_link"
+      },
+      { 
+        title: "Assignment 5", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1pYM2nt0BVylgh4Mb-Qu8N651EQs3WqrE/view?usp=drive_link"
+      },
     ],
     pyqs: [
       { 
-        title: "Materials Characterization Mid-Sem 2023", 
+        title: "PYQ Mid-Sem", 
+        year: "2014", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1bSyMDrDZrGYzGVFrBHaRiJ1BX1QJWvah/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2015", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1QbS_BTNBS90cFO1HKpuU2mpMyt5RC8H-/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2016", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1e4tJmoN894rGqKvOPdFtKB_AOgBGlADh/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2022", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1VsGsCRlVfxWELCmz3OpFVRBdGJv3EwR-/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
         year: "2023", 
         type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT31002_MidSem_2023"
-      }
+        driveLink: "https://drive.google.com/file/d/1A3HilKSzoFS578gnzMS63dFJnATMSvE3/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2024", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/157NLQkF9VaRK9hzkUeSRYoNgb6itxwrJ/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2018", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1mcGO-ha-ayYpeEwoXH6bPUoAwvQ-5eaL/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2022", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1C9AouGb55SevBTaHyl8odnbzxG-aaLXu/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1Gn93dwN_2gw4HrFUhm2sOCsj7pgqwHq7/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2024", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1GdWU_tV4y5un3ZEYfR_Nbn5gLnl-baoK/view?usp=drive_link"
+      },
     ]
   },
   // 3rd Year  Autumn Sem
