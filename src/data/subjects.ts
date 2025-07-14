@@ -799,19 +799,10 @@ export const subjects: Subject[] = [
     year: "3rd Year",
     semester: "Autumn Sem",
     studyMaterials: [
-      { 
-        title: "Plastic Deformation Mechanisms", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Mechanical Metallurgy Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
-      }
+      
     ]
   },
   {
