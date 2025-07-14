@@ -960,17 +960,165 @@ export const subjects: Subject[] = [
     semester: "Autumn Sem",
     studyMaterials: [
       { 
-        title: "Plastic Deformation Mechanisms", 
+        title: "Assignment 1", 
         type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
-      }
+        driveLink: "https://drive.google.com/file/d/1mfLklw5IPVWXwAt_g1C1VrSGPM9ryjdr/view?usp=drive_link"
+      },
+      { 
+        title: "Assignment 1 Solution", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1PUyzrEnzPKCJ3K4vWMrnHsx-lN6A8bij/view?usp=drive_link"
+      },
+      { 
+        title: "Assignment 2", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1iHdRjmqjG7N_38ORk5hMhJbOyrNp-4gP/view?usp=drive_link"
+      },
+      { 
+        title: "Assignment 2 Solution", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1iHdRjmqjG7N_38ORk5hMhJbOyrNp-4gP/view?usp=drive_link"
+      },
+      { 
+        title: "Assignment 2 (2024-2025)", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1oVA6NWYVOX7EacJHsmfgpDii1srBUQlQ/view?usp=drive_link"
+      },
+      { 
+        title: "Assignment 3", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1RtW-kX0JxrMjLtjog3-HbKclzEe1qvBF/view?usp=drive_link"
+      },
+      { 
+        title: "Assignment 3 Solution", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1zAtL-iDHmd9ryFEgF7BzUWn4Z8QQBoWF/view?usp=drive_link"
+      },
+      { 
+        title: "Assignment QN", 
+        type: "Notes",
+        driveLink: "https://docs.google.com/spreadsheets/d/1uB5z0k_4SWejqPlmWkTpuXhdhqOlyGPp/edit?usp=drive_link&ouid=100294713850971806789&rtpof=true&sd=true"
+      },
+      { 
+        title: "Assignment 3 (2024-2025)", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1laxAzsDjIj_e3BdltZ22WBnoQ_EQ6qei/view?usp=drive_link"
+      },
+      { 
+        title: "Assignment 4 (2024-2025)", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1rt650GyLgRajDmNYBR9RXCNKFZlX1F76/view?usp=drive_link"
+      },
+      { 
+        title: "Assignment 4 (2023-2024)", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1DIaQSUd7j23eHnuU4j5L0RmuB1ZQxn7p/view?usp=drive_link"
+      },
+      { 
+        title: "Class Test 2022", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1tjNpuL26dqFBkNopbVHPzGpz6FT_Xf8r/view?usp=drive_link"
+      },
+      { 
+        title: "Class Test 2023", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1ElE1yPkCKtKB6Lt8FD2nkEbbxvOWYQ2B/view?usp=drive_link"
+      },
+      { 
+        title: "Class Test-I 2024", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1j4Jy3T0aytBL4usQy9lgvEHmicQhYy7-/view?usp=drive_link"
+      },
+      { 
+        title: "Class Test-II 2024", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1waLaIorPFMzoGZZIsmKYEwLJXJ6oFF8h/view?usp=drive_link"
+      },
     ],
     pyqs: [
       { 
-        title: "Mechanical Metallurgy Mid-Sem 2023", 
+        title: "PYQ Mid-Sem", 
+        year: "2017", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1qOJdvARrg7WwAkKK4ICwen1rETSFjhSz/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2018", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1xMto6i2sKbOyXIpMYKTOeIRi5AQAnrOl/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2022", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/14wZ6OMR2tNFZzWG3ISvubTJ6aHJuO2VN/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
         year: "2023", 
         type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
+        driveLink: "https://drive.google.com/file/d/11rXldu0Jk1n2PPkibGsAFC68we1egkDU/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2024", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1rjsBTL4RPBUj65Tdshgy468we2ylh0mm/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2013", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1lqUyriNumN4KS403poi_YX669wM7LikY/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2014", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1oHQSNF-bcW1rndSSSyhb_tDCz1ygiHdF/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2015", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1R2EubF9huZDM6W59usMl3mGNkpvpM-R-/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2016", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1OEKBOXfUMRtB7rLfsEggTt3HReBKXjlx/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2017", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1CNb6alpw8nQnxcz4nWR7W4eojzOm97RG/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2018", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1AN2BKTbtOYRCj9d5PaB1CLL-iXJF7KXZ/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2022", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1SLe3jEFIVNHhu1P8hjhHVQLf8xeryAv9/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1NmaLjmhLKbbRuOWSLZRH3yaK4-u943AJ/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2024", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1y-LEleQtFfNik0zn0vOUl73WBdKaiQHc/view?usp=drive_link"
       }
     ]
   },
