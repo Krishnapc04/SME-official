@@ -30,19 +30,10 @@ export const subjects: Subject[] = [
     year: "1st Year",
     semester: "Autumn Sem",
     studyMaterials: [
-      { 
-        title: "Calculus and Differential Equations Notes", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MA11001_Notes_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Engineering Mathematics I Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MA11001_MidSem_2023"
-      }
+      
     ]
   },
   {
@@ -52,19 +43,10 @@ export const subjects: Subject[] = [
     year: "1st Year",
     semester: "Autumn Sem",
     studyMaterials: [
-      { 
-        title: "Mechanics and Thermodynamics Notes", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1PH11001_Notes_2023"
-      }
+     
     ],
     pyqs: [
-      { 
-        title: "Physics Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1PH11001_MidSem_2023"
-      }
+      
     ]
   },
   {
@@ -74,19 +56,10 @@ export const subjects: Subject[] = [
     year: "1st Year",
     semester: "Autumn Sem",
     studyMaterials: [
-      { 
-        title: "Mechanics and Thermodynamics Notes", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1PH11001_Notes_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Physics Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1PH11001_MidSem_2023"
-      }
+      
     ]
   },
   {
@@ -96,19 +69,10 @@ export const subjects: Subject[] = [
     year: "1st Year",
     semester: "Autumn Sem",
     studyMaterials: [
-      { 
-        title: "Mechanics and Thermodynamics Notes", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1PH11001_Notes_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Physics Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1PH11001_MidSem_2023"
-      }
+      
     ]
   },
   {
@@ -118,19 +82,10 @@ export const subjects: Subject[] = [
     year: "1st Year",
     semester: "Autumn Sem",
     studyMaterials: [
-      { 
-        title: "Mechanics and Thermodynamics Notes", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1PH11001_Notes_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Physics Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1PH11001_MidSem_2023"
-      }
+      
     ]
   },
   // 1st Year  Spring Sem
@@ -141,35 +96,10 @@ export const subjects: Subject[] = [
     year: "1st Year",
     semester: "Spring Sem",
     studyMaterials: [
-      { 
-        title: "Vector Calculus and Complex Analysis", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MA11002_Notes_2023"
-      },
-      { 
-        title: "Fourier Series and Transforms", 
-        type: "Reference",
-        driveLink: "https://drive.google.com/drive/folders/1MA11002_Ref_2023"
-      },
-      { 
-        title: "Mathematical Methods Slides", 
-        type: "Slides",
-        driveLink: "https://drive.google.com/drive/folders/1MA11002_Slides_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Engineering Mathematics II Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MA11002_MidSem_2023"
-      },
-      { 
-        title: "Engineering Mathematics II End-Sem 2023", 
-        year: "2023", 
-        type: "End-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MA11002_EndSem_2023"
-      }
+      
     ]
   },
   {
@@ -179,35 +109,10 @@ export const subjects: Subject[] = [
     year: "1st Year",
     semester: "Spring Sem",
     studyMaterials: [
-      { 
-        title: "Organic Chemistry Fundamentals", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_Notes_2023"
-      },
-      { 
-        title: "Chemical Bonding and Structure", 
-        type: "Reference",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_Ref_2023"
-      },
-      { 
-        title: "Laboratory Experiments Guide", 
-        type: "Assignment",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_Lab_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Chemistry Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_MidSem_2023"
-      },
-      { 
-        title: "Chemistry End-Sem 2023", 
-        year: "2023", 
-        type: "End-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_EndSem_2023"
-      }
+      
     ]
   },
   {
@@ -217,35 +122,10 @@ export const subjects: Subject[] = [
     year: "1st Year",
     semester: "Spring Sem",
     studyMaterials: [
-      { 
-        title: "Organic Chemistry Fundamentals", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_Notes_2023"
-      },
-      { 
-        title: "Chemical Bonding and Structure", 
-        type: "Reference",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_Ref_2023"
-      },
-      { 
-        title: "Laboratory Experiments Guide", 
-        type: "Assignment",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_Lab_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Chemistry Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_MidSem_2023"
-      },
-      { 
-        title: "Chemistry End-Sem 2023", 
-        year: "2023", 
-        type: "End-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_EndSem_2023"
-      }
+     
     ]
   },
   {
@@ -255,35 +135,10 @@ export const subjects: Subject[] = [
     year: "1st Year",
     semester: "Spring Sem",
     studyMaterials: [
-      { 
-        title: "Organic Chemistry Fundamentals", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_Notes_2023"
-      },
-      { 
-        title: "Chemical Bonding and Structure", 
-        type: "Reference",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_Ref_2023"
-      },
-      { 
-        title: "Laboratory Experiments Guide", 
-        type: "Assignment",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_Lab_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Chemistry Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_MidSem_2023"
-      },
-      { 
-        title: "Chemistry End-Sem 2023", 
-        year: "2023", 
-        type: "End-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1CY11001_EndSem_2023"
-      }
+      
     ]
   },
   // 2nd Year Autumn Sem
@@ -494,19 +349,10 @@ export const subjects: Subject[] = [
     year: "2nd Year",
     semester: "Autumn Sem",
     studyMaterials: [
-      { 
-        title: "Classical Thermodynamics Notes", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT21002_Notes_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Thermodynamics Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT21002_MidSem_2023"
-      }
+      
     ]
   },
   // 2nd Year  Spring Sem
@@ -1486,19 +1332,10 @@ export const subjects: Subject[] = [
     year: "3rd Year",
     semester: "Autumn Sem",
     studyMaterials: [
-      { 
-        title: "Plastic Deformation Mechanisms", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
-      }
+      
     ],
     pyqs: [
-      { 
-        title: "Mechanical Metallurgy Mid-Sem 2023", 
-        year: "2023", 
-        type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
-      }
+      
     ]
   },
   // 3rd Year Spring Sem
