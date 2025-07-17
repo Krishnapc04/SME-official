@@ -1369,18 +1369,163 @@ export const subjects: Subject[] = [
     semester: "Spring Sem",
     studyMaterials: [
       { 
-        title: "Plastic Deformation Mechanisms", 
+        title: "Assignment 1", 
         type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
+        driveLink: "https://drive.google.com/file/d/1-r0Z5TG6RE5koewmNFO-v6rerAr9wvNp/view?usp=drive_link"
+      },
+      { 
+        title: "Assignment 1-Sol", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1vdqUMxCexSOlDkcIUk_0_MehPrkQqHIt/view?usp=drive_link"
+      },
+      { 
+        title: "Assignment 2", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1C7JXgaVbyLYpzYo-mG3X9tu-cgIQFySS/view?usp=drive_link"
+      },
+      { 
+        title: "Assignment 2-Sol", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1wzIuh2z_OKxJiK1BALS0LZBY1rKjh5aa/view?usp=drive_link"
+      },
+      { 
+        title: "Assignment 3", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1c-fKKmObpwaOTD6XxeFhrGRd0FKKilyf/view?usp=drive_link"
+      },
+      { 
+        title: "Assignment 3-sOL", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1YYbZrzHbNm_6n3jLsjkOY4B7FYIufknc/view?usp=drive_link"
+      },
+      { 
+        title: "Assignment 4", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/15E5iL-5JE6FXQCpGeBh6V9qdl_ZT9KFz/view?usp=drive_link"
+      },{ 
+        title: "Assignment 4-Sol", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1RH-yNjjD0eXjqcndRu3mkjj_nuRBE-lb/view?usp=drive_link"
+      },{ 
+        title: "Assignment 5", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/11funWZSxcEbzrDfLdYVkM3cInb6ZgmNZ/view?usp=drive_link"
+      },{ 
+        title: "Assignment 5-Sol", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1Qm6MwFoTrJqdqU59RjeIKQPG79n3mcO2/view?usp=drive_link"
+      },{ 
+        title: "Assignment 6", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1Dw5XXL2qJ3B6fj2d4IdpSoezlCBTqIGL/view?usp=drive_link"
+      },{ 
+        title: "Assignment 6-Sol", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1rNApGZYrIGraQ8mwWXSIlaf1DYuKLteP/view?usp=drive_link"
+      },{ 
+        title: "Assignment 7", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/16VjtNgIe4PfsdM0Y2cWE8Vu9A1PvuIdT/view?usp=drive_link"
+      },{ 
+        title: "Assignment 7-Sol", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1z2iT2kXYBQ7k3jTci0opEodFifuSs814/view?usp=drive_link"
+      },{ 
+        title: "Assignment 8", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1aW9ePYg8IhlNbQ4lAN46GY6YwsX0mAM1/view?usp=drive_link"
+      },{ 
+        title: "Assignment 8-Sol", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1ldM48pALuu0t36ZysQG140w0ZascusWe/view?usp=drive_link"
+      },{ 
+        title: "Assignment 9", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1Q2yjr0unHmzwNUwc7_mmPEbbGV_F0kBB/view?usp=drive_link"
+      },{ 
+        title: "Assignment 9-Sol", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1dHK9XgFgdf7L37ZYuxLeOczfHLirdySF/view?usp=drive_link"
+      },{ 
+        title: "Assignment 10", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1S63GmtgkNiM13rypjCGmAjyyGTwxG1IU/view?usp=drive_link"
+      },{ 
+        title: "Assignment 10-Sol", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1S7bsMy0CDXvhUZ-Yry37eAN2PPpE9CCP/view?usp=drive_link"
+      },{ 
+        title: "Tutorial Assignment 1", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1w-80vPxj0rvYUGOktEGwoIuRwJgMABEe/view?usp=drive_link"
+      },{ 
+        title: "Tutorial Assignment 2", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1ol_qW7IWi1Rw-IH0TwgHtv2jPtBtlhJv/view?usp=drive_link"
+      },
+      { 
+        title: "2023-2024 CT-1", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1evKCfqptPCvshh8mJiLnLhuYrjDgQIvV/view?usp=drive_link"
+      },
+      { 
+        title: "2023-2024 CT-II", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1z8tT_yYjegoi9QdD17hP6qIosNRmKNqf/view?usp=drive_link"
+      },
+      { 
+        title: "2024-2025 CT-I", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1vO7tZQsNF6Qk2pcbvVw4w1juBGC5Kdt6/view?usp=drive_link"
+      },
+      { 
+        title: "2024-2025 CT-II", 
+        type: "Notes",
+        driveLink: "https://drive.google.com/file/d/1jyQ81379lSqhgcXLLDWkf5RNiEsT8yW5/view?usp=drive_link"
       }
     ],
     pyqs: [
       { 
-        title: "Mechanical Metallurgy Mid-Sem 2023", 
+        title: "PYQ Mid-Sem", 
+        year: "2017", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1Z_qsy-lled8rCJGbOCeTIsueTu4UIogo/view?usp=drive_link"
+      },{ 
+        title: "PYQ Mid-Sem", 
+        year: "2019", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1VcTCfBBqIGwvNu_L5z49Ozl3U15Ags5j/view?usp=drive_link"
+      },{ 
+        title: "PYQ Mid-Sem", 
+        year: "2022", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1xK3_PlRam412jW2BX-kFAGluokzWws_y/view?usp=drive_link"
+      },{ 
+        title: "PYQ Mid-Sem", 
         year: "2023", 
         type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
-      }
+        driveLink: "https://drive.google.com/file/d/1Eh_dVASxL2DQw3TBwCFFAtHRYW7iYeco/view?usp=drive_link"
+      },{ 
+        title: "PYQ Mid-Sem", 
+        year: "2024", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1lMzu9N5UDdqTqdY9n_8n_3ZENcNLW8ce/view?usp=drive_link"
+      },{ 
+        title: "PYQ End-Sem", 
+        year: "2022", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1d896PkqCX2DtbwO5TaSANp6UUPCMb2ld/view?usp=drive_link"
+      },{ 
+        title: "PYQ End-Sem", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1ena7DQo92CZWpfmzoSknHeNgmrMcYGz8/view?usp=drive_link"
+      },{ 
+        title: "PYQ End-Sem", 
+        year: "2024", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1XD-JtNi_UNlwfglXpU0RO02b4AAOMVnL/view?usp=drive_link"
+      },
     ]
   },
   {
