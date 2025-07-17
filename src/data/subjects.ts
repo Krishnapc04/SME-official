@@ -1579,19 +1579,50 @@ export const subjects: Subject[] = [
     year: "3rd Year",
     semester: "Spring Sem",
     studyMaterials: [
-      { 
-        title: "Plastic Deformation Mechanisms", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
-      }
+      
     ],
     pyqs: [
       { 
-        title: "Mechanical Metallurgy Mid-Sem 2023", 
+        title: "PYQ Mid-Sem", 
+        year: "2017", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1xvqBA3EIXVWJw1JlF-7PdZPm7-mVDTtH/view?usp=drive_link"
+      },{ 
+        title: "PYQ Mid-Sem", 
+        year: "2019", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1x4fCqo3gqG1xvMQ4_qQxBghofUX3aJJ6/view?usp=drive_link"
+      },{ 
+        title: "PYQ Mid-Sem", 
+        year: "2022", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/17trpn9jI-th4ZJ_fwsrkVy7O_4b43u3G/view?usp=drive_link"
+      },{ 
+        title: "PYQ Mid-Sem", 
         year: "2023", 
         type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
-      }
+        driveLink: "https://drive.google.com/file/d/1d10JFgtNzmTYx9NXcI56UwmAHt_9o8_B/view?usp=drive_link"
+      },{ 
+        title: "PYQ Mid-Sem", 
+        year: "2024", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1PfDdBtV3YdnMyHuatCTibzfms8CBLplH/view?usp=drive_link"
+      },{ 
+        title: "PYQ End-Sem", 
+        year: "2022", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1RyivsHo0E0RGVNqkBhPc0Io9mcVfX-Fy/view?usp=drive_link"
+      },{ 
+        title: "PYQ End-Sem", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1kvqP8EeRsHyl5LU7Y4Rd4XYltj46B4G4/view?usp=drive_link"
+      },{ 
+        title: "PYQ End-Sem", 
+        year: "2024", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/112-glypiXYBviF8Klb2jaVSEik2ub2ZV/view?usp=drive_link"
+      },
     ]
   },
   {
