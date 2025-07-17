@@ -1478,19 +1478,27 @@ export const subjects: Subject[] = [
     year: "3rd Year",
     semester: "Spring Sem",
     studyMaterials: [
-      { 
-        title: "Plastic Deformation Mechanisms", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
-      }
+      
     ],
     pyqs: [
       { 
-        title: "Mechanical Metallurgy Mid-Sem 2023", 
+        title: "PYQ Mid-Sem", 
         year: "2023", 
         type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
-      }
+        driveLink: "https://drive.google.com/file/d/1graG-Ci9pgU8KsjOJT8kcJqLJAXTHeQ5/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1RixhglUZP9bfR1dlZ85jERgbObTkp0Um/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ Mid-Sem", 
+        year: "2023", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1k88IXOZDdhxjIl6kCkF1EuZ4pC_eMI3t/view?usp=drive_link"
+      },
     ]
   },
 ];
