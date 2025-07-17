@@ -1557,19 +1557,40 @@ export const subjects: Subject[] = [
     year: "3rd Year",
     semester: "Spring Sem",
     studyMaterials: [
-      { 
-        title: "Plastic Deformation Mechanisms", 
-        type: "Notes",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_Notes_2023"
-      }
+      
     ],
     pyqs: [
       { 
-        title: "Mechanical Metallurgy Mid-Sem 2023", 
+        title: "PYQ Mid-Sem", 
+        year: "2022", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/13qq8EIjv65QnQh8PswDk0w1hV8R5Kf7b/view?usp=drive_link"
+      },{ 
+        title: "PYQ Mid-Sem", 
         year: "2023", 
         type: "Mid-Sem",
-        driveLink: "https://drive.google.com/drive/folders/1MT32002_MidSem_2023"
-      }
+        driveLink: "https://drive.google.com/file/d/1MoRoghA6cI-EYd18imcuaZYydhmmcdmd/view?usp=drive_link"
+      },{ 
+        title: "PYQ Mid-Sem", 
+        year: "2024", 
+        type: "Mid-Sem",
+        driveLink: "https://drive.google.com/file/d/1nziVO2nhGP5ZMLEE08t4N9Z0RP4rI1Vk/view?usp=drive_link"
+      },{ 
+        title: "PYQ End-Sem", 
+        year: "2022", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1_Lykis_azuHkXUbm9ytcfzjEdzYHy31g/view?usp=drive_link"
+      },{ 
+        title: "PYQ End-Sem", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1RUUOIkCDBsMSm0Ekl7O4P8Pz3uUkQnAU/view?usp=drive_link"
+      },{ 
+        title: "PYQ End-Sem", 
+        year: "2024", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1REB0mvVBNQt8tqMRroxzJ_G0u5XLGxTa/view?usp=drive_link"
+      },
     ]
   },
   {
