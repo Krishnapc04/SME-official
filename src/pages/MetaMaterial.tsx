@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { FileText, Search, Book, Filter, ExternalLink, ChevronsUpDown, Check } from 'lucide-react';
 import { subjects } from '../data/subjects';
 import { Listbox } from '@headlessui/react';
@@ -43,6 +43,12 @@ export default function MetaMaterial() {
     // Open the Google Drive link in a new tab
     window.open(driveLink, '_blank');
   };
+
+  // Animation state for the notice
+  const [showNotice, setShowNotice] = useState(false);
+  useEffect(() => {
+    setShowNotice(true);
+  }, []);
 
   return (
     <div className="min-h-screen">
@@ -268,6 +274,24 @@ export default function MetaMaterial() {
           </div>
         </div>
       </section>
+
+      {/* Notice for detailed drive access */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 mb-2">
+        <div
+          className={`bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-xl flex items-center gap-2 transition-all duration-500 ease-out
+            ${showNotice ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-90 translate-y-4'}`}
+        >
+          <span className="text-yellow-700 font-medium">For detailed drive access check this ..</span>
+          <a
+            href="https://drive.google.com/drive/folders/1MI95NI9a_DXhOJOkH7MB6m822JtpjGtf?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-700 underline font-semibold hover:text-blue-900 ml-2"
+          >
+            Link
+          </a>
+        </div>
+      </div>
 
       {/* Resources Display */}
       <section className="py-12 bg-gradient-to-br from-gray-50 to-blue-50 min-h-[400px]">
