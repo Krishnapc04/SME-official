@@ -1483,7 +1483,7 @@ export const subjects: Subject[] = [
     pyqs: [
       { 
         title: "PYQ Mid-Sem", 
-        year: "2023", 
+        year: "2022", 
         type: "Mid-Sem",
         driveLink: "https://drive.google.com/file/d/1graG-Ci9pgU8KsjOJT8kcJqLJAXTHeQ5/view?usp=drive_link"
       },
@@ -1495,10 +1495,28 @@ export const subjects: Subject[] = [
       },
       { 
         title: "PYQ Mid-Sem", 
-        year: "2023", 
+        year: "2024", 
         type: "Mid-Sem",
-        driveLink: "https://drive.google.com/file/d/1k88IXOZDdhxjIl6kCkF1EuZ4pC_eMI3t/view?usp=drive_link"
+        driveLink: "https://drive.google.com/file/d/1graG-Ci9pgU8KsjOJT8kcJqLJAXTHeQ5/view?usp=drive_link"
       },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2022", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1uvQE3V1fYlHpvJWfQyElYJg-DbRklHjC/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2023", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1WESJyl9HnEqK023jnYCEsZUK2qr2beh3/view?usp=drive_link"
+      },
+      { 
+        title: "PYQ End-Sem", 
+        year: "2024", 
+        type: "End-Sem",
+        driveLink: "https://drive.google.com/file/d/1F9CcMakog3DbCdyIMjCNnA5qT7xzVT-y/view?usp=drive_link"
+      }, 
     ]
   },
 ];
