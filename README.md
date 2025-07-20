@@ -1,73 +1,96 @@
-# 🔩 SME Official Website
+<h1 align="center">🔩 SME Official Website</h1>
 
-Welcome to the official repository of the **Society of Metallurgical Engineers (SME)**, IIT Kharagpur. This website is a hub for everything related to SME — from departmental insights to event highlights, student blogs, and curated study material for metallurgy students.
+<p align="center">
+  <b>Society of Metallurgical Engineers (SME), IIT Kharagpur</b><br/>
+  A centralized platform for metallurgical minds — bringing events, education, and engagement under one domain.
+</p>
+
+<p align="center">
+  <a href="https://sme-official.vercel.app/">🌐 Live Website</a> •
+  <a href="https://github.com/Krishnapc04/SME-official">📂 Source Code</a>
+</p>
 
 ---
 
-## 📌 Features
+## ✨ Overview
+
+Welcome to the official repository of the **Society of Metallurgical Engineers (SME)**, IIT Kharagpur.  
+This platform is built to showcase departmental culture, student initiatives, and provide access to academic and extracurricular resources for metallurgy students.
+
+---
+
+## 🧩 Features
 
 ### 🏠 Home Page
-- Brief introduction to SME and its vision
-- Dynamic overview of events and achievements
-- Quick access to Meta Material repository
-- Highlights of COMPOSIT, our flagship fest
-- Footer with quick links and contact details
+- Introduction to SME and its core vision
+- Real-time updates on events, achievements, and announcements
+- Quick link to **Meta Material** repository
+- Highlights from **COMPOSIT** – the flagship technical fest
+- Persistent footer with contact info and site navigation
 
 ### 🧪 About Department
-- Overview of the Metallurgical & Materials Engineering Department
-- Paginated **Professor Section** with:
-  - Name
-  - Designation
-  - Google Scholar link
-  - Email address
+- Overview of the **Metallurgical & Materials Engineering Department**
+- Paginated **Faculty Section** featuring:
+  - Name & Designation
+  - Google Scholar Profile
+  - Email Contact
 
-### 🎉 About Fest: COMPOSIT
-- Details about COMPOSIT — India's largest student-run metallurgical fest
-- Dates, themes, images, footfall stats
-- Link to the official COMPOSIT website
+### 🎉 About COMPOSIT
+- Details of **India's largest student-run metallurgical fest**
+- Yearly themes, schedules, gallery, and impact statistics
+- Direct access to the official [COMPOSIT Website](https://composit.in)
 
 ### ✍️ SME Blogs
-- Regular blogs posted by SME members
-- Categorized into:
-  - CDC Blogs
-  - Current Affairs
-  - Info Blogs
-  - Achievements
+- Curated blogs authored by SME members
+- Categories include:
+  - 📘 **CDC Blogs**
+  - 🌍 **Current Affairs**
+  - 🧠 **Info Blogs**
+  - 🏆 **Achievements**
 
 ### 📚 Meta Material Repository
-- A smartly designed interface to explore study resources:
-  - Choose Year → Semester → Subject → Material Type (Lecture Notes / PYQs)
-  - If PYQ selected, filter by year or view all
-- Easy navigation and responsive layout
+- Structured academic resource hub:
+  - Navigate by **Year → Semester → Subject → Type**
+  - Supports filters for **Lecture Notes** and **PYQs**
+  - Further filter PYQs by **year** or view all
+- Fully responsive and student-friendly design
 
 ### 📥 Footer
-- Appears on all pages
-- Includes social links, quick navigation, and developer credits
+- Present on all pages
+- Includes:
+  - 🔗 Social Media
+  - ⚡ Quick Links
+  - 🧑‍💻 Developer Credits
 
 ---
-
-## 🌐 Live Demo
-
-[🔗 Visit Live Website](https://sme-official.vercel.app/)
-
-
----
-
 
 ## 🚀 Getting Started
 
 ```bash
-# Clone the repository
+# 1. Clone the repository
 git clone https://github.com/Krishnapc04/SME-official.git
 
-# Navigate to the project folder
+# 2. Navigate to the project directory
 cd SME-official
 
-# Install dependencies (if using a framework)
+# 3. Install dependencies
 npm install
 
-# Run locally
-npm run dev   # or: npm start / next dev
+# 4. Start the development server
+npm run dev
 
-# Open in browser
+# 5. Visit in your browser
 http://localhost:3000
+```
+
+## 🛠️ Tech Stack
+Frontend: Next.js, React, TailwindCSS
+Backend: (Optional/Future) Firebase or Node.js APIs
+Deployment: Vercel
+Others: Clerk/Auth (if applicable), GitHub for version control
+
+## 📬 Contact
+
+For issues, contributions, or suggestions:
+📧 Email: sme.iitkgp@gmail.com
+🌐 Website: sme.composit.in
